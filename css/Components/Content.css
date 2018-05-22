@@ -1,0 +1,39 @@
+.ContentContainer{    
+    width: 100%;    
+    height: 100%;
+    display: block;
+    -webkit-app-region: no-drag;
+}
+
+.ContentContainer .JobSelectObjContainer{
+    display: -webkit-box;
+    border: 1px solid;
+}
+
+.ContentContainer .CalculPropsContainer{
+    width:100%;    
+    height: calc(100% - 400px);
+    display: -webkit-box;
+}
+.ContentContainer .CalculPropsContainer .SevenSinsObjContainer{
+    border: 1px solid gray;
+    width:220px;
+    padding-top: 10px;
+}
+
+.ContentContainer .CalculPropsContainer .StatObjContainer{    
+    padding-left: 20px;
+    width: calc(100% - 244px);
+    border: 1px solid;
+    padding-top: 10px;
+}
+
+.ContentContainer .ResultObjContainer{       
+    -webkit-app-region: no-drag;
+    position: absolute;
+    width: 504px;
+    top: 700px;
+    padding-left: 20px;
+    height: 210px;
+}
+

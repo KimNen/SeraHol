@@ -1,0 +1,25 @@
+.StatContainer{
+    -webkit-app-region: no-drag;
+
+}
+
+.StatContainer .SkillContainer{
+    display: -webkit-box;
+}
+
+.StatContainer .SubOptionObjContainer{
+    
+}
+
+hr{
+    margin-left: -20px;
+}
+
+.StatContainer .Calculator {
+    width: calc(100% - 30px);
+    height: 40px;
+    margin-top: 5px;
+    background:white;
+    border: 3px solid lightblue;
+    border-radius: 5px;
+}

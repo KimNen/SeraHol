@@ -1,0 +1,38 @@
+.SevenSinsObjContainer .SevenSins{
+    width: 100%;
+    height: 200px;    
+    display: -webkit-box;
+    -webkit-app-region: no-drag;
+    padding-top:10px;
+}
+
+.SevenSins .SevenSinsContainer{
+    width: 100px;    
+    padding-left: 25px;
+}
+
+.SevenSins .SevenSinsContainer div{
+    width: 66px;
+}
+
+
+.SevenSins .WeaponsContainer {
+    width: 70px;
+    left: 150px;    
+    padding-right: 25px;
+}
+
+.SevenSins img{
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+}
+
+.SevenSins div div .PhotoSelectButtonDiv{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -10px;
+    z-index: 2;
+}
