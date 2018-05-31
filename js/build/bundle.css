@@ -1,17 +1,49 @@
-html{
-    width:100%;
-    height:1000px;
-}
-body{
-    width:98.5%;
-    height:100%;
-}
-#root{
+.APIWindow{
     width:100%;
     height:100%;
-    -webkit-app-region: drag;
 }
-.ContentContainer{    
+
+.APIWindow .ResultDiv{
+    width:100%;
+    height:100%;
+}
+.CharacterCell{
+    width:200px;
+    height:290px;
+}
+
+.CharacterCell .CharacterImg{
+    width:200px;
+    height:230px;
+}
+.CharacterCell .CharacterImg img{
+    width:200px;
+    height:230px;
+}
+.CharacterCell .CharacherNick{
+
+}
+
+.CharacterCell .CharacherJob{
+    
+}.CharacterGrid{
+    width:100%;
+    height:100%;
+}
+
+.CharacterGrid .CharacterGridView{
+    width:100%;
+    height:100%;
+}
+
+.CharacterGrid .BackButton{
+    z-index: 100;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    position: absolute;
+    top: calc(100% - 40px);
+    left: calc(100% - 100px);
+}.ContentContainer{    
     width: 100%;    
     height: 100%;
     display: block;
@@ -182,4 +214,21 @@ hr{
 
 .SubOption .StrWisOptionContainer{
     
+}html{
+    width:100%;
+    height:100%;
+}
+body{
+    width: 98.5%;
+    height: 98%;
+}
+#root{
+    width:100%;
+    height:100%;
+    -webkit-app-region: drag;
+}
+
+.ComponentContainer{
+    width:100%;
+    height:100%;
 }

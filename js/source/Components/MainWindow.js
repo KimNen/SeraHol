@@ -1,8 +1,16 @@
+/**
+ * Created by TH on 2018-05-21.
+ */
+
 import React from 'react';
 import MainButtonWindow from './MainButtonWindow';
 import BuffWindow from './BuffWindow';
 import APIWindow from './APIWindow';
 import { fluxStore } from '../flux/Store.js';
+import CharacterModel from '../../../models/CharacterModel'
+import ItemModel from '../../../models/ItemModel'
+import ShopModel from '../../../models/ShopModel'
+
 
 export default class MainWindow extends React.Component{
 
@@ -14,8 +22,18 @@ export default class MainWindow extends React.Component{
     }
 
     componentDidMount(){
+        this.modelCreate()
     }
 
+    componentWillUnmount(){
+
+    }
+
+    modelCreate(){
+        fluxStore.setFlux('CharacterModel',new CharacterModel(fluxStore))
+        fluxStore.setFlux('ItemModel',new ItemModel(fluxStore))
+        fluxStore.setFlux('ShopModel',new ShopModel(fluxStore))
+    }
     componentWillUnMount(){
     }
 

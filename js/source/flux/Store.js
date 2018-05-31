@@ -1,6 +1,8 @@
 import event from 'events';
 import APIExcuter from '../../../APIExcuter';
 
+import CharacterModel from '../../../models/CharacterModel'
+
 const URL = 'https://api.neople.co.kr/df';
 const emitter = new event.EventEmitter();
 
@@ -10,6 +12,39 @@ const fluxStore = {
 
     /////////////////  저장소에서 관리할 값들 입력
     store: {
+
+        //////////////////// API 관련 저장소 시작 ///////////////////
+        ApiUrl : URL,
+        ApiKey : "yTiV1SL9m5eb9B6kvfcHfEawxjMcCqwU",
+        APIExcuter : Api,
+        //////////////////// API 관련 저장소 종료 ///////////////////
+
+        ///////////////////// APIWindow 관련 시작 //////////////////////
+
+        ApiWindowView : 'select',  
+        ApiSeleteData : [],
+
+        characterParams : {
+            server : "",
+            length : "", 
+            characterId : "",
+        },
+
+        item : "", 
+        shop : "" , 
+        ///////////////////// APIWindow 관련 종료 //////////////////////
+
+        ///////////////////// Model 관련 시작 //////////////////////
+
+        CharacterModel : {},
+        ItemModel : {},
+        ShopModel : {},
+
+        ///////////////////// Model 관련 종료 //////////////////////
+
+        ///////////////////// BuffWindow 관련 시작 //////////////////////
+
+        characterList : [],
 
         Job: "Holy",
 
@@ -107,6 +142,11 @@ const fluxStore = {
         CourStrStatResult: 0,        //용축 힘
         CourWisStatResult: 0,        //용축 지능
         CruxStatResult: 0,           //크오빅 스탯
+
+        
+        ///////////////////// BuffWindow 관련 종료 //////////////////////
+
+
     },
 
     ///////////// setStore는 .setStore(저장소이름,값) 으로 들어가게 제작

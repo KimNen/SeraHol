@@ -1,0 +1,20 @@
+.CharacterCell{
+    width:200px;
+    height:290px;
+}
+
+.CharacterCell .CharacterImg{
+    width:200px;
+    height:230px;
+}
+.CharacterCell .CharacterImg img{
+    width:200px;
+    height:230px;
+}
+.CharacterCell .CharacherNick{
+
+}
+
+.CharacterCell .CharacherJob{
+    
+}
