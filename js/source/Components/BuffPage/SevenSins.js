@@ -1,5 +1,5 @@
 import React from 'react';
-import {fluxStore} from '../flux/Store.js';
+import { fluxStore } from '../../flux/Store.js';
 
 export default class SevenSins extends React.Component{
 

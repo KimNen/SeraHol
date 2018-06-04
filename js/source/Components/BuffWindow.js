@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from './Logo.js';
-import Content from './Content.js';
-import Copyright from './Copyright.js';
-import Warning from './Warning.js';
+import Logo from './BuffPage/Logo.js';
+import Content from './BuffPage/Content.js';
+import Copyright from './BuffPage/Copyright.js';
+import Warning from './BuffPage/Warning.js';
 
 export default class BuffWindow extends React.Component{
 

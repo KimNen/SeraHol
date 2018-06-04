@@ -5,7 +5,7 @@ import Result from './Result.js';
 import JobSelect from './JobSelect.js';
 import SeraStat from './SeraStat.js';
 import SeraResult from './SeraResult.js';
-import { fluxStore } from '../flux/Store.js';
+import { fluxStore } from '../../flux/Store.js';
 
 export default class Content extends React.Component{
 

@@ -1,4 +1,4 @@
-import {fluxStore} from '../flux/Store.js';
+import { fluxStore } from '../../flux/Store.js';
 
 const Calculator = {
 

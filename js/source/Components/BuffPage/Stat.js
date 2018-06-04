@@ -1,5 +1,5 @@
 import React from 'react';
-import {fluxStore} from '../flux/Store.js';
+import { fluxStore } from '../../flux/Store.js';
 
 import SubOption from './SubOption.js';
 import Calculator from './Calculator.js';
