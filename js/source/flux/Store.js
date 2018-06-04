@@ -28,8 +28,10 @@ const fluxStore = {
         characterParams : {},
         characterViewParams : {},
 
-        item : "", 
-        shop : "" , 
+        itemParams : {}, 
+        itemDetailParams : "",
+
+        shopParams : {} , 
         ///////////////////// APIWindow 관련 종료 //////////////////////
 
         ///////////////////// Model 관련 시작 //////////////////////

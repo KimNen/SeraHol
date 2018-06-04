@@ -24,7 +24,13 @@ export default class CharacterCell extends React.Component{
     }
 
     CellClick(){
-        fluxStore.setFlux('',);
+
+        let params = {
+            server : this.props.server,
+            characterId : this.props.data.characterId,
+        }
+        fluxStore.setFlux('characterViewParams',params);
+        fluxStore.setFlux('ApiSubWindowView',"CharacterView");
 
     }
 

@@ -12,8 +12,7 @@ export default class APIWindow extends React.Component{
 
         this.state={
             ApiWindowView : fluxStore.getFlux().ApiWindowView,
-            characterParams : fluxStore.getFlux().characterParams,
-            item : fluxStore.getFlux().item,
+            ApiSubWindowView : fluxStore.getFlux().ApiSubWindowView,
             shop : fluxStore.getFlux().shop,
         }
 
@@ -22,17 +21,18 @@ export default class APIWindow extends React.Component{
 
     componentDidMount(){
         fluxStore.addListener('ApiWindowView',this.ApiWindowViewChangeFunc)
+        fluxStore.addListener('ApiSubWindowView',this.ApiWindowViewChangeFunc)
     }
 
     componentWillUnmount(){
-
+        fluxStore.removeListener('ApiWindowView',this.ApiWindowViewChangeFunc)
+        fluxStore.removeListener('ApiSubWindowView',this.ApiWindowViewChangeFunc)
     }
 
     ApiWindowViewChange(){
         this.setState({
             ApiWindowView : fluxStore.getFlux().ApiWindowView,
-            characterParams : fluxStore.getFlux().characterParams,
-            item : fluxStore.getFlux().item,
+            ApiSubWindowView : fluxStore.getFlux().ApiSubWindowView,
             shop : fluxStore.getFlux().shop,
         })
     }

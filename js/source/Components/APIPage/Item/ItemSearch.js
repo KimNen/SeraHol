@@ -25,8 +25,16 @@ export default class ItemSelect extends React.Component {
     submitButtonClick(type){
         let {item}= this.state
 
-        fluxStore.setFlux('ApiWindowView',type);
-        fluxStore.setFlux('item', item);
+        let params = {
+            item : item,
+            limit : limit,
+            rarity : rarity,
+            minLevel : minLevel,
+            maxLevel : maxLevel,
+        }
+
+        fluxStore.setFlux('ApiSubWindowView',type);
+        fluxStore.setFlux('itemParams', params);
     }
 
     render() {
@@ -35,7 +43,7 @@ export default class ItemSelect extends React.Component {
                 <div className="ItemSearch">
                     <label> 장비 검색 </label>
                     <input type="text" placeholder="장비 이름" onChange={this.ItemChange.bind(this)} value={this.state.item} />
-                    <button onClick={this.submitButtonClick.bind(this, "item")}> 검색 </button>
+                    <button onClick={this.submitButtonClick.bind(this, "ItemList")}> 검색 </button>
                 </div>
             </div>
         )

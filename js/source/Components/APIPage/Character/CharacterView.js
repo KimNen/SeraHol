@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-
+import { fluxStore } from '../../../flux/Store';
 
 export default class CharacterView extends React.Component{
 
@@ -12,6 +12,8 @@ export default class CharacterView extends React.Component{
 
         this.state={
         }
+
+        this.characterViewParams = fluxStore.getFlux().characterViewParams;
     }
 
     componentDidMount(){
