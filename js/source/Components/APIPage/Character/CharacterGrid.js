@@ -82,7 +82,7 @@ export default class CharacterGrid extends React.Component {
     }
 
     BackButtonClick() {
-        fluxStore.setFlux('ApiWindowView', "select")
+        fluxStore.setFlux('ApiSubWindowView', "CharacterSearch");
     }
 
 

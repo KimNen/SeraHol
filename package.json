@@ -4,6 +4,7 @@
   "description": "a",
   "main": "main.js",
   "devDependencies": {
+    "axios": "^0.18.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
@@ -54,7 +55,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "css": "type css\\* css\\Components\\* > bundle.css",
+    "css": "type css\\* css\\Components\\* > js/build/bundle.css",
     "build": "babel --presets react,es2015 js/source -d js/build",
     "browser": "browserify js/build/App.js -o bundle.js",
     "transform": "sh scripts/build.sh"

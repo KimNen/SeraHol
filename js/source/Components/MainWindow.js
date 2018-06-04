@@ -5,7 +5,9 @@
 import React from 'react';
 import MainButtonWindow from './MainButtonWindow';
 import BuffWindow from './BuffWindow';
-import APIWindow from './APIWindow';
+import CharacterWindow from './CharacterWindow';
+import ItemWindow from './ItemWindow';
+import ShopWindow from './ShopWindow';
 import { fluxStore } from '../flux/Store.js';
 import CharacterModel from '../../../models/CharacterModel'
 import ItemModel from '../../../models/ItemModel'
@@ -37,17 +39,20 @@ export default class MainWindow extends React.Component{
     componentWillUnMount(){
     }
 
-    windowStateChangeByButton(ClickButton){
+    windowStateChangeByButton(ClickButton,subtype){
         this.setState({
             windowState : ClickButton,
         })
+        fluxStore.setFlux('ApiSubWindowView',subtype)
     }
 
     getWindowView(windowState){
         let windowView
         switch(windowState){
-            case 'buff' : windowView = <BuffWindow/>; break;
-            case 'api' : windowView = <APIWindow/>; break;
+            case 'buff' : windowView = <BuffWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
+            case 'character' : windowView = <CharacterWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
+            case 'item' : windowView = <ItemWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
+            case 'shop' : windowView = <ShopWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
         }
         return windowView;
     }

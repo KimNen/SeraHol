@@ -3,6 +3,7 @@
  */
 
 import React from 'react';
+import { fluxStore } from '../../../flux/Store';
 
 
 export default class CharacterCell extends React.Component{
@@ -22,9 +23,14 @@ export default class CharacterCell extends React.Component{
 
     }
 
+    CellClick(){
+        fluxStore.setFlux('',);
+
+    }
+
     render(){
         return(
-            <div className="CharacterCell">
+            <div className="CharacterCell" onClick={this.CellClick.bind(this)}>
                 <div className="CharacterImg">
                     <img src={`http://img-api.neople.co.kr/df/servers/${this.props.server}/characters/${this.props.data.characterId}?zoom=${3}`}/>
                 </div>

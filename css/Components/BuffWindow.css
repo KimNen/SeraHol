@@ -1,0 +1,23 @@
+.BuffWindowContainer{
+    display: -webkit-box;
+}
+.BuffWindowContainer .WindowBackIcon{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    background: grey;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    cursor: pointer;
+}
+
+.BuffWindowContainer .WindowBackIcon img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

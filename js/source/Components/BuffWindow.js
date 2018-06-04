@@ -6,6 +6,11 @@ import Warning from './BuffPage/Warning.js';
 
 export default class BuffWindow extends React.Component{
 
+
+    ButtonClick(type){
+        this.props.ButtonClick(type);
+    }
+
     render(){
         return(
             <div className="BuffWindowContainer">
@@ -22,6 +27,9 @@ export default class BuffWindow extends React.Component{
                 </div>
                 <div className="WarningObjContainer">
                     <Warning/>
+                    <div className="WindowBackIcon" onClick={this.ButtonClick.bind(this,"main")}>
+                        <img src="./images/home.png"/>
+                    </div>
                 </div>
             </div>
         )

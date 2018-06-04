@@ -63,16 +63,16 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 374);
+/******/ 	return __webpack_require__(__webpack_require__.s = 393);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/prop-types/index.js ***!
-  \*********************************************************************/
+/*!************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/prop-types/index.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {/**
@@ -97,11 +97,11 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ 128)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ 135)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(/*! ./factoryWithThrowingShims */ 253)();
+  module.exports = __webpack_require__(/*! ./factoryWithThrowingShims */ 272)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../process/browser.js */ 1)))
@@ -110,9 +110,9 @@ if (process.env.NODE_ENV !== 'production') {
 /* 1 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/process/browser.js ***!
-  \********************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/process/browser.js ***!
+  \***********************************************************/
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -305,9 +305,24 @@ process.umask = function() { return 0; };
 /* 2 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/invariant.js ***!
-  \***********************************************************************/
+/*!*******************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/react.js ***!
+  \*******************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = __webpack_require__(/*! ./lib/React */ 44);
+
+
+/***/ }),
+/* 3 */
+/* no static exports found */
+/* all exports used */
+/*!**************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/invariant.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -367,27 +382,12 @@ module.exports = invariant;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 3 */
-/* no static exports found */
-/* all exports used */
-/*!****************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/react.js ***!
-  \****************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = __webpack_require__(/*! ./lib/React */ 44);
-
-
-/***/ }),
 /* 4 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/warning.js ***!
-  \*********************************************************************/
+/*!************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/warning.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -401,7 +401,7 @@ module.exports = __webpack_require__(/*! ./lib/React */ 44);
 
 
 
-var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 19);
+var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 20);
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -459,9 +459,9 @@ module.exports = warning;
 /* 5 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/reactProdInvariant.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/reactProdInvariant.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -506,16 +506,16 @@ module.exports = reactProdInvariant;
 /* 6 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/types.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/types.js ***!
+  \********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_ScalingCellSizeAndPositionManager__ = __webpack_require__(/*! ./utils/ScalingCellSizeAndPositionManager */ 103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_ScalingCellSizeAndPositionManager__ = __webpack_require__(/*! ./utils/ScalingCellSizeAndPositionManager */ 104);
 
 
 
@@ -697,9 +697,9 @@ if (typeof exports !== 'undefined') Object.defineProperty(exports, 'babelPluginF
 /* 7 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/object-assign/index.js ***!
-  \************************************************************************/
+/*!***************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/object-assign/index.js ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -799,9 +799,9 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /* 8 */
 /* no static exports found */
 /* exports used: default */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/classCallCheck.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/classCallCheck.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -819,9 +819,9 @@ exports.default = function (instance, Constructor) {
 /* 9 */
 /* no static exports found */
 /* exports used: default */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/createClass.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/createClass.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -829,7 +829,7 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-var _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ 188);
+var _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ 206);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -857,9 +857,9 @@ exports.default = function () {
 /* 10 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMComponentTree.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMComponentTree.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -876,9 +876,9 @@ exports.default = function () {
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
 var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 28);
-var ReactDOMComponentFlags = __webpack_require__(/*! ./ReactDOMComponentFlags */ 132);
+var ReactDOMComponentFlags = __webpack_require__(/*! ./ReactDOMComponentFlags */ 139);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
 var Flags = ReactDOMComponentFlags;
@@ -1061,9 +1061,9 @@ module.exports = ReactDOMComponentTree;
 /* 11 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/ExecutionEnvironment.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/ExecutionEnvironment.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1104,89 +1104,6 @@ module.exports = ExecutionEnvironment;
 /***/ }),
 /* 12 */
 /* no static exports found */
-/* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/get-prototype-of.js ***!
-  \**************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ 200), __esModule: true };
-
-/***/ }),
-/* 13 */
-/* no static exports found */
-/* exports used: default */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/inherits.js ***!
-  \***********************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ 190);
-
-var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
-
-var _create = __webpack_require__(/*! ../core-js/object/create */ 187);
-
-var _create2 = _interopRequireDefault(_create);
-
-var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ 111);
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : (0, _typeof3.default)(superClass)));
-  }
-
-  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;
-};
-
-/***/ }),
-/* 14 */
-/* no static exports found */
-/* exports used: default */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/possibleConstructorReturn.js ***!
-  \****************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ 111);
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
-};
-
-/***/ }),
-/* 15 */
-/* no static exports found */
 /* all exports used */
 /*!***********************!*\
   !*** ./flux/Store.js ***!
@@ -1201,15 +1118,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.emitter = exports.fluxStore = undefined;
 
-var _events = __webpack_require__(/*! events */ 123);
+var _events = __webpack_require__(/*! events */ 130);
 
 var _events2 = _interopRequireDefault(_events);
 
-var _APIExcuter = __webpack_require__(/*! ../../../APIExcuter */ 181);
+var _APIExcuter = __webpack_require__(/*! ../../../APIExcuter */ 199);
 
 var _APIExcuter2 = _interopRequireDefault(_APIExcuter);
 
-var _CharacterModel = __webpack_require__(/*! ../../../models/CharacterModel */ 109);
+var _CharacterModel = __webpack_require__(/*! ../../../models/CharacterModel */ 116);
 
 var _CharacterModel2 = _interopRequireDefault(_CharacterModel);
 
@@ -1234,6 +1151,7 @@ var fluxStore = {
                 ///////////////////// APIWindow 관련 시작 //////////////////////
 
                 ApiWindowView: 'select',
+                ApiSubWindowView: '',
                 ApiSeleteData: [],
 
                 characterParams: {
@@ -1386,12 +1304,95 @@ exports.fluxStore = fluxStore;
 exports.emitter = emitter;
 
 /***/ }),
+/* 13 */
+/* no static exports found */
+/* exports used: default */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/get-prototype-of.js ***!
+  \*****************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ 218), __esModule: true };
+
+/***/ }),
+/* 14 */
+/* no static exports found */
+/* exports used: default */
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/inherits.js ***!
+  \**************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ 208);
+
+var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
+
+var _create = __webpack_require__(/*! ../core-js/object/create */ 205);
+
+var _create2 = _interopRequireDefault(_create);
+
+var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ 118);
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : (0, _typeof3.default)(superClass)));
+  }
+
+  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;
+};
+
+/***/ }),
+/* 15 */
+/* no static exports found */
+/* exports used: default */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/possibleConstructorReturn.js ***!
+  \*******************************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ 118);
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
+};
+
+/***/ }),
 /* 16 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_core.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_core.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports) {
 
 var core = module.exports = { version: '2.5.3' };
@@ -1402,21 +1403,21 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /* 17 */
 /* exports provided: default, Grid, accessibilityOverscanIndicesGetter, defaultCellRangeRenderer, defaultOverscanIndicesGetter */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/index.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/index.js ***!
+  \********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Grid__ = __webpack_require__(/*! ./Grid */ 155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Grid__ = __webpack_require__(/*! ./Grid */ 162);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return __WEBPACK_IMPORTED_MODULE_0__Grid__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_0__Grid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accessibilityOverscanIndicesGetter__ = __webpack_require__(/*! ./accessibilityOverscanIndicesGetter */ 336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accessibilityOverscanIndicesGetter__ = __webpack_require__(/*! ./accessibilityOverscanIndicesGetter */ 355);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "accessibilityOverscanIndicesGetter", function() { return __WEBPACK_IMPORTED_MODULE_1__accessibilityOverscanIndicesGetter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__defaultCellRangeRenderer__ = __webpack_require__(/*! ./defaultCellRangeRenderer */ 156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__defaultCellRangeRenderer__ = __webpack_require__(/*! ./defaultCellRangeRenderer */ 163);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultCellRangeRenderer", function() { return __WEBPACK_IMPORTED_MODULE_2__defaultCellRangeRenderer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__defaultOverscanIndicesGetter__ = __webpack_require__(/*! ./defaultOverscanIndicesGetter */ 157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__defaultOverscanIndicesGetter__ = __webpack_require__(/*! ./defaultOverscanIndicesGetter */ 164);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultOverscanIndicesGetter", function() { return __WEBPACK_IMPORTED_MODULE_3__defaultOverscanIndicesGetter__["a"]; });
 
 
@@ -1431,9 +1432,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 18 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactComponentTreeHook.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactComponentTreeHook.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1452,7 +1453,7 @@ var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 45);
 
 var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 23);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 function isNative(fn) {
@@ -1819,95 +1820,16 @@ module.exports = ReactComponentTreeHook;
 /* 19 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/emptyFunction.js ***!
-  \***************************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/utils.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-function makeEmptyFunction(arg) {
-  return function () {
-    return arg;
-  };
-}
-
-/**
- * This function accepts and discards inputs; it has no side effects. This is
- * primarily useful idiomatically for overridable function endpoints which
- * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
- */
-var emptyFunction = function emptyFunction() {};
-
-emptyFunction.thatReturns = makeEmptyFunction;
-emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
-emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
-emptyFunction.thatReturnsNull = makeEmptyFunction(null);
-emptyFunction.thatReturnsThis = function () {
-  return this;
-};
-emptyFunction.thatReturnsArgument = function (arg) {
-  return arg;
-};
-
-module.exports = emptyFunction;
-
-/***/ }),
-/* 20 */
-/* no static exports found */
-/* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactInstrumentation.js ***!
-  \***************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2016-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
-
-
-// Trust the developer to only use ReactInstrumentation with a __DEV__ check
-
-var debugTool = null;
-
-if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(/*! ./ReactDebugTool */ 282);
-  debugTool = ReactDebugTool;
-}
-
-module.exports = { debugTool: debugTool };
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
-
-/***/ }),
-/* 21 */
-/* no static exports found */
-/* all exports used */
-/*!************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/utils.js ***!
-  \************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var bind = __webpack_require__(/*! ./helpers/bind */ 179);
+var bind = __webpack_require__(/*! ./helpers/bind */ 115);
+var isBuffer = __webpack_require__(/*! is-buffer */ 270);
 
 /*global toString:true*/
 
@@ -2082,13 +2004,15 @@ function trim(str) {
  *  typeof document -> undefined
  *
  * react-native:
- *  typeof document.createElement -> undefined
+ *  navigator.product -> 'ReactNative'
  */
 function isStandardBrowserEnv() {
+  if (typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
+    return false;
+  }
   return (
     typeof window !== 'undefined' &&
-    typeof document !== 'undefined' &&
-    typeof document.createElement === 'function'
+    typeof document !== 'undefined'
   );
 }
 
@@ -2111,7 +2035,7 @@ function forEach(obj, fn) {
   }
 
   // Force an array if not already something iterable
-  if (typeof obj !== 'object' && !isArray(obj)) {
+  if (typeof obj !== 'object') {
     /*eslint no-param-reassign:0*/
     obj = [obj];
   }
@@ -2186,6 +2110,7 @@ function extend(a, b, thisArg) {
 module.exports = {
   isArray: isArray,
   isArrayBuffer: isArrayBuffer,
+  isBuffer: isBuffer,
   isFormData: isFormData,
   isArrayBufferView: isArrayBufferView,
   isString: isString,
@@ -2207,12 +2132,92 @@ module.exports = {
 
 
 /***/ }),
+/* 20 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/emptyFunction.js ***!
+  \******************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * 
+ */
+
+function makeEmptyFunction(arg) {
+  return function () {
+    return arg;
+  };
+}
+
+/**
+ * This function accepts and discards inputs; it has no side effects. This is
+ * primarily useful idiomatically for overridable function endpoints which
+ * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
+ */
+var emptyFunction = function emptyFunction() {};
+
+emptyFunction.thatReturns = makeEmptyFunction;
+emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
+emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
+emptyFunction.thatReturnsNull = makeEmptyFunction(null);
+emptyFunction.thatReturnsThis = function () {
+  return this;
+};
+emptyFunction.thatReturnsArgument = function (arg) {
+  return arg;
+};
+
+module.exports = emptyFunction;
+
+/***/ }),
+/* 21 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactInstrumentation.js ***!
+  \******************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {/**
+ * Copyright (c) 2016-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * 
+ */
+
+
+
+// Trust the developer to only use ReactInstrumentation with a __DEV__ check
+
+var debugTool = null;
+
+if (process.env.NODE_ENV !== 'production') {
+  var ReactDebugTool = __webpack_require__(/*! ./ReactDebugTool */ 301);
+  debugTool = ReactDebugTool;
+}
+
+module.exports = { debugTool: debugTool };
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
+
+/***/ }),
 /* 22 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactUpdates.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactUpdates.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2229,13 +2234,13 @@ module.exports = {
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var CallbackQueue = __webpack_require__(/*! ./CallbackQueue */ 130);
+var CallbackQueue = __webpack_require__(/*! ./CallbackQueue */ 137);
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
-var ReactFeatureFlags = __webpack_require__(/*! ./ReactFeatureFlags */ 135);
+var ReactFeatureFlags = __webpack_require__(/*! ./ReactFeatureFlags */ 142);
 var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 42);
 var Transaction = __webpack_require__(/*! ./Transaction */ 63);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var dirtyComponents = [];
 var updateBatchNumber = 0;
@@ -2470,9 +2475,9 @@ module.exports = ReactUpdates;
 /* 23 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactCurrentOwner.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactCurrentOwner.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2507,9 +2512,9 @@ module.exports = ReactCurrentOwner;
 /* 24 */
 /* no static exports found */
 /* exports used: default */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/extends.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/extends.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2517,7 +2522,7 @@ module.exports = ReactCurrentOwner;
 
 exports.__esModule = true;
 
-var _assign = __webpack_require__(/*! ../core-js/object/assign */ 186);
+var _assign = __webpack_require__(/*! ../core-js/object/assign */ 204);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -2541,12 +2546,12 @@ exports.default = _assign2.default || function (target) {
 /* 25 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_wks.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_wks.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-var store = __webpack_require__(/*! ./_shared */ 79)('wks');
+var store = __webpack_require__(/*! ./_shared */ 80)('wks');
 var uid = __webpack_require__(/*! ./_uid */ 58);
 var Symbol = __webpack_require__(/*! ./_global */ 27).Symbol;
 var USE_SYMBOL = typeof Symbol == 'function';
@@ -2563,9 +2568,9 @@ $exports.store = store;
 /* 26 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticEvent.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticEvent.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2583,7 +2588,7 @@ var _assign = __webpack_require__(/*! object-assign */ 7);
 
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var didWarnForAddedNewProperty = false;
@@ -2843,9 +2848,9 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
 /* 27 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_global.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_global.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports) {
 
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -2860,9 +2865,9 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 /* 28 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/DOMProperty.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/DOMProperty.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2878,7 +2883,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 function checkMask(value, bitmask) {
   return (value & bitmask) === bitmask;
@@ -3078,9 +3083,9 @@ module.exports = DOMProperty;
 /* 29 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_descriptors.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_descriptors.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
@@ -3093,14 +3098,14 @@ module.exports = !__webpack_require__(/*! ./_fails */ 38)(function () {
 /* 30 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_export.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_export.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ./_global */ 27);
 var core = __webpack_require__(/*! ./_core */ 16);
-var ctx = __webpack_require__(/*! ./_ctx */ 113);
+var ctx = __webpack_require__(/*! ./_ctx */ 120);
 var hide = __webpack_require__(/*! ./_hide */ 39);
 var PROTOTYPE = 'prototype';
 
@@ -3165,9 +3170,9 @@ module.exports = $export;
 /* 31 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_has.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_has.js ***!
+  \************************************************************************/
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -3180,14 +3185,14 @@ module.exports = function (it, key) {
 /* 32 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-dp.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-dp.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(/*! ./_an-object */ 37);
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 115);
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 81);
+var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 122);
+var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 82);
 var dP = Object.defineProperty;
 
 exports.f = __webpack_require__(/*! ./_descriptors */ 29) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
@@ -3207,14 +3212,14 @@ exports.f = __webpack_require__(/*! ./_descriptors */ 29) ? Object.definePropert
 /* 33 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_to-iobject.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_to-iobject.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(/*! ./_iobject */ 116);
-var defined = __webpack_require__(/*! ./_defined */ 70);
+var IObject = __webpack_require__(/*! ./_iobject */ 123);
+var defined = __webpack_require__(/*! ./_defined */ 71);
 module.exports = function (it) {
   return IObject(defined(it));
 };
@@ -3224,9 +3229,9 @@ module.exports = function (it) {
 /* 34 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/PooledClass.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/PooledClass.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3243,7 +3248,7 @@ module.exports = function (it) {
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Static poolers. Several custom versions for each potential number of
@@ -3345,9 +3350,9 @@ module.exports = PooledClass;
 /* 35 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactElement.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactElement.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3369,7 +3374,7 @@ var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 67);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
-var REACT_ELEMENT_TYPE = __webpack_require__(/*! ./ReactElementSymbol */ 169);
+var REACT_ELEMENT_TYPE = __webpack_require__(/*! ./ReactElementSymbol */ 176);
 
 var RESERVED_PROPS = {
   key: true,
@@ -3695,9 +3700,9 @@ module.exports = ReactElement;
 /* 36 */
 /* no static exports found */
 /* exports used: default */
-/*!*********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/classnames/index.js ***!
-  \*********************************************************************/
+/*!************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/classnames/index.js ***!
+  \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -3755,9 +3760,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /* 37 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_an-object.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_an-object.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./_is-object */ 40);
@@ -3771,9 +3776,9 @@ module.exports = function (it) {
 /* 38 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_fails.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_fails.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function (exec) {
@@ -3789,9 +3794,9 @@ module.exports = function (exec) {
 /* 39 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_hide.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_hide.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(/*! ./_object-dp */ 32);
@@ -3808,9 +3813,9 @@ module.exports = __webpack_require__(/*! ./_descriptors */ 29) ? function (objec
 /* 40 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_is-object.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_is-object.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -3822,9 +3827,9 @@ module.exports = function (it) {
 /* 41 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/DOMLazyTree.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/DOMLazyTree.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3838,11 +3843,11 @@ module.exports = function (it) {
 
 
 
-var DOMNamespaces = __webpack_require__(/*! ./DOMNamespaces */ 89);
+var DOMNamespaces = __webpack_require__(/*! ./DOMNamespaces */ 90);
 var setInnerHTML = __webpack_require__(/*! ./setInnerHTML */ 65);
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(/*! ./createMicrosoftUnsafeLocalFunction */ 96);
-var setTextContent = __webpack_require__(/*! ./setTextContent */ 149);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(/*! ./createMicrosoftUnsafeLocalFunction */ 97);
+var setTextContent = __webpack_require__(/*! ./setTextContent */ 156);
 
 var ELEMENT_NODE_TYPE = 1;
 var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
@@ -3948,9 +3953,9 @@ module.exports = DOMLazyTree;
 /* 42 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactReconciler.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactReconciler.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3964,8 +3969,8 @@ module.exports = DOMLazyTree;
 
 
 
-var ReactRef = __webpack_require__(/*! ./ReactRef */ 296);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactRef = __webpack_require__(/*! ./ReactRef */ 315);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
@@ -4123,9 +4128,9 @@ module.exports = ReactReconciler;
 /* 43 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/types.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/types.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var babelPluginFlowReactPropTypes_proptype_Index = {
@@ -4174,9 +4179,9 @@ if (true) Object.defineProperty(exports, "babelPluginFlowReactPropTypes_proptype
 /* 44 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/React.js ***!
-  \********************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/React.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4192,24 +4197,24 @@ if (true) Object.defineProperty(exports, "babelPluginFlowReactPropTypes_proptype
 
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
-var ReactBaseClasses = __webpack_require__(/*! ./ReactBaseClasses */ 168);
-var ReactChildren = __webpack_require__(/*! ./ReactChildren */ 363);
-var ReactDOMFactories = __webpack_require__(/*! ./ReactDOMFactories */ 364);
+var ReactBaseClasses = __webpack_require__(/*! ./ReactBaseClasses */ 175);
+var ReactChildren = __webpack_require__(/*! ./ReactChildren */ 382);
+var ReactDOMFactories = __webpack_require__(/*! ./ReactDOMFactories */ 383);
 var ReactElement = __webpack_require__(/*! ./ReactElement */ 35);
-var ReactPropTypes = __webpack_require__(/*! ./ReactPropTypes */ 366);
-var ReactVersion = __webpack_require__(/*! ./ReactVersion */ 368);
+var ReactPropTypes = __webpack_require__(/*! ./ReactPropTypes */ 385);
+var ReactVersion = __webpack_require__(/*! ./ReactVersion */ 387);
 
-var createReactClass = __webpack_require__(/*! ./createClass */ 370);
-var onlyChild = __webpack_require__(/*! ./onlyChild */ 372);
+var createReactClass = __webpack_require__(/*! ./createClass */ 389);
+var onlyChild = __webpack_require__(/*! ./onlyChild */ 391);
 
 var createElement = ReactElement.createElement;
 var createFactory = ReactElement.createFactory;
 var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
-  var lowPriorityWarning = __webpack_require__(/*! ./lowPriorityWarning */ 107);
+  var lowPriorityWarning = __webpack_require__(/*! ./lowPriorityWarning */ 108);
   var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 67);
-  var ReactElementValidator = __webpack_require__(/*! ./ReactElementValidator */ 170);
+  var ReactElementValidator = __webpack_require__(/*! ./ReactElementValidator */ 177);
   var didWarnPropTypesDeprecated = false;
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
@@ -4315,9 +4320,9 @@ module.exports = React;
 /* 45 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/reactProdInvariant.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/reactProdInvariant.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4362,9 +4367,9 @@ module.exports = reactProdInvariant;
 /* 46 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_iterators.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_iterators.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = {};
@@ -4374,14 +4379,14 @@ module.exports = {};
 /* 47 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-keys.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-keys.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ 120);
-var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ 71);
+var $keys = __webpack_require__(/*! ./_object-keys-internal */ 127);
+var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ 72);
 
 module.exports = Object.keys || function keys(O) {
   return $keys(O, enumBugKeys);
@@ -4392,9 +4397,9 @@ module.exports = Object.keys || function keys(O) {
 /* 48 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/EventPluginHub.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/EventPluginHub.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4411,12 +4416,12 @@ module.exports = Object.keys || function keys(O) {
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
 var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 60);
-var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 90);
-var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 94);
+var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 91);
+var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 95);
 
-var accumulateInto = __webpack_require__(/*! ./accumulateInto */ 142);
-var forEachAccumulated = __webpack_require__(/*! ./forEachAccumulated */ 143);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var accumulateInto = __webpack_require__(/*! ./accumulateInto */ 149);
+var forEachAccumulated = __webpack_require__(/*! ./forEachAccumulated */ 150);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Internal store for event listeners
@@ -4675,9 +4680,9 @@ module.exports = EventPluginHub;
 /* 49 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/EventPropagators.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/EventPropagators.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4692,10 +4697,10 @@ module.exports = EventPluginHub;
 
 
 var EventPluginHub = __webpack_require__(/*! ./EventPluginHub */ 48);
-var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 90);
+var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 91);
 
-var accumulateInto = __webpack_require__(/*! ./accumulateInto */ 142);
-var forEachAccumulated = __webpack_require__(/*! ./forEachAccumulated */ 143);
+var accumulateInto = __webpack_require__(/*! ./accumulateInto */ 149);
+var forEachAccumulated = __webpack_require__(/*! ./forEachAccumulated */ 150);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var getListener = EventPluginHub.getListener;
@@ -4818,9 +4823,9 @@ module.exports = EventPropagators;
 /* 50 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactInstanceMap.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactInstanceMap.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4872,9 +4877,9 @@ module.exports = ReactInstanceMap;
 /* 51 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticUIEvent.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticUIEvent.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4890,7 +4895,7 @@ module.exports = ReactInstanceMap;
 
 var SyntheticEvent = __webpack_require__(/*! ./SyntheticEvent */ 26);
 
-var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 99);
+var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 100);
 
 /**
  * @interface UIEvent
@@ -4939,9 +4944,9 @@ module.exports = SyntheticUIEvent;
 /* 52 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/types.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/types.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var babelPluginFlowReactPropTypes_proptype_CellDataGetterParams = {
@@ -5026,16 +5031,16 @@ if (true) Object.defineProperty(exports, "babelPluginFlowReactPropTypes_proptype
 /* 53 */
 /* exports provided: cancelAnimationTimeout, requestAnimationTimeout */
 /* all exports used */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/utils/requestAnimationTimeout.js ***!
-  \************************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/utils/requestAnimationTimeout.js ***!
+  \***************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cancelAnimationTimeout", function() { return cancelAnimationTimeout; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "requestAnimationTimeout", function() { return requestAnimationTimeout; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animationFrame__ = __webpack_require__(/*! ./animationFrame */ 357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animationFrame__ = __webpack_require__(/*! ./animationFrame */ 376);
 
 
 var babelPluginFlowReactPropTypes_proptype_AnimationTimeoutId = {
@@ -5079,24 +5084,24 @@ var requestAnimationTimeout = function requestAnimationTimeout(callback, delay) 
 /* 54 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/index.js ***!
-  \********************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/index.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(/*! ./lib/ReactDOM */ 267);
+module.exports = __webpack_require__(/*! ./lib/ReactDOM */ 286);
 
 
 /***/ }),
 /* 55 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-pie.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-pie.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports) {
 
 exports.f = {}.propertyIsEnumerable;
@@ -5106,9 +5111,9 @@ exports.f = {}.propertyIsEnumerable;
 /* 56 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_property-desc.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_property-desc.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function (bitmap, value) {
@@ -5125,13 +5130,13 @@ module.exports = function (bitmap, value) {
 /* 57 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_to-object.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_to-object.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)
-var defined = __webpack_require__(/*! ./_defined */ 70);
+var defined = __webpack_require__(/*! ./_defined */ 71);
 module.exports = function (it) {
   return Object(defined(it));
 };
@@ -5141,9 +5146,9 @@ module.exports = function (it) {
 /* 58 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_uid.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_uid.js ***!
+  \************************************************************************/
 /***/ (function(module, exports) {
 
 var id = 0;
@@ -5157,9 +5162,9 @@ module.exports = function (key) {
 /* 59 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/emptyObject.js ***!
-  \*************************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/emptyObject.js ***!
+  \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5186,9 +5191,9 @@ module.exports = emptyObject;
 /* 60 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/EventPluginRegistry.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/EventPluginRegistry.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5205,7 +5210,7 @@ module.exports = emptyObject;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Injectable ordering of event plugins.
@@ -5448,9 +5453,9 @@ module.exports = EventPluginRegistry;
 /* 61 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactBrowserEventEmitter.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactBrowserEventEmitter.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5467,11 +5472,11 @@ module.exports = EventPluginRegistry;
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
 var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 60);
-var ReactEventEmitterMixin = __webpack_require__(/*! ./ReactEventEmitterMixin */ 286);
-var ViewportMetrics = __webpack_require__(/*! ./ViewportMetrics */ 141);
+var ReactEventEmitterMixin = __webpack_require__(/*! ./ReactEventEmitterMixin */ 305);
+var ViewportMetrics = __webpack_require__(/*! ./ViewportMetrics */ 148);
 
-var getVendorPrefixedEventName = __webpack_require__(/*! ./getVendorPrefixedEventName */ 321);
-var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 100);
+var getVendorPrefixedEventName = __webpack_require__(/*! ./getVendorPrefixedEventName */ 340);
+var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 101);
 
 /**
  * Summary of `ReactBrowserEventEmitter` event handling:
@@ -5780,9 +5785,9 @@ module.exports = ReactBrowserEventEmitter;
 /* 62 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticMouseEvent.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticMouseEvent.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5797,9 +5802,9 @@ module.exports = ReactBrowserEventEmitter;
 
 
 var SyntheticUIEvent = __webpack_require__(/*! ./SyntheticUIEvent */ 51);
-var ViewportMetrics = __webpack_require__(/*! ./ViewportMetrics */ 141);
+var ViewportMetrics = __webpack_require__(/*! ./ViewportMetrics */ 148);
 
-var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 98);
+var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 99);
 
 /**
  * @interface MouseEvent
@@ -5860,9 +5865,9 @@ module.exports = SyntheticMouseEvent;
 /* 63 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/Transaction.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/Transaction.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5879,7 +5884,7 @@ module.exports = SyntheticMouseEvent;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var OBSERVED_ERROR = {};
 
@@ -6097,9 +6102,9 @@ module.exports = TransactionImpl;
 /* 64 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/escapeTextContentForBrowser.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/escapeTextContentForBrowser.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6227,9 +6232,9 @@ module.exports = escapeTextContentForBrowser;
 /* 65 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/setInnerHTML.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/setInnerHTML.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6244,12 +6249,12 @@ module.exports = escapeTextContentForBrowser;
 
 
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
-var DOMNamespaces = __webpack_require__(/*! ./DOMNamespaces */ 89);
+var DOMNamespaces = __webpack_require__(/*! ./DOMNamespaces */ 90);
 
 var WHITESPACE_TEST = /^[ \r\n\t\f]/;
 var NONVISIBLE_TEST = /<(!--|link|noscript|meta|script|style)[ \r\n\t\f\/>]/;
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(/*! ./createMicrosoftUnsafeLocalFunction */ 96);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(/*! ./createMicrosoftUnsafeLocalFunction */ 97);
 
 // SVG temp container for IE lacking innerHTML
 var reusableSVGContainer;
@@ -6333,9 +6338,9 @@ module.exports = setInnerHTML;
 /* 66 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/SortDirection.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/SortDirection.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6359,9 +6364,9 @@ var SortDirection = {
 /* 67 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/canDefineProperty.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/canDefineProperty.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6393,10 +6398,119 @@ module.exports = canDefineProperty;
 /***/ }),
 /* 68 */
 /* no static exports found */
+/* all exports used */
+/*!**************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/defaults.js ***!
+  \**************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var utils = __webpack_require__(/*! ./utils */ 19);
+var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ 196);
+
+var DEFAULT_CONTENT_TYPE = {
+  'Content-Type': 'application/x-www-form-urlencoded'
+};
+
+function setContentTypeIfUnset(headers, value) {
+  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
+    headers['Content-Type'] = value;
+  }
+}
+
+function getDefaultAdapter() {
+  var adapter;
+  if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = __webpack_require__(/*! ./adapters/xhr */ 111);
+  } else if (typeof process !== 'undefined') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(/*! ./adapters/http */ 111);
+  }
+  return adapter;
+}
+
+var defaults = {
+  adapter: getDefaultAdapter(),
+
+  transformRequest: [function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Content-Type');
+    if (utils.isFormData(data) ||
+      utils.isArrayBuffer(data) ||
+      utils.isBuffer(data) ||
+      utils.isStream(data) ||
+      utils.isFile(data) ||
+      utils.isBlob(data)
+    ) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+    if (utils.isObject(data)) {
+      setContentTypeIfUnset(headers, 'application/json;charset=utf-8');
+      return JSON.stringify(data);
+    }
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    /*eslint no-param-reassign:0*/
+    if (typeof data === 'string') {
+      try {
+        data = JSON.parse(data);
+      } catch (e) { /* Ignore */ }
+    }
+    return data;
+  }],
+
+  /**
+   * A timeout in milliseconds to abort a request. If set to 0 (default) a
+   * timeout is not created.
+   */
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  }
+};
+
+defaults.headers = {
+  common: {
+    'Accept': 'application/json, text/plain, */*'
+  }
+};
+
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  defaults.headers[method] = {};
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
+});
+
+module.exports = defaults;
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
+
+/***/ }),
+/* 69 */
+/* no static exports found */
 /* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/objectWithoutProperties.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/objectWithoutProperties.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6417,12 +6531,12 @@ exports.default = function (obj, keys) {
 };
 
 /***/ }),
-/* 69 */
+/* 70 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_cof.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_cof.js ***!
+  \************************************************************************/
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -6433,12 +6547,12 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_defined.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_defined.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports) {
 
 // 7.2.1 RequireObjectCoercible(argument)
@@ -6449,12 +6563,12 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_enum-bug-keys.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_enum-bug-keys.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports) {
 
 // IE 8- don't enum bug keys
@@ -6464,44 +6578,44 @@ module.exports = (
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_library.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_library.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = true;
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-create.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-create.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(/*! ./_an-object */ 37);
-var dPs = __webpack_require__(/*! ./_object-dps */ 215);
-var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ 71);
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 78)('IE_PROTO');
+var dPs = __webpack_require__(/*! ./_object-dps */ 233);
+var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ 72);
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 79)('IE_PROTO');
 var Empty = function () { /* empty */ };
 var PROTOTYPE = 'prototype';
 
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(/*! ./_dom-create */ 114)('iframe');
+  var iframe = __webpack_require__(/*! ./_dom-create */ 121)('iframe');
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
   var iframeDocument;
   iframe.style.display = 'none';
-  __webpack_require__(/*! ./_html */ 209).appendChild(iframe);
+  __webpack_require__(/*! ./_html */ 227).appendChild(iframe);
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -6528,20 +6642,20 @@ module.exports = Object.create || function create(O, Properties) {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-gopd.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-gopd.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var pIE = __webpack_require__(/*! ./_object-pie */ 55);
 var createDesc = __webpack_require__(/*! ./_property-desc */ 56);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 81);
+var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 82);
 var has = __webpack_require__(/*! ./_has */ 31);
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 115);
+var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 122);
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(/*! ./_descriptors */ 29) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -6555,24 +6669,24 @@ exports.f = __webpack_require__(/*! ./_descriptors */ 29) ? gOPD : function getO
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-gops.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-gops.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-sap.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-sap.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // most Object methods by ES6 should accept primitives
@@ -6588,12 +6702,12 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_set-to-string-tag.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_set-to-string-tag.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(/*! ./_object-dp */ 32).f;
@@ -6606,15 +6720,15 @@ module.exports = function (it, tag, stat) {
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_shared-key.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_shared-key.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-var shared = __webpack_require__(/*! ./_shared */ 79)('keys');
+var shared = __webpack_require__(/*! ./_shared */ 80)('keys');
 var uid = __webpack_require__(/*! ./_uid */ 58);
 module.exports = function (key) {
   return shared[key] || (shared[key] = uid(key));
@@ -6622,12 +6736,12 @@ module.exports = function (key) {
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_shared.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_shared.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ./_global */ 27);
@@ -6639,12 +6753,12 @@ module.exports = function (key) {
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_to-integer.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_to-integer.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -6656,12 +6770,12 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_to-primitive.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_to-primitive.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
@@ -6679,18 +6793,18 @@ module.exports = function (it, S) {
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_wks-define.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_wks-define.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ./_global */ 27);
 var core = __webpack_require__(/*! ./_core */ 16);
-var LIBRARY = __webpack_require__(/*! ./_library */ 72);
-var wksExt = __webpack_require__(/*! ./_wks-ext */ 83);
+var LIBRARY = __webpack_require__(/*! ./_library */ 73);
+var wksExt = __webpack_require__(/*! ./_wks-ext */ 84);
 var defineProperty = __webpack_require__(/*! ./_object-dp */ 32).f;
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -6699,32 +6813,32 @@ module.exports = function (name) {
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_wks-ext.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_wks-ext.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 exports.f = __webpack_require__(/*! ./_wks */ 25);
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.string.iterator.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.string.iterator.js ***!
+  \***************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var $at = __webpack_require__(/*! ./_string-at */ 218)(true);
+var $at = __webpack_require__(/*! ./_string-at */ 236)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(/*! ./_iter-define */ 117)(String, 'String', function (iterated) {
+__webpack_require__(/*! ./_iter-define */ 124)(String, 'String', function (iterated) {
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -6740,15 +6854,15 @@ __webpack_require__(/*! ./_iter-define */ 117)(String, 'String', function (itera
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/web.dom.iterable.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/web.dom.iterable.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./es6.array.iterator */ 224);
+__webpack_require__(/*! ./es6.array.iterator */ 242);
 var global = __webpack_require__(/*! ./_global */ 27);
 var hide = __webpack_require__(/*! ./_hide */ 39);
 var Iterators = __webpack_require__(/*! ./_iterators */ 46);
@@ -6770,12 +6884,12 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/shallowEqual.js ***!
-  \**************************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/shallowEqual.js ***!
+  \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6846,12 +6960,12 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 
 /***/ }),
-/* 87 */
+/* 88 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/prop-types/lib/ReactPropTypesSecret.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6870,12 +6984,12 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 88 */
+/* 89 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/DOMChildrenOperations.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/DOMChildrenOperations.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6890,13 +7004,13 @@ module.exports = ReactPropTypesSecret;
 
 
 var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 41);
-var Danger = __webpack_require__(/*! ./Danger */ 259);
+var Danger = __webpack_require__(/*! ./Danger */ 278);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(/*! ./createMicrosoftUnsafeLocalFunction */ 96);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(/*! ./createMicrosoftUnsafeLocalFunction */ 97);
 var setInnerHTML = __webpack_require__(/*! ./setInnerHTML */ 65);
-var setTextContent = __webpack_require__(/*! ./setTextContent */ 149);
+var setTextContent = __webpack_require__(/*! ./setTextContent */ 156);
 
 function getNodeAfter(parentNode, node) {
   // Special case for text components, which return [open, close] comments
@@ -7105,12 +7219,12 @@ module.exports = DOMChildrenOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 89 */
+/* 90 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/DOMNamespaces.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/DOMNamespaces.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7133,12 +7247,12 @@ var DOMNamespaces = {
 module.exports = DOMNamespaces;
 
 /***/ }),
-/* 90 */
+/* 91 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/EventPluginUtils.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/EventPluginUtils.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7154,9 +7268,9 @@ module.exports = DOMNamespaces;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 94);
+var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 95);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 /**
@@ -7368,12 +7482,12 @@ module.exports = EventPluginUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 91 */
+/* 92 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/KeyEscapeUtils.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/KeyEscapeUtils.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7435,12 +7549,12 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/LinkedValueUtils.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/LinkedValueUtils.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7456,13 +7570,13 @@ module.exports = KeyEscapeUtils;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 140);
-var propTypesFactory = __webpack_require__(/*! prop-types/factory */ 127);
+var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 147);
+var propTypesFactory = __webpack_require__(/*! prop-types/factory */ 134);
 
 var React = __webpack_require__(/*! react/lib/React */ 44);
 var PropTypes = propTypesFactory(React.isValidElement);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var hasReadOnlyValue = {
@@ -7582,12 +7696,12 @@ module.exports = LinkedValueUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 93 */
+/* 94 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactComponentEnvironment.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactComponentEnvironment.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7604,7 +7718,7 @@ module.exports = LinkedValueUtils;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var injected = false;
 
@@ -7635,12 +7749,12 @@ module.exports = ReactComponentEnvironment;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 94 */
+/* 95 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactErrorUtils.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactErrorUtils.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7722,12 +7836,12 @@ module.exports = ReactErrorUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 95 */
+/* 96 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactUpdateQueue.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactUpdateQueue.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7745,10 +7859,10 @@ var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
 var ReactCurrentOwner = __webpack_require__(/*! react/lib/ReactCurrentOwner */ 23);
 var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 50);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 function enqueueUpdate(internalInstance) {
@@ -7965,12 +8079,12 @@ module.exports = ReactUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 96 */
+/* 97 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/createMicrosoftUnsafeLocalFunction.js ***!
-  \*****************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/createMicrosoftUnsafeLocalFunction.js ***!
+  \********************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8005,12 +8119,12 @@ var createMicrosoftUnsafeLocalFunction = function (func) {
 module.exports = createMicrosoftUnsafeLocalFunction;
 
 /***/ }),
-/* 97 */
+/* 98 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getEventCharCode.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getEventCharCode.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8063,12 +8177,12 @@ function getEventCharCode(nativeEvent) {
 module.exports = getEventCharCode;
 
 /***/ }),
-/* 98 */
+/* 99 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getEventModifierState.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getEventModifierState.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8114,12 +8228,12 @@ function getEventModifierState(nativeEvent) {
 module.exports = getEventModifierState;
 
 /***/ }),
-/* 99 */
+/* 100 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getEventTarget.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getEventTarget.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8157,12 +8271,12 @@ function getEventTarget(nativeEvent) {
 module.exports = getEventTarget;
 
 /***/ }),
-/* 100 */
+/* 101 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/isEventSupported.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/isEventSupported.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8225,12 +8339,12 @@ function isEventSupported(eventNameSuffix, capture) {
 module.exports = isEventSupported;
 
 /***/ }),
-/* 101 */
+/* 102 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/shouldUpdateReactComponent.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/shouldUpdateReactComponent.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8275,12 +8389,12 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/validateDOMNesting.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/validateDOMNesting.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8296,7 +8410,7 @@ module.exports = shouldUpdateReactComponent;
 
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var validateDOMNesting = emptyFunction;
@@ -8655,23 +8769,23 @@ module.exports = validateDOMNesting;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 103 */
+/* 104 */
 /* exports provided: DEFAULT_MAX_SCROLL_SIZE, default */
 /* exports used: default */
-/*!***************************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/ScalingCellSizeAndPositionManager.js ***!
-  \***************************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/ScalingCellSizeAndPositionManager.js ***!
+  \******************************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export DEFAULT_MAX_SCROLL_SIZE */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__CellSizeAndPositionManager__ = __webpack_require__(/*! ./CellSizeAndPositionManager */ 337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__CellSizeAndPositionManager__ = __webpack_require__(/*! ./CellSizeAndPositionManager */ 356);
 
 
 
@@ -8884,17 +8998,17 @@ var ScalingCellSizeAndPositionManager = function () {
 /* harmony default export */ __webpack_exports__["a"] = (ScalingCellSizeAndPositionManager);
 
 /***/ }),
-/* 104 */
+/* 105 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/List/types.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/List/types.js ***!
+  \********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 
 
@@ -8938,12 +9052,12 @@ if (typeof exports !== 'undefined') Object.defineProperty(exports, 'babelPluginF
 });
 
 /***/ }),
-/* 105 */
+/* 106 */
 /* exports provided: DEFAULT_SCROLLING_RESET_TIME_INTERVAL, default */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/Masonry.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/Masonry.js ***!
+  \*************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8951,21 +9065,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DEFAULT_SCROLLING_RESET_TIME_INTERVAL", function() { return DEFAULT_SCROLLING_RESET_TIME_INTERVAL; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_classnames__ = __webpack_require__(/*! classnames */ 36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PositionCache__ = __webpack_require__(/*! ./PositionCache */ 343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PositionCache__ = __webpack_require__(/*! ./PositionCache */ 362);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_requestAnimationTimeout__ = __webpack_require__(/*! ../utils/requestAnimationTimeout */ 53);
 
 
@@ -9413,17 +9527,17 @@ if (typeof exports !== 'undefined') Object.defineProperty(exports, 'babelPluginF
 });
 
 /***/ }),
-/* 106 */
+/* 107 */
 /* exports provided: default */
 /* exports used: default */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/utils/createCallbackMemoizer.js ***!
-  \***********************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/utils/createCallbackMemoizer.js ***!
+  \**************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createCallbackMemoizer;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys__ = __webpack_require__(/*! babel-runtime/core-js/object/keys */ 110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys__ = __webpack_require__(/*! babel-runtime/core-js/object/keys */ 117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys__);
 
 /**
@@ -9459,12 +9573,12 @@ function createCallbackMemoizer() {
 }
 
 /***/ }),
-/* 107 */
+/* 108 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/lowPriorityWarning.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/lowPriorityWarning.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9533,118 +9647,494 @@ module.exports = lowPriorityWarning;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 108 */
+/* 109 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/defaults.js ***!
-  \***************************************************************/
+/*!*******************************************************!*\
+  !*** ./components/APIPage/Character/CharacterGrid.js ***!
+  \*******************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _axios = __webpack_require__(/*! axios */ 110);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _reactVirtualized = __webpack_require__(/*! react-virtualized */ 375);
+
+var _Store = __webpack_require__(/*! ../../../flux/Store */ 12);
+
+var _CharacterCell = __webpack_require__(/*! ./CharacterCell */ 394);
+
+var _CharacterCell2 = _interopRequireDefault(_CharacterCell);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+var config = {
+    method: 'GET',
+    headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS',
+        "Access-Control-Allow-Headers": "Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization",
+        'Content-Type': 'application/json'
+    }
+};
+
+var CharacterGrid = function (_React$Component) {
+    _inherits(CharacterGrid, _React$Component);
+
+    function CharacterGrid(props) {
+        _classCallCheck(this, CharacterGrid);
+
+        var _this = _possibleConstructorReturn(this, (CharacterGrid.__proto__ || Object.getPrototypeOf(CharacterGrid)).call(this, props));
+
+        _this.state = {
+            CharacterList: [],
+            characterParams: _Store.fluxStore.getFlux().characterParams
+        };
+        _this.widthSize = 0;
+        _this.apikey = _Store.fluxStore.getFlux().ApiKey;
+        _this.apiurl = _Store.fluxStore.getFlux().ApiUrl;
+        _this.http = _axios2.default.create({
+            baseURL: _this.apiurl,
+            timeout: 3000
+        });
+        console.log("CharacterGrid", _this.state.characterParams);
+
+        return _this;
+    }
+
+    _createClass(CharacterGrid, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            this.getCharacterList();
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {}
+    }, {
+        key: 'getCharacterList',
+        value: function getCharacterList() {
+            var _this2 = this;
+
+            var url = "/servers/" + this.state.characterParams.server + "/characters?characterName=" + encodeURI(this.state.characterParams.characterId) + "&wordType=full&limit=" + this.state.characterParams.length + "&apikey=" + this.apikey;
+            var templist = [];
+            this.http.get(url, config).then(function (response) {
+                var ServerResponse = response.data.rows;
+                ServerResponse.forEach(function (CurrentValue) {
+                    templist.push(_react2.default.createElement(_CharacterCell2.default, { data: CurrentValue, server: _this2.state.characterParams.server }));
+                });
+                console.log("getCharacterList templist : ", templist);
+                _this2.setState({
+                    CharacterList: templist
+                });
+                console.log("getCharacterList CharacterList : ", _this2.state.CharacterList);
+            }).catch(function (err) {
+                console.log("getCharacterList err", err);
+            });
+        }
+    }, {
+        key: 'cellRenderer',
+        value: function cellRenderer(_ref) {
+            var columnIndex = _ref.columnIndex,
+                key = _ref.key,
+                rowIndex = _ref.rowIndex,
+                style = _ref.style;
+
+            var index = Math.floor(this.widthSize / 210) * rowIndex + columnIndex;
+            // let index  = (rowIndex + 1)
+            // 현재 인덱스를 구해주려면 한 줄에 몇개가 들어가 있는지 알아야 하기 때문에 현재 윈도우의 사이즈를 가지고 있을 수 밖에 없음
+
+            return _react2.default.createElement(
+                'div',
+                {
+                    key: key,
+                    style: style
+                },
+                this.state.CharacterList[index]
+            );
+        }
+    }, {
+        key: 'BackButtonClick',
+        value: function BackButtonClick() {
+            _Store.fluxStore.setFlux('ApiSubWindowView', "CharacterSearch");
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this3 = this;
+
+            return _react2.default.createElement(
+                'div',
+                { className: 'CharacterGrid' },
+                _react2.default.createElement(
+                    _reactVirtualized.AutoSizer,
+                    null,
+                    function (_ref2) {
+                        var width = _ref2.width,
+                            height = _ref2.height;
+
+                        _this3.widthSize = width;
+                        return _react2.default.createElement(_reactVirtualized.Grid, {
+                            cellRenderer: _this3.cellRenderer.bind(_this3),
+
+                            columnCount: Math.floor(width / 210),
+                            rowCount: Math.ceil(_this3.state.CharacterList.length / Math.floor(width / 210)),
+
+                            columnWidth: 210,
+                            rowHeight: 300,
+
+                            height: height,
+                            width: width
+                        });
+                    }
+                ),
+                _react2.default.createElement(
+                    'button',
+                    { className: 'BackButton', onClick: this.BackButtonClick.bind(this) },
+                    '\uC774\uC804\uC73C\uB85C'
+                )
+            );
+        }
+    }]);
+
+    return CharacterGrid;
+}(_react2.default.Component);
+
+exports.default = CharacterGrid;
+
+/***/ }),
+/* 110 */
+/* no static exports found */
+/* all exports used */
+/*!*******************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/index.js ***!
+  \*******************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./lib/axios */ 182);
+
+/***/ }),
+/* 111 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/adapters/xhr.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
-var utils = __webpack_require__(/*! ./utils */ 21);
-var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ 408);
+var utils = __webpack_require__(/*! ./../utils */ 19);
+var settle = __webpack_require__(/*! ./../core/settle */ 188);
+var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ 191);
+var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ 197);
+var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ 195);
+var createError = __webpack_require__(/*! ../core/createError */ 114);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(/*! ./../helpers/btoa */ 190);
 
-var PROTECTION_PREFIX = /^\)\]\}',?\n/;
-var DEFAULT_CONTENT_TYPE = {
-  'Content-Type': 'application/x-www-form-urlencoded'
-};
+module.exports = function xhrAdapter(config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+    var requestData = config.data;
+    var requestHeaders = config.headers;
 
-function setContentTypeIfUnset(headers, value) {
-  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
-    headers['Content-Type'] = value;
-  }
-}
-
-function getDefaultAdapter() {
-  var adapter;
-  if (typeof XMLHttpRequest !== 'undefined') {
-    // For browsers use XHR adapter
-    adapter = __webpack_require__(/*! ./adapters/xhr */ 175);
-  } else if (typeof process !== 'undefined') {
-    // For node use HTTP adapter
-    adapter = __webpack_require__(/*! ./adapters/http */ 175);
-  }
-  return adapter;
-}
-
-var defaults = {
-  adapter: getDefaultAdapter(),
-
-  transformRequest: [function transformRequest(data, headers) {
-    normalizeHeaderName(headers, 'Content-Type');
-    if (utils.isFormData(data) ||
-      utils.isArrayBuffer(data) ||
-      utils.isStream(data) ||
-      utils.isFile(data) ||
-      utils.isBlob(data)
-    ) {
-      return data;
+    if (utils.isFormData(requestData)) {
+      delete requestHeaders['Content-Type']; // Let the browser set it
     }
-    if (utils.isArrayBufferView(data)) {
-      return data.buffer;
-    }
-    if (utils.isURLSearchParams(data)) {
-      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
-      return data.toString();
-    }
-    if (utils.isObject(data)) {
-      setContentTypeIfUnset(headers, 'application/json;charset=utf-8');
-      return JSON.stringify(data);
-    }
-    return data;
-  }],
 
-  transformResponse: [function transformResponse(data) {
-    /*eslint no-param-reassign:0*/
-    if (typeof data === 'string') {
-      data = data.replace(PROTECTION_PREFIX, '');
+    var request = new XMLHttpRequest();
+    var loadEvent = 'onreadystatechange';
+    var xDomain = false;
+
+    // For IE 8/9 CORS support
+    // Only supports POST and GET calls and doesn't returns the response headers.
+    // DON'T do this for testing b/c XMLHttpRequest is mocked, not XDomainRequest.
+    if (process.env.NODE_ENV !== 'test' &&
+        typeof window !== 'undefined' &&
+        window.XDomainRequest && !('withCredentials' in request) &&
+        !isURLSameOrigin(config.url)) {
+      request = new window.XDomainRequest();
+      loadEvent = 'onload';
+      xDomain = true;
+      request.onprogress = function handleProgress() {};
+      request.ontimeout = function handleTimeout() {};
+    }
+
+    // HTTP basic authentication
+    if (config.auth) {
+      var username = config.auth.username || '';
+      var password = config.auth.password || '';
+      requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
+    }
+
+    request.open(config.method.toUpperCase(), buildURL(config.url, config.params, config.paramsSerializer), true);
+
+    // Set the request timeout in MS
+    request.timeout = config.timeout;
+
+    // Listen for ready state
+    request[loadEvent] = function handleLoad() {
+      if (!request || (request.readyState !== 4 && !xDomain)) {
+        return;
+      }
+
+      // The request errored out and we didn't get a response, this will be
+      // handled by onerror instead
+      // With one exception: request that using file: protocol, most browsers
+      // will return status as 0 even though it's a successful request
+      if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+        return;
+      }
+
+      // Prepare the response
+      var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
+      var responseData = !config.responseType || config.responseType === 'text' ? request.responseText : request.response;
+      var response = {
+        data: responseData,
+        // IE sends 1223 instead of 204 (https://github.com/axios/axios/issues/201)
+        status: request.status === 1223 ? 204 : request.status,
+        statusText: request.status === 1223 ? 'No Content' : request.statusText,
+        headers: responseHeaders,
+        config: config,
+        request: request
+      };
+
+      settle(resolve, reject, response);
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle low level network errors
+    request.onerror = function handleError() {
+      // Real errors are hidden from us by the browser
+      // onerror should only fire if it's a network error
+      reject(createError('Network Error', config, null, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle timeout
+    request.ontimeout = function handleTimeout() {
+      reject(createError('timeout of ' + config.timeout + 'ms exceeded', config, 'ECONNABORTED',
+        request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we're in a web worker, or react-native.
+    if (utils.isStandardBrowserEnv()) {
+      var cookies = __webpack_require__(/*! ./../helpers/cookies */ 193);
+
+      // Add xsrf header
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
+          cookies.read(config.xsrfCookieName) :
+          undefined;
+
+      if (xsrfValue) {
+        requestHeaders[config.xsrfHeaderName] = xsrfValue;
+      }
+    }
+
+    // Add headers to the request
+    if ('setRequestHeader' in request) {
+      utils.forEach(requestHeaders, function setRequestHeader(val, key) {
+        if (typeof requestData === 'undefined' && key.toLowerCase() === 'content-type') {
+          // Remove Content-Type if data is undefined
+          delete requestHeaders[key];
+        } else {
+          // Otherwise add header to the request
+          request.setRequestHeader(key, val);
+        }
+      });
+    }
+
+    // Add withCredentials to request if needed
+    if (config.withCredentials) {
+      request.withCredentials = true;
+    }
+
+    // Add responseType to request if needed
+    if (config.responseType) {
       try {
-        data = JSON.parse(data);
-      } catch (e) { /* Ignore */ }
+        request.responseType = config.responseType;
+      } catch (e) {
+        // Expected DOMException thrown by browsers not compatible XMLHttpRequest Level 2.
+        // But, this can be suppressed for 'json' type as it can be parsed by default 'transformResponse' function.
+        if (config.responseType !== 'json') {
+          throw e;
+        }
+      }
     }
-    return data;
-  }],
 
-  timeout: 0,
+    // Handle progress if needed
+    if (typeof config.onDownloadProgress === 'function') {
+      request.addEventListener('progress', config.onDownloadProgress);
+    }
 
-  xsrfCookieName: 'XSRF-TOKEN',
-  xsrfHeaderName: 'X-XSRF-TOKEN',
+    // Not all browsers support upload events
+    if (typeof config.onUploadProgress === 'function' && request.upload) {
+      request.upload.addEventListener('progress', config.onUploadProgress);
+    }
 
-  maxContentLength: -1,
+    if (config.cancelToken) {
+      // Handle cancellation
+      config.cancelToken.promise.then(function onCanceled(cancel) {
+        if (!request) {
+          return;
+        }
 
-  validateStatus: function validateStatus(status) {
-    return status >= 200 && status < 300;
-  }
+        request.abort();
+        reject(cancel);
+        // Clean up request
+        request = null;
+      });
+    }
+
+    if (requestData === undefined) {
+      requestData = null;
+    }
+
+    // Send the request
+    request.send(requestData);
+  });
 };
 
-defaults.headers = {
-  common: {
-    'Accept': 'application/json, text/plain, */*'
-  }
-};
-
-utils.forEach(['delete', 'get', 'head'], function forEachMehtodNoData(method) {
-  defaults.headers[method] = {};
-});
-
-utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
-  defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
-});
-
-module.exports = defaults;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../SeraHol/~/process/browser.js */ 1)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 109 */
+/* 112 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/models/CharacterModel.js ***!
-  \************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/cancel/Cancel.js ***!
+  \*******************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * A `Cancel` is an object that is thrown when an operation is canceled.
+ *
+ * @class
+ * @param {string=} message The message.
+ */
+function Cancel(message) {
+  this.message = message;
+}
+
+Cancel.prototype.toString = function toString() {
+  return 'Cancel' + (this.message ? ': ' + this.message : '');
+};
+
+Cancel.prototype.__CANCEL__ = true;
+
+module.exports = Cancel;
+
+
+/***/ }),
+/* 113 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/cancel/isCancel.js ***!
+  \*********************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function isCancel(value) {
+  return !!(value && value.__CANCEL__);
+};
+
+
+/***/ }),
+/* 114 */
+/* no static exports found */
+/* all exports used */
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/createError.js ***!
+  \**********************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var enhanceError = __webpack_require__(/*! ./enhanceError */ 187);
+
+/**
+ * Create an Error with the specified message, config, error code, request and response.
+ *
+ * @param {string} message The error message.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The created error.
+ */
+module.exports = function createError(message, config, code, request, response) {
+  var error = new Error(message);
+  return enhanceError(error, config, code, request, response);
+};
+
+
+/***/ }),
+/* 115 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/bind.js ***!
+  \******************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function bind(fn, thisArg) {
+  return function wrap() {
+    var args = new Array(arguments.length);
+    for (var i = 0; i < args.length; i++) {
+      args[i] = arguments[i];
+    }
+    return fn.apply(thisArg, args);
+  };
+};
+
+
+/***/ }),
+/* 116 */
+/* no static exports found */
+/* all exports used */
+/*!***************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/models/CharacterModel.js ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9702,23 +10192,23 @@ var CharacterModel = function () {
 module.exports = CharacterModel;
 
 /***/ }),
-/* 110 */
+/* 117 */
 /* no static exports found */
 /* exports used: default */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/keys.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/keys.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/keys */ 201), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/keys */ 219), __esModule: true };
 
 /***/ }),
-/* 111 */
+/* 118 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/typeof.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/typeof.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9726,11 +10216,11 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 
 exports.__esModule = true;
 
-var _iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ 192);
+var _iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ 210);
 
 var _iterator2 = _interopRequireDefault(_iterator);
 
-var _symbol = __webpack_require__(/*! ../core-js/symbol */ 191);
+var _symbol = __webpack_require__(/*! ../core-js/symbol */ 209);
 
 var _symbol2 = _interopRequireDefault(_symbol);
 
@@ -9745,16 +10235,16 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 };
 
 /***/ }),
-/* 112 */
+/* 119 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_classof.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_classof.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // getting tag from 19.1.3.6 Object.prototype.toString()
-var cof = __webpack_require__(/*! ./_cof */ 69);
+var cof = __webpack_require__(/*! ./_cof */ 70);
 var TAG = __webpack_require__(/*! ./_wks */ 25)('toStringTag');
 // ES3 wrong here
 var ARG = cof(function () { return arguments; }()) == 'Arguments';
@@ -9779,16 +10269,16 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 113 */
+/* 120 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_ctx.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_ctx.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-var aFunction = __webpack_require__(/*! ./_a-function */ 205);
+var aFunction = __webpack_require__(/*! ./_a-function */ 223);
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -9810,12 +10300,12 @@ module.exports = function (fn, that, length) {
 
 
 /***/ }),
-/* 114 */
+/* 121 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_dom-create.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_dom-create.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./_is-object */ 40);
@@ -9828,30 +10318,30 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 115 */
+/* 122 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_ie8-dom-define.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_ie8-dom-define.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = !__webpack_require__(/*! ./_descriptors */ 29) && !__webpack_require__(/*! ./_fails */ 38)(function () {
-  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ 114)('div'), 'a', { get: function () { return 7; } }).a != 7;
+  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ 121)('div'), 'a', { get: function () { return 7; } }).a != 7;
 });
 
 
 /***/ }),
-/* 116 */
+/* 123 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_iobject.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_iobject.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(/*! ./_cof */ 69);
+var cof = __webpack_require__(/*! ./_cof */ 70);
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
@@ -9859,25 +10349,25 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 
 /***/ }),
-/* 117 */
+/* 124 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_iter-define.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_iter-define.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var LIBRARY = __webpack_require__(/*! ./_library */ 72);
+var LIBRARY = __webpack_require__(/*! ./_library */ 73);
 var $export = __webpack_require__(/*! ./_export */ 30);
-var redefine = __webpack_require__(/*! ./_redefine */ 121);
+var redefine = __webpack_require__(/*! ./_redefine */ 128);
 var hide = __webpack_require__(/*! ./_hide */ 39);
 var has = __webpack_require__(/*! ./_has */ 31);
 var Iterators = __webpack_require__(/*! ./_iterators */ 46);
-var $iterCreate = __webpack_require__(/*! ./_iter-create */ 211);
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 77);
-var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ 119);
+var $iterCreate = __webpack_require__(/*! ./_iter-create */ 229);
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 78);
+var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ 126);
 var ITERATOR = __webpack_require__(/*! ./_wks */ 25)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
 var FF_ITERATOR = '@@iterator';
@@ -9941,17 +10431,17 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
-/* 118 */
+/* 125 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-gopn.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-gopn.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ 120);
-var hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ 71).concat('length', 'prototype');
+var $keys = __webpack_require__(/*! ./_object-keys-internal */ 127);
+var hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ 72).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
   return $keys(O, hiddenKeys);
@@ -9959,18 +10449,18 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
-/* 119 */
+/* 126 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-gpo.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-gpo.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
 var has = __webpack_require__(/*! ./_has */ 31);
 var toObject = __webpack_require__(/*! ./_to-object */ 57);
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 78)('IE_PROTO');
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 79)('IE_PROTO');
 var ObjectProto = Object.prototype;
 
 module.exports = Object.getPrototypeOf || function (O) {
@@ -9983,18 +10473,18 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
-/* 120 */
+/* 127 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-keys-internal.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-keys-internal.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var has = __webpack_require__(/*! ./_has */ 31);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
-var arrayIndexOf = __webpack_require__(/*! ./_array-includes */ 207)(false);
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 78)('IE_PROTO');
+var arrayIndexOf = __webpack_require__(/*! ./_array-includes */ 225)(false);
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 79)('IE_PROTO');
 
 module.exports = function (object, names) {
   var O = toIObject(object);
@@ -10011,24 +10501,24 @@ module.exports = function (object, names) {
 
 
 /***/ }),
-/* 121 */
+/* 128 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_redefine.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_redefine.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./_hide */ 39);
 
 
 /***/ }),
-/* 122 */
+/* 129 */
 /* no static exports found */
 /* exports used: default */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/dom-helpers/util/scrollbarSize.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/dom-helpers/util/scrollbarSize.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10058,7 +10548,7 @@ exports.default = function (recalc) {
   return size;
 };
 
-var _inDOM = __webpack_require__(/*! ./inDOM */ 237);
+var _inDOM = __webpack_require__(/*! ./inDOM */ 255);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -10069,12 +10559,12 @@ var size = void 0;
 module.exports = exports['default'];
 
 /***/ }),
-/* 123 */
+/* 130 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/events/events.js ***!
-  \******************************************************************/
+/*!*********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/events/events.js ***!
+  \*********************************************************/
 /***/ (function(module, exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
@@ -10382,12 +10872,12 @@ function isUndefined(arg) {
 
 
 /***/ }),
-/* 124 */
+/* 131 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/EventListener.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/EventListener.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10402,7 +10892,7 @@ function isUndefined(arg) {
  * @typechecks
  */
 
-var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 19);
+var emptyFunction = __webpack_require__(/*! ./emptyFunction */ 20);
 
 /**
  * Upstream version of event listener. Does not take into account specific
@@ -10468,12 +10958,12 @@ module.exports = EventListener;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 125 */
+/* 132 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/focusNode.js ***!
-  \***********************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/focusNode.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10503,12 +10993,12 @@ function focusNode(node) {
 module.exports = focusNode;
 
 /***/ }),
-/* 126 */
+/* 133 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/getActiveElement.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/getActiveElement.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10550,12 +11040,12 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
-/* 127 */
+/* 134 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/prop-types/factory.js ***!
-  \***********************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/prop-types/factory.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10572,7 +11062,7 @@ module.exports = getActiveElement;
 // Therefore we re-export development-only version with all the PropTypes checks here.
 // However if one is migrating to the `prop-types` npm library, they will go through the
 // `index.js` entry point, and it will branch depending on the environment.
-var factory = __webpack_require__(/*! ./factoryWithTypeCheckers */ 128);
+var factory = __webpack_require__(/*! ./factoryWithTypeCheckers */ 135);
 module.exports = function(isValidElement) {
   // It is still allowed in 15.5.
   var throwOnDirectAccess = false;
@@ -10581,12 +11071,12 @@ module.exports = function(isValidElement) {
 
 
 /***/ }),
-/* 128 */
+/* 135 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/prop-types/factoryWithTypeCheckers.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/prop-types/factoryWithTypeCheckers.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10599,13 +11089,13 @@ module.exports = function(isValidElement) {
 
 
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 var assign = __webpack_require__(/*! object-assign */ 7);
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 87);
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ 252);
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 88);
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ 271);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -11136,12 +11626,12 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../process/browser.js */ 1)))
 
 /***/ }),
-/* 129 */
+/* 136 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/CSSProperty.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/CSSProperty.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11299,12 +11789,12 @@ var CSSProperty = {
 module.exports = CSSProperty;
 
 /***/ }),
-/* 130 */
+/* 137 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/CallbackQueue.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/CallbackQueue.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11325,7 +11815,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * A specialized pseudo-event module to help keep track of components waiting to
@@ -11427,12 +11917,12 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 131 */
+/* 138 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/DOMPropertyOperations.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/DOMPropertyOperations.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11448,9 +11938,9 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 
 var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 28);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 
-var quoteAttributeValueForBrowser = __webpack_require__(/*! ./quoteAttributeValueForBrowser */ 322);
+var quoteAttributeValueForBrowser = __webpack_require__(/*! ./quoteAttributeValueForBrowser */ 341);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -11671,12 +12161,12 @@ module.exports = DOMPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 132 */
+/* 139 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMComponentFlags.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMComponentFlags.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11697,12 +12187,12 @@ var ReactDOMComponentFlags = {
 module.exports = ReactDOMComponentFlags;
 
 /***/ }),
-/* 133 */
+/* 140 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMSelect.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMSelect.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11718,7 +12208,7 @@ module.exports = ReactDOMComponentFlags;
 
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
-var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 92);
+var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 93);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
@@ -11906,12 +12396,12 @@ module.exports = ReactDOMSelect;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 134 */
+/* 141 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactEmptyComponent.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactEmptyComponent.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11944,12 +12434,12 @@ ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 module.exports = ReactEmptyComponent;
 
 /***/ }),
-/* 135 */
+/* 142 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactFeatureFlags.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactFeatureFlags.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11974,12 +12464,12 @@ var ReactFeatureFlags = {
 module.exports = ReactFeatureFlags;
 
 /***/ }),
-/* 136 */
+/* 143 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactHostComponent.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactHostComponent.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11995,7 +12485,7 @@ module.exports = ReactFeatureFlags;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var genericComponentClass = null;
 var textComponentClass = null;
@@ -12051,12 +12541,12 @@ module.exports = ReactHostComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 137 */
+/* 144 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactInputSelection.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactInputSelection.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12070,11 +12560,11 @@ module.exports = ReactHostComponent;
 
 
 
-var ReactDOMSelection = __webpack_require__(/*! ./ReactDOMSelection */ 277);
+var ReactDOMSelection = __webpack_require__(/*! ./ReactDOMSelection */ 296);
 
-var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ 240);
-var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ 125);
-var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 126);
+var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ 258);
+var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ 132);
+var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 133);
 
 function isInDocument(node) {
   return containsNode(document.documentElement, node);
@@ -12182,12 +12672,12 @@ var ReactInputSelection = {
 module.exports = ReactInputSelection;
 
 /***/ }),
-/* 138 */
+/* 145 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactMount.js ***!
-  \*****************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactMount.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12209,21 +12699,21 @@ var React = __webpack_require__(/*! react/lib/React */ 44);
 var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 61);
 var ReactCurrentOwner = __webpack_require__(/*! react/lib/ReactCurrentOwner */ 23);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactDOMContainerInfo = __webpack_require__(/*! ./ReactDOMContainerInfo */ 269);
-var ReactDOMFeatureFlags = __webpack_require__(/*! ./ReactDOMFeatureFlags */ 271);
-var ReactFeatureFlags = __webpack_require__(/*! ./ReactFeatureFlags */ 135);
+var ReactDOMContainerInfo = __webpack_require__(/*! ./ReactDOMContainerInfo */ 288);
+var ReactDOMFeatureFlags = __webpack_require__(/*! ./ReactDOMFeatureFlags */ 290);
+var ReactFeatureFlags = __webpack_require__(/*! ./ReactFeatureFlags */ 142);
 var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 50);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
-var ReactMarkupChecksum = __webpack_require__(/*! ./ReactMarkupChecksum */ 291);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
+var ReactMarkupChecksum = __webpack_require__(/*! ./ReactMarkupChecksum */ 310);
 var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 42);
-var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 95);
+var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 96);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
 var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 59);
-var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 147);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 154);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var setInnerHTML = __webpack_require__(/*! ./setInnerHTML */ 65);
-var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 101);
+var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 102);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
@@ -12729,12 +13219,12 @@ module.exports = ReactMount;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 139 */
+/* 146 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactNodeTypes.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactNodeTypes.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12753,7 +13243,7 @@ var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
 var React = __webpack_require__(/*! react/lib/React */ 44);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var ReactNodeTypes = {
   HOST: 0,
@@ -12778,12 +13268,12 @@ module.exports = ReactNodeTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 140 */
+/* 147 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactPropTypesSecret.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactPropTypesSecret.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12803,12 +13293,12 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 141 */
+/* 148 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ViewportMetrics.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ViewportMetrics.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12836,12 +13326,12 @@ var ViewportMetrics = {
 module.exports = ViewportMetrics;
 
 /***/ }),
-/* 142 */
+/* 149 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/accumulateInto.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/accumulateInto.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12858,7 +13348,7 @@ module.exports = ViewportMetrics;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Accumulates items that must not be null or undefined into the first one. This
@@ -12903,12 +13393,12 @@ module.exports = accumulateInto;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 143 */
+/* 150 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/forEachAccumulated.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/forEachAccumulated.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12942,12 +13432,12 @@ function forEachAccumulated(arr, cb, scope) {
 module.exports = forEachAccumulated;
 
 /***/ }),
-/* 144 */
+/* 151 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getHostComponentFromComposite.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getHostComponentFromComposite.js ***!
+  \***************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12961,7 +13451,7 @@ module.exports = forEachAccumulated;
 
 
 
-var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 139);
+var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 146);
 
 function getHostComponentFromComposite(inst) {
   var type;
@@ -12980,12 +13470,12 @@ function getHostComponentFromComposite(inst) {
 module.exports = getHostComponentFromComposite;
 
 /***/ }),
-/* 145 */
+/* 152 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getTextContentAccessor.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getTextContentAccessor.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13021,12 +13511,12 @@ function getTextContentAccessor() {
 module.exports = getTextContentAccessor;
 
 /***/ }),
-/* 146 */
+/* 153 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/inputValueTracking.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/inputValueTracking.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13152,12 +13642,12 @@ var inputValueTracking = {
 module.exports = inputValueTracking;
 
 /***/ }),
-/* 147 */
+/* 154 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/instantiateReactComponent.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/instantiateReactComponent.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13174,12 +13664,12 @@ module.exports = inputValueTracking;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var ReactCompositeComponent = __webpack_require__(/*! ./ReactCompositeComponent */ 266);
-var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 134);
-var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 136);
+var ReactCompositeComponent = __webpack_require__(/*! ./ReactCompositeComponent */ 285);
+var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 141);
+var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 143);
 
-var getNextDebugID = __webpack_require__(/*! react/lib/getNextDebugID */ 371);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var getNextDebugID = __webpack_require__(/*! react/lib/getNextDebugID */ 390);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 // To avoid a cyclic dependency, we create the final class in this module
@@ -13290,12 +13780,12 @@ module.exports = instantiateReactComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 148 */
+/* 155 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/isTextInputElement.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/isTextInputElement.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13349,12 +13839,12 @@ function isTextInputElement(elem) {
 module.exports = isTextInputElement;
 
 /***/ }),
-/* 149 */
+/* 156 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/setTextContent.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/setTextContent.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13409,12 +13899,12 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setTextContent;
 
 /***/ }),
-/* 150 */
+/* 157 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/traverseAllChildren.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/traverseAllChildren.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13431,11 +13921,11 @@ module.exports = setTextContent;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
 var ReactCurrentOwner = __webpack_require__(/*! react/lib/ReactCurrentOwner */ 23);
-var REACT_ELEMENT_TYPE = __webpack_require__(/*! ./ReactElementSymbol */ 285);
+var REACT_ELEMENT_TYPE = __webpack_require__(/*! ./ReactElementSymbol */ 304);
 
-var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 319);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 91);
+var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 338);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 92);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var SEPARATOR = '.';
@@ -13594,26 +14084,26 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 151 */
+/* 158 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ArrowKeyStepper/ArrowKeyStepper.js ***!
-  \**************************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ArrowKeyStepper/ArrowKeyStepper.js ***!
+  \*****************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 
 
@@ -13623,7 +14113,7 @@ module.exports = traverseAllChildren;
 
 var babelPluginFlowReactPropTypes_proptype_RenderedSection = __webpack_require__(/*! ../Grid */ 17).babelPluginFlowReactPropTypes_proptype_RenderedSection || __webpack_require__(/*! prop-types */ 0).any;
 
-var babelPluginFlowReactPropTypes_proptype_ScrollIndices = __webpack_require__(/*! ./types */ 325).babelPluginFlowReactPropTypes_proptype_ScrollIndices || __webpack_require__(/*! prop-types */ 0).any;
+var babelPluginFlowReactPropTypes_proptype_ScrollIndices = __webpack_require__(/*! ./types */ 344).babelPluginFlowReactPropTypes_proptype_ScrollIndices || __webpack_require__(/*! prop-types */ 0).any;
 
 
 
@@ -13816,28 +14306,28 @@ ArrowKeyStepper.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (ArrowKeyStepper);
 
 /***/ }),
-/* 152 */
+/* 159 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/AutoSizer/AutoSizer.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/AutoSizer/AutoSizer.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vendor_detectElementResize__ = __webpack_require__(/*! ../vendor/detectElementResize */ 167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vendor_detectElementResize__ = __webpack_require__(/*! ../vendor/detectElementResize */ 174);
 
 
 
@@ -14015,12 +14505,12 @@ AutoSizer.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (AutoSizer);
 
 /***/ }),
-/* 153 */
+/* 160 */
 /* exports provided: DEFAULT_HEIGHT, DEFAULT_WIDTH, default */
 /* exports used: default */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/CellMeasurer/CellMeasurerCache.js ***!
-  \*************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/CellMeasurer/CellMeasurerCache.js ***!
+  \****************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14238,17 +14728,17 @@ function defaultKeyMapper(rowIndex, columnIndex) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 154 */
+/* 161 */
 /* exports provided: default, CellMeasurer, CellMeasurerCache */
 /* exports used: CellMeasurer, CellMeasurerCache */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/CellMeasurer/index.js ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/CellMeasurer/index.js ***!
+  \****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CellMeasurer__ = __webpack_require__(/*! ./CellMeasurer */ 327);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CellMeasurerCache__ = __webpack_require__(/*! ./CellMeasurerCache */ 153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CellMeasurer__ = __webpack_require__(/*! ./CellMeasurer */ 346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CellMeasurerCache__ = __webpack_require__(/*! ./CellMeasurerCache */ 160);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__CellMeasurer__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__CellMeasurerCache__["a"]; });
 
@@ -14258,39 +14748,39 @@ function defaultKeyMapper(rowIndex, columnIndex) {
 
 
 /***/ }),
-/* 155 */
+/* 162 */
 /* exports provided: DEFAULT_SCROLLING_RESET_TIME_INTERVAL, default */
 /* exports used: default */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/Grid.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/Grid.js ***!
+  \*******************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export DEFAULT_SCROLLING_RESET_TIME_INTERVAL */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_classnames__ = __webpack_require__(/*! classnames */ 36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_calculateSizeAndPositionDataAndUpdateScrollOffset__ = __webpack_require__(/*! ./utils/calculateSizeAndPositionDataAndUpdateScrollOffset */ 338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_ScalingCellSizeAndPositionManager__ = __webpack_require__(/*! ./utils/ScalingCellSizeAndPositionManager */ 103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_createCallbackMemoizer__ = __webpack_require__(/*! ../utils/createCallbackMemoizer */ 106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__defaultOverscanIndicesGetter__ = __webpack_require__(/*! ./defaultOverscanIndicesGetter */ 157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_updateScrollIndexHelper__ = __webpack_require__(/*! ./utils/updateScrollIndexHelper */ 339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__defaultCellRangeRenderer__ = __webpack_require__(/*! ./defaultCellRangeRenderer */ 156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_dom_helpers_util_scrollbarSize__ = __webpack_require__(/*! dom-helpers/util/scrollbarSize */ 122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_calculateSizeAndPositionDataAndUpdateScrollOffset__ = __webpack_require__(/*! ./utils/calculateSizeAndPositionDataAndUpdateScrollOffset */ 357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_ScalingCellSizeAndPositionManager__ = __webpack_require__(/*! ./utils/ScalingCellSizeAndPositionManager */ 104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_createCallbackMemoizer__ = __webpack_require__(/*! ../utils/createCallbackMemoizer */ 107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__defaultOverscanIndicesGetter__ = __webpack_require__(/*! ./defaultOverscanIndicesGetter */ 164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_updateScrollIndexHelper__ = __webpack_require__(/*! ./utils/updateScrollIndexHelper */ 358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__defaultCellRangeRenderer__ = __webpack_require__(/*! ./defaultCellRangeRenderer */ 163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_dom_helpers_util_scrollbarSize__ = __webpack_require__(/*! dom-helpers/util/scrollbarSize */ 129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_dom_helpers_util_scrollbarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_dom_helpers_util_scrollbarSize__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__utils_requestAnimationTimeout__ = __webpack_require__(/*! ../utils/requestAnimationTimeout */ 53);
 
@@ -15646,12 +16136,12 @@ Grid.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Grid);
 
 /***/ }),
-/* 156 */
+/* 163 */
 /* exports provided: default */
 /* exports used: default */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/defaultCellRangeRenderer.js ***!
-  \************************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/defaultCellRangeRenderer.js ***!
+  \***************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15800,12 +16290,12 @@ function warnAboutMissingStyle(parent, renderedCell) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 157 */
+/* 164 */
 /* exports provided: SCROLL_DIRECTION_BACKWARD, SCROLL_DIRECTION_FORWARD, SCROLL_DIRECTION_HORIZONTAL, SCROLL_DIRECTION_VERTICAL, default */
 /* exports used: default, SCROLL_DIRECTION_FORWARD, SCROLL_DIRECTION_BACKWARD */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/defaultOverscanIndicesGetter.js ***!
-  \****************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/defaultOverscanIndicesGetter.js ***!
+  \*******************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15850,31 +16340,31 @@ function defaultOverscanIndicesGetter(_ref) {
 }
 
 /***/ }),
-/* 158 */
+/* 165 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/List/List.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/List/List.js ***!
+  \*******************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_own_property_descriptor__ = __webpack_require__(/*! babel-runtime/core-js/object/get-own-property-descriptor */ 189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_own_property_descriptor__ = __webpack_require__(/*! babel-runtime/core-js/object/get-own-property-descriptor */ 207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_own_property_descriptor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_own_property_descriptor__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Grid__ = __webpack_require__(/*! ../Grid */ 17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_classnames__ = __webpack_require__(/*! classnames */ 36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_classnames__);
@@ -15902,11 +16392,11 @@ var babelPluginFlowReactPropTypes_proptype_Alignment = __webpack_require__(/*! .
 
 var babelPluginFlowReactPropTypes_proptype_NoContentRenderer = __webpack_require__(/*! ../Grid */ 17).babelPluginFlowReactPropTypes_proptype_NoContentRenderer || __webpack_require__(/*! prop-types */ 0).any;
 
-var babelPluginFlowReactPropTypes_proptype_Scroll = __webpack_require__(/*! ./types */ 104).babelPluginFlowReactPropTypes_proptype_Scroll || __webpack_require__(/*! prop-types */ 0).any;
+var babelPluginFlowReactPropTypes_proptype_Scroll = __webpack_require__(/*! ./types */ 105).babelPluginFlowReactPropTypes_proptype_Scroll || __webpack_require__(/*! prop-types */ 0).any;
 
-var babelPluginFlowReactPropTypes_proptype_RenderedRows = __webpack_require__(/*! ./types */ 104).babelPluginFlowReactPropTypes_proptype_RenderedRows || __webpack_require__(/*! prop-types */ 0).any;
+var babelPluginFlowReactPropTypes_proptype_RenderedRows = __webpack_require__(/*! ./types */ 105).babelPluginFlowReactPropTypes_proptype_RenderedRows || __webpack_require__(/*! prop-types */ 0).any;
 
-var babelPluginFlowReactPropTypes_proptype_RowRenderer = __webpack_require__(/*! ./types */ 104).babelPluginFlowReactPropTypes_proptype_RowRenderer || __webpack_require__(/*! prop-types */ 0).any;
+var babelPluginFlowReactPropTypes_proptype_RowRenderer = __webpack_require__(/*! ./types */ 105).babelPluginFlowReactPropTypes_proptype_RowRenderer || __webpack_require__(/*! prop-types */ 0).any;
 
 
 
@@ -16243,30 +16733,30 @@ List.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (List);
 
 /***/ }),
-/* 159 */
+/* 166 */
 /* exports provided: default */
 /* exports used: default */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/Column.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/Column.js ***!
+  \**********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__defaultHeaderRenderer__ = __webpack_require__(/*! ./defaultHeaderRenderer */ 163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__defaultCellRenderer__ = __webpack_require__(/*! ./defaultCellRenderer */ 162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__defaultCellDataGetter__ = __webpack_require__(/*! ./defaultCellDataGetter */ 161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__defaultHeaderRenderer__ = __webpack_require__(/*! ./defaultHeaderRenderer */ 170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__defaultCellRenderer__ = __webpack_require__(/*! ./defaultCellRenderer */ 169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__defaultCellDataGetter__ = __webpack_require__(/*! ./defaultCellDataGetter */ 168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__SortDirection__ = __webpack_require__(/*! ./SortDirection */ 66);
 
 
@@ -16375,12 +16865,12 @@ Column.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 160 */
+/* 167 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/SortIndicator.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/SortIndicator.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16389,7 +16879,7 @@ Column.propTypes = process.env.NODE_ENV !== "production" ? {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__SortDirection__ = __webpack_require__(/*! ./SortDirection */ 66);
 
@@ -16422,12 +16912,12 @@ SortIndicator.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 161 */
+/* 168 */
 /* exports provided: default */
 /* exports used: default */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultCellDataGetter.js ***!
-  \**********************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultCellDataGetter.js ***!
+  \*************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16453,12 +16943,12 @@ function defaultCellDataGetter(_ref) {
 }
 
 /***/ }),
-/* 162 */
+/* 169 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultCellRenderer.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultCellRenderer.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16482,19 +16972,19 @@ function defaultCellRenderer(_ref) {
 }
 
 /***/ }),
-/* 163 */
+/* 170 */
 /* exports provided: default */
 /* exports used: default */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultHeaderRenderer.js ***!
-  \**********************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultHeaderRenderer.js ***!
+  \*************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = defaultHeaderRenderer;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__SortIndicator__ = __webpack_require__(/*! ./SortIndicator */ 160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__SortIndicator__ = __webpack_require__(/*! ./SortIndicator */ 167);
 
 
 
@@ -16528,17 +17018,17 @@ function defaultHeaderRenderer(_ref) {
 defaultHeaderRenderer.propTypes = babelPluginFlowReactPropTypes_proptype_HeaderRendererParams === __webpack_require__(/*! prop-types */ 0).any ? {} : babelPluginFlowReactPropTypes_proptype_HeaderRendererParams;
 
 /***/ }),
-/* 164 */
+/* 171 */
 /* exports provided: default */
 /* exports used: default */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultHeaderRowRenderer.js ***!
-  \*************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultHeaderRowRenderer.js ***!
+  \****************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = defaultHeaderRowRenderer;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 
 
@@ -16558,19 +17048,19 @@ function defaultHeaderRowRenderer(_ref) {
 defaultHeaderRowRenderer.propTypes = babelPluginFlowReactPropTypes_proptype_HeaderRowRendererParams === __webpack_require__(/*! prop-types */ 0).any ? {} : babelPluginFlowReactPropTypes_proptype_HeaderRowRendererParams;
 
 /***/ }),
-/* 165 */
+/* 172 */
 /* exports provided: default */
 /* exports used: default */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultRowRenderer.js ***!
-  \*******************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/defaultRowRenderer.js ***!
+  \**********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = defaultRowRenderer;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 
 
@@ -16639,37 +17129,37 @@ function defaultRowRenderer(_ref) {
 defaultRowRenderer.propTypes = babelPluginFlowReactPropTypes_proptype_RowRendererParams === __webpack_require__(/*! prop-types */ 0).any ? {} : babelPluginFlowReactPropTypes_proptype_RowRendererParams;
 
 /***/ }),
-/* 166 */
+/* 173 */
 /* exports provided: IS_SCROLLING_TIMEOUT, default */
 /* exports used: default */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/WindowScroller.js ***!
-  \************************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/WindowScroller.js ***!
+  \***************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export IS_SCROLLING_TIMEOUT */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_dom__ = __webpack_require__(/*! react-dom */ 54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_onScroll__ = __webpack_require__(/*! ./utils/onScroll */ 355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_dimensions__ = __webpack_require__(/*! ./utils/dimensions */ 354);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__vendor_detectElementResize__ = __webpack_require__(/*! ../vendor/detectElementResize */ 167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_onScroll__ = __webpack_require__(/*! ./utils/onScroll */ 374);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_dimensions__ = __webpack_require__(/*! ./utils/dimensions */ 373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__vendor_detectElementResize__ = __webpack_require__(/*! ../vendor/detectElementResize */ 174);
 
 
 
@@ -16920,12 +17410,12 @@ WindowScroller.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (WindowScroller);
 
 /***/ }),
-/* 167 */
+/* 174 */
 /* exports provided: default */
 /* exports used: default */
-/*!*********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/vendor/detectElementResize.js ***!
-  \*********************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/vendor/detectElementResize.js ***!
+  \************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17125,12 +17615,12 @@ function createDetectElementResize(nonce) {
 }
 
 /***/ }),
-/* 168 */
+/* 175 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactBaseClasses.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactBaseClasses.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17147,12 +17637,12 @@ function createDetectElementResize(nonce) {
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 45),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 171);
+var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 178);
 
 var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 67);
 var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 59);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var lowPriorityWarning = __webpack_require__(/*! ./lowPriorityWarning */ 107);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var lowPriorityWarning = __webpack_require__(/*! ./lowPriorityWarning */ 108);
 
 /**
  * Base class helpers for the updating state of a component.
@@ -17277,12 +17767,12 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 169 */
+/* 176 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactElementSymbol.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactElementSymbol.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17305,12 +17795,12 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 170 */
+/* 177 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactElementValidator.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactElementValidator.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17335,12 +17825,12 @@ var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 23);
 var ReactComponentTreeHook = __webpack_require__(/*! ./ReactComponentTreeHook */ 18);
 var ReactElement = __webpack_require__(/*! ./ReactElement */ 35);
 
-var checkReactTypeSpec = __webpack_require__(/*! ./checkReactTypeSpec */ 369);
+var checkReactTypeSpec = __webpack_require__(/*! ./checkReactTypeSpec */ 388);
 
 var canDefineProperty = __webpack_require__(/*! ./canDefineProperty */ 67);
-var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 172);
+var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 179);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
-var lowPriorityWarning = __webpack_require__(/*! ./lowPriorityWarning */ 107);
+var lowPriorityWarning = __webpack_require__(/*! ./lowPriorityWarning */ 108);
 
 function getDeclarationErrorAddendum() {
   if (ReactCurrentOwner.current) {
@@ -17569,12 +18059,12 @@ module.exports = ReactElementValidator;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 171 */
+/* 178 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactNoopUpdateQueue.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactNoopUpdateQueue.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17673,12 +18163,12 @@ module.exports = ReactNoopUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 172 */
+/* 179 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/getIteratorFn.js ***!
-  \****************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/getIteratorFn.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17722,12 +18212,12 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 173 */
+/* 180 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************!*\
-  !*** ./components/SubOption.js ***!
-  \*********************************/
+/*!******************************************!*\
+  !*** ./components/BuffPage/SubOption.js ***!
+  \******************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17739,11 +18229,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -17874,308 +18364,7 @@ var SubOption = function (_React$Component) {
 exports.default = SubOption;
 
 /***/ }),
-/* 174 */
-/* no static exports found */
-/* all exports used */
-/*!********************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/index.js ***!
-  \********************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./lib/axios */ 394);
-
-/***/ }),
-/* 175 */
-/* no static exports found */
-/* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/adapters/xhr.js ***!
-  \*******************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-var settle = __webpack_require__(/*! ./../core/settle */ 400);
-var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ 403);
-var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ 409);
-var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ 407);
-var createError = __webpack_require__(/*! ../core/createError */ 178);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(/*! ./../helpers/btoa */ 402);
-
-module.exports = function xhrAdapter(config) {
-  return new Promise(function dispatchXhrRequest(resolve, reject) {
-    var requestData = config.data;
-    var requestHeaders = config.headers;
-
-    if (utils.isFormData(requestData)) {
-      delete requestHeaders['Content-Type']; // Let the browser set it
-    }
-
-    var request = new XMLHttpRequest();
-    var loadEvent = 'onreadystatechange';
-    var xDomain = false;
-
-    // For IE 8/9 CORS support
-    // Only supports POST and GET calls and doesn't returns the response headers.
-    // DON'T do this for testing b/c XMLHttpRequest is mocked, not XDomainRequest.
-    if (process.env.NODE_ENV !== 'test' &&
-        typeof window !== 'undefined' &&
-        window.XDomainRequest && !('withCredentials' in request) &&
-        !isURLSameOrigin(config.url)) {
-      request = new window.XDomainRequest();
-      loadEvent = 'onload';
-      xDomain = true;
-      request.onprogress = function handleProgress() {};
-      request.ontimeout = function handleTimeout() {};
-    }
-
-    // HTTP basic authentication
-    if (config.auth) {
-      var username = config.auth.username || '';
-      var password = config.auth.password || '';
-      requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
-    }
-
-    request.open(config.method.toUpperCase(), buildURL(config.url, config.params, config.paramsSerializer), true);
-
-    // Set the request timeout in MS
-    request.timeout = config.timeout;
-
-    // Listen for ready state
-    request[loadEvent] = function handleLoad() {
-      if (!request || (request.readyState !== 4 && !xDomain)) {
-        return;
-      }
-
-      // The request errored out and we didn't get a response, this will be
-      // handled by onerror instead
-      // With one exception: request that using file: protocol, most browsers
-      // will return status as 0 even though it's a successful request
-      if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
-        return;
-      }
-
-      // Prepare the response
-      var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
-      var responseData = !config.responseType || config.responseType === 'text' ? request.responseText : request.response;
-      var response = {
-        data: responseData,
-        // IE sends 1223 instead of 204 (https://github.com/mzabriskie/axios/issues/201)
-        status: request.status === 1223 ? 204 : request.status,
-        statusText: request.status === 1223 ? 'No Content' : request.statusText,
-        headers: responseHeaders,
-        config: config,
-        request: request
-      };
-
-      settle(resolve, reject, response);
-
-      // Clean up request
-      request = null;
-    };
-
-    // Handle low level network errors
-    request.onerror = function handleError() {
-      // Real errors are hidden from us by the browser
-      // onerror should only fire if it's a network error
-      reject(createError('Network Error', config));
-
-      // Clean up request
-      request = null;
-    };
-
-    // Handle timeout
-    request.ontimeout = function handleTimeout() {
-      reject(createError('timeout of ' + config.timeout + 'ms exceeded', config, 'ECONNABORTED'));
-
-      // Clean up request
-      request = null;
-    };
-
-    // Add xsrf header
-    // This is only done if running in a standard browser environment.
-    // Specifically not if we're in a web worker, or react-native.
-    if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(/*! ./../helpers/cookies */ 405);
-
-      // Add xsrf header
-      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
-          cookies.read(config.xsrfCookieName) :
-          undefined;
-
-      if (xsrfValue) {
-        requestHeaders[config.xsrfHeaderName] = xsrfValue;
-      }
-    }
-
-    // Add headers to the request
-    if ('setRequestHeader' in request) {
-      utils.forEach(requestHeaders, function setRequestHeader(val, key) {
-        if (typeof requestData === 'undefined' && key.toLowerCase() === 'content-type') {
-          // Remove Content-Type if data is undefined
-          delete requestHeaders[key];
-        } else {
-          // Otherwise add header to the request
-          request.setRequestHeader(key, val);
-        }
-      });
-    }
-
-    // Add withCredentials to request if needed
-    if (config.withCredentials) {
-      request.withCredentials = true;
-    }
-
-    // Add responseType to request if needed
-    if (config.responseType) {
-      try {
-        request.responseType = config.responseType;
-      } catch (e) {
-        if (request.responseType !== 'json') {
-          throw e;
-        }
-      }
-    }
-
-    // Handle progress if needed
-    if (typeof config.onDownloadProgress === 'function') {
-      request.addEventListener('progress', config.onDownloadProgress);
-    }
-
-    // Not all browsers support upload events
-    if (typeof config.onUploadProgress === 'function' && request.upload) {
-      request.upload.addEventListener('progress', config.onUploadProgress);
-    }
-
-    if (config.cancelToken) {
-      // Handle cancellation
-      config.cancelToken.promise.then(function onCanceled(cancel) {
-        if (!request) {
-          return;
-        }
-
-        request.abort();
-        reject(cancel);
-        // Clean up request
-        request = null;
-      });
-    }
-
-    if (requestData === undefined) {
-      requestData = null;
-    }
-
-    // Send the request
-    request.send(requestData);
-  });
-};
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../SeraHol/~/process/browser.js */ 1)))
-
-/***/ }),
-/* 176 */
-/* no static exports found */
-/* all exports used */
-/*!********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/cancel/Cancel.js ***!
-  \********************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * A `Cancel` is an object that is thrown when an operation is canceled.
- *
- * @class
- * @param {string=} message The message.
- */
-function Cancel(message) {
-  this.message = message;
-}
-
-Cancel.prototype.toString = function toString() {
-  return 'Cancel' + (this.message ? ': ' + this.message : '');
-};
-
-Cancel.prototype.__CANCEL__ = true;
-
-module.exports = Cancel;
-
-
-/***/ }),
-/* 177 */
-/* no static exports found */
-/* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/cancel/isCancel.js ***!
-  \**********************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = function isCancel(value) {
-  return !!(value && value.__CANCEL__);
-};
-
-
-/***/ }),
-/* 178 */
-/* no static exports found */
-/* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/createError.js ***!
-  \***********************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var enhanceError = __webpack_require__(/*! ./enhanceError */ 399);
-
-/**
- * Create an Error with the specified message, config, error code, and response.
- *
- * @param {string} message The error message.
- * @param {Object} config The config.
- * @param {string} [code] The error code (for example, 'ECONNABORTED').
- @ @param {Object} [response] The response.
- * @returns {Error} The created error.
- */
-module.exports = function createError(message, config, code, response) {
-  var error = new Error(message);
-  return enhanceError(error, config, code, response);
-};
-
-
-/***/ }),
-/* 179 */
-/* no static exports found */
-/* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/bind.js ***!
-  \*******************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = function bind(fn, thisArg) {
-  return function wrap() {
-    var args = new Array(arguments.length);
-    for (var i = 0; i < args.length; i++) {
-      args[i] = arguments[i];
-    }
-    return fn.apply(thisArg, args);
-  };
-};
-
-
-/***/ }),
-/* 180 */
+/* 181 */
 /* no static exports found */
 /* all exports used */
 /*!**********************************!*\
@@ -18192,33 +18381,41 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _MainButtonWindow = __webpack_require__(/*! ./MainButtonWindow */ 385);
+var _MainButtonWindow = __webpack_require__(/*! ./MainButtonWindow */ 413);
 
 var _MainButtonWindow2 = _interopRequireDefault(_MainButtonWindow);
 
-var _BuffWindow = __webpack_require__(/*! ./BuffWindow */ 379);
+var _BuffWindow = __webpack_require__(/*! ./BuffWindow */ 410);
 
 var _BuffWindow2 = _interopRequireDefault(_BuffWindow);
 
-var _APIWindow = __webpack_require__(/*! ./APIWindow */ 378);
+var _CharacterWindow = __webpack_require__(/*! ./CharacterWindow */ 411);
 
-var _APIWindow2 = _interopRequireDefault(_APIWindow);
+var _CharacterWindow2 = _interopRequireDefault(_CharacterWindow);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _ItemWindow = __webpack_require__(/*! ./ItemWindow */ 412);
 
-var _CharacterModel = __webpack_require__(/*! ../../../models/CharacterModel */ 109);
+var _ItemWindow2 = _interopRequireDefault(_ItemWindow);
+
+var _ShopWindow = __webpack_require__(/*! ./ShopWindow */ 414);
+
+var _ShopWindow2 = _interopRequireDefault(_ShopWindow);
+
+var _Store = __webpack_require__(/*! ../flux/Store.js */ 12);
+
+var _CharacterModel = __webpack_require__(/*! ../../../models/CharacterModel */ 116);
 
 var _CharacterModel2 = _interopRequireDefault(_CharacterModel);
 
-var _ItemModel = __webpack_require__(/*! ../../../models/ItemModel */ 182);
+var _ItemModel = __webpack_require__(/*! ../../../models/ItemModel */ 200);
 
 var _ItemModel2 = _interopRequireDefault(_ItemModel);
 
-var _ShopModel = __webpack_require__(/*! ../../../models/ShopModel */ 183);
+var _ShopModel = __webpack_require__(/*! ../../../models/ShopModel */ 201);
 
 var _ShopModel2 = _interopRequireDefault(_ShopModel);
 
@@ -18266,10 +18463,11 @@ var MainWindow = function (_React$Component) {
         value: function componentWillUnMount() {}
     }, {
         key: 'windowStateChangeByButton',
-        value: function windowStateChangeByButton(ClickButton) {
+        value: function windowStateChangeByButton(ClickButton, subtype) {
             this.setState({
                 windowState: ClickButton
             });
+            _Store.fluxStore.setFlux('ApiSubWindowView', subtype);
         }
     }, {
         key: 'getWindowView',
@@ -18277,9 +18475,13 @@ var MainWindow = function (_React$Component) {
             var windowView = void 0;
             switch (windowState) {
                 case 'buff':
-                    windowView = _react2.default.createElement(_BuffWindow2.default, null);break;
-                case 'api':
-                    windowView = _react2.default.createElement(_APIWindow2.default, null);break;
+                    windowView = _react2.default.createElement(_BuffWindow2.default, { ButtonClick: this.windowStateChangeByButton.bind(this) });break;
+                case 'character':
+                    windowView = _react2.default.createElement(_CharacterWindow2.default, { ButtonClick: this.windowStateChangeByButton.bind(this) });break;
+                case 'item':
+                    windowView = _react2.default.createElement(_ItemWindow2.default, { ButtonClick: this.windowStateChangeByButton.bind(this) });break;
+                case 'shop':
+                    windowView = _react2.default.createElement(_ShopWindow2.default, { ButtonClick: this.windowStateChangeByButton.bind(this) });break;
             }
             return windowView;
         }
@@ -18300,12 +18502,952 @@ var MainWindow = function (_React$Component) {
 exports.default = MainWindow;
 
 /***/ }),
-/* 181 */
+/* 182 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/APIExcuter.js ***!
-  \*************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/axios.js ***!
+  \***********************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./utils */ 19);
+var bind = __webpack_require__(/*! ./helpers/bind */ 115);
+var Axios = __webpack_require__(/*! ./core/Axios */ 184);
+var defaults = __webpack_require__(/*! ./defaults */ 68);
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ * @return {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance(defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Factory for creating new instances
+axios.create = function create(instanceConfig) {
+  return createInstance(utils.merge(defaults, instanceConfig));
+};
+
+// Expose Cancel & CancelToken
+axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ 112);
+axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ 183);
+axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ 113);
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = __webpack_require__(/*! ./helpers/spread */ 198);
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+
+
+/***/ }),
+/* 183 */
+/* no static exports found */
+/* all exports used */
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/cancel/CancelToken.js ***!
+  \************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var Cancel = __webpack_require__(/*! ./Cancel */ 112);
+
+/**
+ * A `CancelToken` is an object that can be used to request cancellation of an operation.
+ *
+ * @class
+ * @param {Function} executor The executor function.
+ */
+function CancelToken(executor) {
+  if (typeof executor !== 'function') {
+    throw new TypeError('executor must be a function.');
+  }
+
+  var resolvePromise;
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+CancelToken.prototype.throwIfRequested = function throwIfRequested() {
+  if (this.reason) {
+    throw this.reason;
+  }
+};
+
+/**
+ * Returns an object that contains a new `CancelToken` and a function that, when called,
+ * cancels the `CancelToken`.
+ */
+CancelToken.source = function source() {
+  var cancel;
+  var token = new CancelToken(function executor(c) {
+    cancel = c;
+  });
+  return {
+    token: token,
+    cancel: cancel
+  };
+};
+
+module.exports = CancelToken;
+
+
+/***/ }),
+/* 184 */
+/* no static exports found */
+/* all exports used */
+/*!****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/Axios.js ***!
+  \****************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var defaults = __webpack_require__(/*! ./../defaults */ 68);
+var utils = __webpack_require__(/*! ./../utils */ 19);
+var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ 185);
+var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ 186);
+
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} instanceConfig The default config for the instance
+ */
+function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}
+
+/**
+ * Dispatch a request
+ *
+ * @param {Object} config The config specific for this request (merged with this.defaults)
+ */
+Axios.prototype.request = function request(config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof config === 'string') {
+    config = utils.merge({
+      url: arguments[0]
+    }, arguments[1]);
+  }
+
+  config = utils.merge(defaults, {method: 'get'}, this.defaults, config);
+  config.method = config.method.toLowerCase();
+
+  // Hook up interceptors middleware
+  var chain = [dispatchRequest, undefined];
+  var promise = Promise.resolve(config);
+
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    chain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    chain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  while (chain.length) {
+    promise = promise.then(chain.shift(), chain.shift());
+  }
+
+  return promise;
+};
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url
+    }));
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, data, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url,
+      data: data
+    }));
+  };
+});
+
+module.exports = Axios;
+
+
+/***/ }),
+/* 185 */
+/* no static exports found */
+/* all exports used */
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/InterceptorManager.js ***!
+  \*****************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+ * Add a new interceptor to the stack
+ *
+ * @param {Function} fulfilled The function to handle `then` for a `Promise`
+ * @param {Function} rejected The function to handle `reject` for a `Promise`
+ *
+ * @return {Number} An ID used to remove interceptor later
+ */
+InterceptorManager.prototype.use = function use(fulfilled, rejected) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected
+  });
+  return this.handlers.length - 1;
+};
+
+/**
+ * Remove an interceptor from the stack
+ *
+ * @param {Number} id The ID that was returned by `use`
+ */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+ * Iterate over all the registered interceptors
+ *
+ * This method is particularly useful for skipping over any
+ * interceptors that may have become `null` calling `eject`.
+ *
+ * @param {Function} fn The function to call for each interceptor
+ */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+
+
+/***/ }),
+/* 186 */
+/* no static exports found */
+/* all exports used */
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/dispatchRequest.js ***!
+  \**************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+var transformData = __webpack_require__(/*! ./transformData */ 189);
+var isCancel = __webpack_require__(/*! ../cancel/isCancel */ 113);
+var defaults = __webpack_require__(/*! ../defaults */ 68);
+var isAbsoluteURL = __webpack_require__(/*! ./../helpers/isAbsoluteURL */ 194);
+var combineURLs = __webpack_require__(/*! ./../helpers/combineURLs */ 192);
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+}
+
+/**
+ * Dispatch a request to the server using the configured adapter.
+ *
+ * @param {object} config The config that is to be used for the request
+ * @returns {Promise} The Promise to be fulfilled
+ */
+module.exports = function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  // Support baseURL config
+  if (config.baseURL && !isAbsoluteURL(config.url)) {
+    config.url = combineURLs(config.baseURL, config.url);
+  }
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData(
+    config.data,
+    config.headers,
+    config.transformRequest
+  );
+
+  // Flatten headers
+  config.headers = utils.merge(
+    config.headers.common || {},
+    config.headers[config.method] || {},
+    config.headers || {}
+  );
+
+  utils.forEach(
+    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+    function cleanHeaderConfig(method) {
+      delete config.headers[method];
+    }
+  );
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData(
+      response.data,
+      response.headers,
+      config.transformResponse
+    );
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData(
+          reason.response.data,
+          reason.response.headers,
+          config.transformResponse
+        );
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+
+/***/ }),
+/* 187 */
+/* no static exports found */
+/* all exports used */
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/enhanceError.js ***!
+  \***********************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+module.exports = function enhanceError(error, config, code, request, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+  error.request = request;
+  error.response = response;
+  return error;
+};
+
+
+/***/ }),
+/* 188 */
+/* no static exports found */
+/* all exports used */
+/*!*****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/settle.js ***!
+  \*****************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var createError = __webpack_require__(/*! ./createError */ 114);
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  // Note: status is not exposed by XDomainRequest
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+      'Request failed with status code ' + response.status,
+      response.config,
+      null,
+      response.request,
+      response
+    ));
+  }
+};
+
+
+/***/ }),
+/* 189 */
+/* no static exports found */
+/* all exports used */
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/core/transformData.js ***!
+  \************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn(data, headers);
+  });
+
+  return data;
+};
+
+
+/***/ }),
+/* 190 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/btoa.js ***!
+  \******************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
+
+var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+
+function E() {
+  this.message = 'String contains an invalid character';
+}
+E.prototype = new Error;
+E.prototype.code = 5;
+E.prototype.name = 'InvalidCharacterError';
+
+function btoa(input) {
+  var str = String(input);
+  var output = '';
+  for (
+    // initialize result and counter
+    var block, charCode, idx = 0, map = chars;
+    // if the next str index does not exist:
+    //   change the mapping table to "="
+    //   check if d has no fractional digits
+    str.charAt(idx | 0) || (map = '=', idx % 1);
+    // "8 - idx % 1 * 8" generates the sequence 2, 4, 6, 8
+    output += map.charAt(63 & block >> 8 - idx % 1 * 8)
+  ) {
+    charCode = str.charCodeAt(idx += 3 / 4);
+    if (charCode > 0xFF) {
+      throw new E();
+    }
+    block = block << 8 | charCode;
+  }
+  return output;
+}
+
+module.exports = btoa;
+
+
+/***/ }),
+/* 191 */
+/* no static exports found */
+/* all exports used */
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/buildURL.js ***!
+  \**********************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+
+function encode(val) {
+  return encodeURIComponent(val).
+    replace(/%40/gi, '@').
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      } else {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+};
+
+
+/***/ }),
+/* 192 */
+/* no static exports found */
+/* all exports used */
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/combineURLs.js ***!
+  \*************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ * @returns {string} The combined URL
+ */
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return relativeURL
+    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    : baseURL;
+};
+
+
+/***/ }),
+/* 193 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/cookies.js ***!
+  \*********************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs support document.cookie
+  (function standardBrowserEnv() {
+    return {
+      write: function write(name, value, expires, path, domain, secure) {
+        var cookie = [];
+        cookie.push(name + '=' + encodeURIComponent(value));
+
+        if (utils.isNumber(expires)) {
+          cookie.push('expires=' + new Date(expires).toGMTString());
+        }
+
+        if (utils.isString(path)) {
+          cookie.push('path=' + path);
+        }
+
+        if (utils.isString(domain)) {
+          cookie.push('domain=' + domain);
+        }
+
+        if (secure === true) {
+          cookie.push('secure');
+        }
+
+        document.cookie = cookie.join('; ');
+      },
+
+      read: function read(name) {
+        var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+        return (match ? decodeURIComponent(match[3]) : null);
+      },
+
+      remove: function remove(name) {
+        this.write(name, '', Date.now() - 86400000);
+      }
+    };
+  })() :
+
+  // Non standard browser env (web workers, react-native) lack needed support.
+  (function nonStandardBrowserEnv() {
+    return {
+      write: function write() {},
+      read: function read() { return null; },
+      remove: function remove() {}
+    };
+  })()
+);
+
+
+/***/ }),
+/* 194 */
+/* no static exports found */
+/* all exports used */
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/isAbsoluteURL.js ***!
+  \***************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
+};
+
+
+/***/ }),
+/* 195 */
+/* no static exports found */
+/* all exports used */
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/isURLSameOrigin.js ***!
+  \*****************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs have full support of the APIs needed to test
+  // whether the request URL is of the same origin as current location.
+  (function standardBrowserEnv() {
+    var msie = /(msie|trident)/i.test(navigator.userAgent);
+    var urlParsingNode = document.createElement('a');
+    var originURL;
+
+    /**
+    * Parse a URL to discover it's components
+    *
+    * @param {String} url The URL to be parsed
+    * @returns {Object}
+    */
+    function resolveURL(url) {
+      var href = url;
+
+      if (msie) {
+        // IE needs attribute set twice to normalize properties
+        urlParsingNode.setAttribute('href', href);
+        href = urlParsingNode.href;
+      }
+
+      urlParsingNode.setAttribute('href', href);
+
+      // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+      return {
+        href: urlParsingNode.href,
+        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+        host: urlParsingNode.host,
+        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+        hostname: urlParsingNode.hostname,
+        port: urlParsingNode.port,
+        pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
+                  urlParsingNode.pathname :
+                  '/' + urlParsingNode.pathname
+      };
+    }
+
+    originURL = resolveURL(window.location.href);
+
+    /**
+    * Determine if a URL shares the same origin as the current location
+    *
+    * @param {String} requestURL The URL to test
+    * @returns {boolean} True if URL shares the same origin, otherwise false
+    */
+    return function isURLSameOrigin(requestURL) {
+      var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
+      return (parsed.protocol === originURL.protocol &&
+            parsed.host === originURL.host);
+    };
+  })() :
+
+  // Non standard browser envs (web workers, react-native) lack needed support.
+  (function nonStandardBrowserEnv() {
+    return function isURLSameOrigin() {
+      return true;
+    };
+  })()
+);
+
+
+/***/ }),
+/* 196 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/normalizeHeaderName.js ***!
+  \*********************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ 19);
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+};
+
+
+/***/ }),
+/* 197 */
+/* no static exports found */
+/* all exports used */
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/parseHeaders.js ***!
+  \**************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 19);
+
+// Headers whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+var ignoreDuplicateOf = [
+  'age', 'authorization', 'content-length', 'content-type', 'etag',
+  'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
+  'last-modified', 'location', 'max-forwards', 'proxy-authorization',
+  'referer', 'retry-after', 'user-agent'
+];
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} headers Headers needing to be parsed
+ * @returns {Object} Headers parsed into an object
+ */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) { return parsed; }
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      if (parsed[key] && ignoreDuplicateOf.indexOf(key) >= 0) {
+        return;
+      }
+      if (key === 'set-cookie') {
+        parsed[key] = (parsed[key] ? parsed[key] : []).concat([val]);
+      } else {
+        parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+      }
+    }
+  });
+
+  return parsed;
+};
+
+
+/***/ }),
+/* 198 */
+/* no static exports found */
+/* all exports used */
+/*!********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/axios/lib/helpers/spread.js ***!
+  \********************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ * @returns {Function}
+ */
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+
+
+/***/ }),
+/* 199 */
+/* no static exports found */
+/* all exports used */
+/*!****************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/APIExcuter.js ***!
+  \****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18319,7 +19461,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _axios = __webpack_require__(/*! axios */ 174);
+var _axios = __webpack_require__(/*! axios */ 110);
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -18332,7 +19474,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 // const qs = require('querystring');
-var EventEmitter = __webpack_require__(/*! events */ 123);
+var EventEmitter = __webpack_require__(/*! events */ 130);
 
 var APIExcuter = function (_EventEmitter) {
     _inherits(APIExcuter, _EventEmitter);
@@ -18441,12 +19583,12 @@ var APIExcuter = function (_EventEmitter) {
 exports.default = APIExcuter;
 
 /***/ }),
-/* 182 */
+/* 200 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/models/ItemModel.js ***!
-  \*******************************************************************/
+/*!**********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/models/ItemModel.js ***!
+  \**********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18478,12 +19620,12 @@ var ItemModel = function ItemModel(store) {
 module.exports = ItemModel;
 
 /***/ }),
-/* 183 */
+/* 201 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/models/ShopModel.js ***!
-  \*******************************************************************/
+/*!**********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/models/ShopModel.js ***!
+  \**********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18515,111 +19657,111 @@ var ShopModel = function ShopModel(store) {
 module.exports = ShopModel;
 
 /***/ }),
-/* 184 */
+/* 202 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/get-iterator.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/get-iterator.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/get-iterator */ 194), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/get-iterator */ 212), __esModule: true };
 
 /***/ }),
-/* 185 */
+/* 203 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/is-iterable.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/is-iterable.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/is-iterable */ 195), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/is-iterable */ 213), __esModule: true };
 
 /***/ }),
-/* 186 */
+/* 204 */
+/* no static exports found */
+/* all exports used */
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/assign.js ***!
+  \*******************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/assign */ 214), __esModule: true };
+
+/***/ }),
+/* 205 */
+/* no static exports found */
+/* all exports used */
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/create.js ***!
+  \*******************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/create */ 215), __esModule: true };
+
+/***/ }),
+/* 206 */
 /* no static exports found */
 /* all exports used */
 /*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/assign.js ***!
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/define-property.js ***!
   \****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/assign */ 196), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/define-property */ 216), __esModule: true };
 
 /***/ }),
-/* 187 */
-/* no static exports found */
-/* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/create.js ***!
-  \****************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/create */ 197), __esModule: true };
-
-/***/ }),
-/* 188 */
-/* no static exports found */
-/* all exports used */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/define-property.js ***!
-  \*************************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/define-property */ 198), __esModule: true };
-
-/***/ }),
-/* 189 */
+/* 207 */
 /* no static exports found */
 /* exports used: default */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/get-own-property-descriptor.js ***!
-  \*************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/get-own-property-descriptor.js ***!
+  \****************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ 199), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ 217), __esModule: true };
 
 /***/ }),
-/* 190 */
+/* 208 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/object/set-prototype-of.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/object/set-prototype-of.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ 202), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ 220), __esModule: true };
 
 /***/ }),
-/* 191 */
+/* 209 */
+/* no static exports found */
+/* all exports used */
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/symbol.js ***!
+  \************************************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol */ 221), __esModule: true };
+
+/***/ }),
+/* 210 */
 /* no static exports found */
 /* all exports used */
 /*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/symbol.js ***!
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/core-js/symbol/iterator.js ***!
   \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol */ 203), __esModule: true };
+module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/iterator */ 222), __esModule: true };
 
 /***/ }),
-/* 192 */
-/* no static exports found */
-/* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/core-js/symbol/iterator.js ***!
-  \******************************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/iterator */ 204), __esModule: true };
-
-/***/ }),
-/* 193 */
+/* 211 */
 /* no static exports found */
 /* exports used: default */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/babel-runtime/helpers/slicedToArray.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/babel-runtime/helpers/slicedToArray.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18627,11 +19769,11 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/
 
 exports.__esModule = true;
 
-var _isIterable2 = __webpack_require__(/*! ../core-js/is-iterable */ 185);
+var _isIterable2 = __webpack_require__(/*! ../core-js/is-iterable */ 203);
 
 var _isIterable3 = _interopRequireDefault(_isIterable2);
 
-var _getIterator2 = __webpack_require__(/*! ../core-js/get-iterator */ 184);
+var _getIterator2 = __webpack_require__(/*! ../core-js/get-iterator */ 202);
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
@@ -18676,56 +19818,56 @@ exports.default = function () {
 }();
 
 /***/ }),
-/* 194 */
+/* 212 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/get-iterator.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/get-iterator.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../modules/web.dom.iterable */ 85);
-__webpack_require__(/*! ../modules/es6.string.iterator */ 84);
-module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ 222);
+__webpack_require__(/*! ../modules/web.dom.iterable */ 86);
+__webpack_require__(/*! ../modules/es6.string.iterator */ 85);
+module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ 240);
 
 
 /***/ }),
-/* 195 */
+/* 213 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/is-iterable.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/is-iterable.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../modules/web.dom.iterable */ 85);
-__webpack_require__(/*! ../modules/es6.string.iterator */ 84);
-module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ 223);
+__webpack_require__(/*! ../modules/web.dom.iterable */ 86);
+__webpack_require__(/*! ../modules/es6.string.iterator */ 85);
+module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ 241);
 
 
 /***/ }),
-/* 196 */
+/* 214 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/assign.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/assign.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.assign */ 225);
+__webpack_require__(/*! ../../modules/es6.object.assign */ 243);
 module.exports = __webpack_require__(/*! ../../modules/_core */ 16).Object.assign;
 
 
 /***/ }),
-/* 197 */
+/* 215 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/create.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/create.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.create */ 226);
+__webpack_require__(/*! ../../modules/es6.object.create */ 244);
 var $Object = __webpack_require__(/*! ../../modules/_core */ 16).Object;
 module.exports = function create(P, D) {
   return $Object.create(P, D);
@@ -18733,15 +19875,15 @@ module.exports = function create(P, D) {
 
 
 /***/ }),
-/* 198 */
+/* 216 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/define-property.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/define-property.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.define-property */ 227);
+__webpack_require__(/*! ../../modules/es6.object.define-property */ 245);
 var $Object = __webpack_require__(/*! ../../modules/_core */ 16).Object;
 module.exports = function defineProperty(it, key, desc) {
   return $Object.defineProperty(it, key, desc);
@@ -18749,15 +19891,15 @@ module.exports = function defineProperty(it, key, desc) {
 
 
 /***/ }),
-/* 199 */
+/* 217 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/get-own-property-descriptor.js ***!
-  \**********************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/get-own-property-descriptor.js ***!
+  \*************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.get-own-property-descriptor */ 228);
+__webpack_require__(/*! ../../modules/es6.object.get-own-property-descriptor */ 246);
 var $Object = __webpack_require__(/*! ../../modules/_core */ 16).Object;
 module.exports = function getOwnPropertyDescriptor(it, key) {
   return $Object.getOwnPropertyDescriptor(it, key);
@@ -18765,81 +19907,81 @@ module.exports = function getOwnPropertyDescriptor(it, key) {
 
 
 /***/ }),
-/* 200 */
+/* 218 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/get-prototype-of.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/get-prototype-of.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ 229);
+__webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ 247);
 module.exports = __webpack_require__(/*! ../../modules/_core */ 16).Object.getPrototypeOf;
 
 
 /***/ }),
-/* 201 */
+/* 219 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/keys.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/keys.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.keys */ 230);
+__webpack_require__(/*! ../../modules/es6.object.keys */ 248);
 module.exports = __webpack_require__(/*! ../../modules/_core */ 16).Object.keys;
 
 
 /***/ }),
-/* 202 */
+/* 220 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/object/set-prototype-of.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/object/set-prototype-of.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ 231);
+__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ 249);
 module.exports = __webpack_require__(/*! ../../modules/_core */ 16).Object.setPrototypeOf;
 
 
 /***/ }),
-/* 203 */
+/* 221 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/symbol/index.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/symbol/index.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.symbol */ 233);
-__webpack_require__(/*! ../../modules/es6.object.to-string */ 232);
-__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ 234);
-__webpack_require__(/*! ../../modules/es7.symbol.observable */ 235);
+__webpack_require__(/*! ../../modules/es6.symbol */ 251);
+__webpack_require__(/*! ../../modules/es6.object.to-string */ 250);
+__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ 252);
+__webpack_require__(/*! ../../modules/es7.symbol.observable */ 253);
 module.exports = __webpack_require__(/*! ../../modules/_core */ 16).Symbol;
 
 
 /***/ }),
-/* 204 */
+/* 222 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/fn/symbol/iterator.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/fn/symbol/iterator.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.string.iterator */ 84);
-__webpack_require__(/*! ../../modules/web.dom.iterable */ 85);
-module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ 83).f('iterator');
+__webpack_require__(/*! ../../modules/es6.string.iterator */ 85);
+__webpack_require__(/*! ../../modules/web.dom.iterable */ 86);
+module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ 84).f('iterator');
 
 
 /***/ }),
-/* 205 */
+/* 223 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_a-function.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_a-function.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -18849,31 +19991,31 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 206 */
+/* 224 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_add-to-unscopables.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_add-to-unscopables.js ***!
+  \***************************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function () { /* empty */ };
 
 
 /***/ }),
-/* 207 */
+/* 225 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_array-includes.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_array-includes.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
-var toLength = __webpack_require__(/*! ./_to-length */ 220);
-var toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ 219);
+var toLength = __webpack_require__(/*! ./_to-length */ 238);
+var toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ 237);
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this);
@@ -18895,17 +20037,17 @@ module.exports = function (IS_INCLUDES) {
 
 
 /***/ }),
-/* 208 */
+/* 226 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_enum-keys.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_enum-keys.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
 var getKeys = __webpack_require__(/*! ./_object-keys */ 47);
-var gOPS = __webpack_require__(/*! ./_object-gops */ 75);
+var gOPS = __webpack_require__(/*! ./_object-gops */ 76);
 var pIE = __webpack_require__(/*! ./_object-pie */ 55);
 module.exports = function (it) {
   var result = getKeys(it);
@@ -18921,12 +20063,12 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 209 */
+/* 227 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_html.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_html.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var document = __webpack_require__(/*! ./_global */ 27).document;
@@ -18934,35 +20076,35 @@ module.exports = document && document.documentElement;
 
 
 /***/ }),
-/* 210 */
+/* 228 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_is-array.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_is-array.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
-var cof = __webpack_require__(/*! ./_cof */ 69);
+var cof = __webpack_require__(/*! ./_cof */ 70);
 module.exports = Array.isArray || function isArray(arg) {
   return cof(arg) == 'Array';
 };
 
 
 /***/ }),
-/* 211 */
+/* 229 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_iter-create.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_iter-create.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var create = __webpack_require__(/*! ./_object-create */ 73);
+var create = __webpack_require__(/*! ./_object-create */ 74);
 var descriptor = __webpack_require__(/*! ./_property-desc */ 56);
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 77);
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 78);
 var IteratorPrototype = {};
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
@@ -18975,12 +20117,12 @@ module.exports = function (Constructor, NAME, next) {
 
 
 /***/ }),
-/* 212 */
+/* 230 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_iter-step.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_iter-step.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports) {
 
 module.exports = function (done, value) {
@@ -18989,12 +20131,12 @@ module.exports = function (done, value) {
 
 
 /***/ }),
-/* 213 */
+/* 231 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_meta.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_meta.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var META = __webpack_require__(/*! ./_uid */ 58)('meta');
@@ -19053,22 +20195,22 @@ var meta = module.exports = {
 
 
 /***/ }),
-/* 214 */
+/* 232 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-assign.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-assign.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // 19.1.2.1 Object.assign(target, source, ...)
 var getKeys = __webpack_require__(/*! ./_object-keys */ 47);
-var gOPS = __webpack_require__(/*! ./_object-gops */ 75);
+var gOPS = __webpack_require__(/*! ./_object-gops */ 76);
 var pIE = __webpack_require__(/*! ./_object-pie */ 55);
 var toObject = __webpack_require__(/*! ./_to-object */ 57);
-var IObject = __webpack_require__(/*! ./_iobject */ 116);
+var IObject = __webpack_require__(/*! ./_iobject */ 123);
 var $assign = Object.assign;
 
 // should work with symbols and should have deterministic property order (V8 bug)
@@ -19099,12 +20241,12 @@ module.exports = !$assign || __webpack_require__(/*! ./_fails */ 38)(function ()
 
 
 /***/ }),
-/* 215 */
+/* 233 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-dps.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-dps.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(/*! ./_object-dp */ 32);
@@ -19123,17 +20265,17 @@ module.exports = __webpack_require__(/*! ./_descriptors */ 29) ? Object.definePr
 
 
 /***/ }),
-/* 216 */
+/* 234 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_object-gopn-ext.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_object-gopn-ext.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
-var gOPN = __webpack_require__(/*! ./_object-gopn */ 118).f;
+var gOPN = __webpack_require__(/*! ./_object-gopn */ 125).f;
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -19153,12 +20295,12 @@ module.exports.f = function getOwnPropertyNames(it) {
 
 
 /***/ }),
-/* 217 */
+/* 235 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_set-proto.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_set-proto.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
@@ -19173,7 +20315,7 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function (test, buggy, set) {
       try {
-        set = __webpack_require__(/*! ./_ctx */ 113)(Function.call, __webpack_require__(/*! ./_object-gopd */ 74).f(Object.prototype, '__proto__').set, 2);
+        set = __webpack_require__(/*! ./_ctx */ 120)(Function.call, __webpack_require__(/*! ./_object-gopd */ 75).f(Object.prototype, '__proto__').set, 2);
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -19189,16 +20331,16 @@ module.exports = {
 
 
 /***/ }),
-/* 218 */
+/* 236 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_string-at.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_string-at.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ./_to-integer */ 80);
-var defined = __webpack_require__(/*! ./_defined */ 70);
+var toInteger = __webpack_require__(/*! ./_to-integer */ 81);
+var defined = __webpack_require__(/*! ./_defined */ 71);
 // true  -> String#at
 // false -> String#codePointAt
 module.exports = function (TO_STRING) {
@@ -19217,15 +20359,15 @@ module.exports = function (TO_STRING) {
 
 
 /***/ }),
-/* 219 */
+/* 237 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_to-absolute-index.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_to-absolute-index.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ./_to-integer */ 80);
+var toInteger = __webpack_require__(/*! ./_to-integer */ 81);
 var max = Math.max;
 var min = Math.min;
 module.exports = function (index, length) {
@@ -19235,16 +20377,16 @@ module.exports = function (index, length) {
 
 
 /***/ }),
-/* 220 */
+/* 238 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/_to-length.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/_to-length.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
-var toInteger = __webpack_require__(/*! ./_to-integer */ 80);
+var toInteger = __webpack_require__(/*! ./_to-integer */ 81);
 var min = Math.min;
 module.exports = function (it) {
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
@@ -19252,15 +20394,15 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 221 */
+/* 239 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/core.get-iterator-method.js ***!
-  \*****************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/core.get-iterator-method.js ***!
+  \********************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-var classof = __webpack_require__(/*! ./_classof */ 112);
+var classof = __webpack_require__(/*! ./_classof */ 119);
 var ITERATOR = __webpack_require__(/*! ./_wks */ 25)('iterator');
 var Iterators = __webpack_require__(/*! ./_iterators */ 46);
 module.exports = __webpack_require__(/*! ./_core */ 16).getIteratorMethod = function (it) {
@@ -19271,16 +20413,16 @@ module.exports = __webpack_require__(/*! ./_core */ 16).getIteratorMethod = func
 
 
 /***/ }),
-/* 222 */
+/* 240 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/core.get-iterator.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/core.get-iterator.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(/*! ./_an-object */ 37);
-var get = __webpack_require__(/*! ./core.get-iterator-method */ 221);
+var get = __webpack_require__(/*! ./core.get-iterator-method */ 239);
 module.exports = __webpack_require__(/*! ./_core */ 16).getIterator = function (it) {
   var iterFn = get(it);
   if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
@@ -19289,15 +20431,15 @@ module.exports = __webpack_require__(/*! ./_core */ 16).getIterator = function (
 
 
 /***/ }),
-/* 223 */
+/* 241 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/core.is-iterable.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/core.is-iterable.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-var classof = __webpack_require__(/*! ./_classof */ 112);
+var classof = __webpack_require__(/*! ./_classof */ 119);
 var ITERATOR = __webpack_require__(/*! ./_wks */ 25)('iterator');
 var Iterators = __webpack_require__(/*! ./_iterators */ 46);
 module.exports = __webpack_require__(/*! ./_core */ 16).isIterable = function (it) {
@@ -19310,18 +20452,18 @@ module.exports = __webpack_require__(/*! ./_core */ 16).isIterable = function (i
 
 
 /***/ }),
-/* 224 */
+/* 242 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.array.iterator.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.array.iterator.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ 206);
-var step = __webpack_require__(/*! ./_iter-step */ 212);
+var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ 224);
+var step = __webpack_require__(/*! ./_iter-step */ 230);
 var Iterators = __webpack_require__(/*! ./_iterators */ 46);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
 
@@ -19329,7 +20471,7 @@ var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(/*! ./_iter-define */ 117)(Array, 'Array', function (iterated, kind) {
+module.exports = __webpack_require__(/*! ./_iter-define */ 124)(Array, 'Array', function (iterated, kind) {
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -19356,41 +20498,41 @@ addToUnscopables('entries');
 
 
 /***/ }),
-/* 225 */
+/* 243 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.assign.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.assign.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.1 Object.assign(target, source)
 var $export = __webpack_require__(/*! ./_export */ 30);
 
-$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ 214) });
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ 232) });
 
 
 /***/ }),
-/* 226 */
+/* 244 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.create.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.create.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(/*! ./_export */ 30);
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ 73) });
+$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ 74) });
 
 
 /***/ }),
-/* 227 */
+/* 245 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.define-property.js ***!
-  \*******************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.define-property.js ***!
+  \**********************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(/*! ./_export */ 30);
@@ -19399,19 +20541,19 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ 29), 
 
 
 /***/ }),
-/* 228 */
+/* 246 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.get-own-property-descriptor.js ***!
-  \*******************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.get-own-property-descriptor.js ***!
+  \**********************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
-var $getOwnPropertyDescriptor = __webpack_require__(/*! ./_object-gopd */ 74).f;
+var $getOwnPropertyDescriptor = __webpack_require__(/*! ./_object-gopd */ 75).f;
 
-__webpack_require__(/*! ./_object-sap */ 76)('getOwnPropertyDescriptor', function () {
+__webpack_require__(/*! ./_object-sap */ 77)('getOwnPropertyDescriptor', function () {
   return function getOwnPropertyDescriptor(it, key) {
     return $getOwnPropertyDescriptor(toIObject(it), key);
   };
@@ -19419,19 +20561,19 @@ __webpack_require__(/*! ./_object-sap */ 76)('getOwnPropertyDescriptor', functio
 
 
 /***/ }),
-/* 229 */
+/* 247 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.get-prototype-of.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.get-prototype-of.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
 var toObject = __webpack_require__(/*! ./_to-object */ 57);
-var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ 119);
+var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ 126);
 
-__webpack_require__(/*! ./_object-sap */ 76)('getPrototypeOf', function () {
+__webpack_require__(/*! ./_object-sap */ 77)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
     return $getPrototypeOf(toObject(it));
   };
@@ -19439,19 +20581,19 @@ __webpack_require__(/*! ./_object-sap */ 76)('getPrototypeOf', function () {
 
 
 /***/ }),
-/* 230 */
+/* 248 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.keys.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.keys.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 Object.keys(O)
 var toObject = __webpack_require__(/*! ./_to-object */ 57);
 var $keys = __webpack_require__(/*! ./_object-keys */ 47);
 
-__webpack_require__(/*! ./_object-sap */ 76)('keys', function () {
+__webpack_require__(/*! ./_object-sap */ 77)('keys', function () {
   return function keys(it) {
     return $keys(toObject(it));
   };
@@ -19459,37 +20601,37 @@ __webpack_require__(/*! ./_object-sap */ 76)('keys', function () {
 
 
 /***/ }),
-/* 231 */
+/* 249 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.set-prototype-of.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.set-prototype-of.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
 var $export = __webpack_require__(/*! ./_export */ 30);
-$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ 217).set });
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ 235).set });
 
 
 /***/ }),
-/* 232 */
+/* 250 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.object.to-string.js ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.object.to-string.js ***!
+  \****************************************************************************************/
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 233 */
+/* 251 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es6.symbol.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es6.symbol.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19499,25 +20641,25 @@ var global = __webpack_require__(/*! ./_global */ 27);
 var has = __webpack_require__(/*! ./_has */ 31);
 var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ 29);
 var $export = __webpack_require__(/*! ./_export */ 30);
-var redefine = __webpack_require__(/*! ./_redefine */ 121);
-var META = __webpack_require__(/*! ./_meta */ 213).KEY;
+var redefine = __webpack_require__(/*! ./_redefine */ 128);
+var META = __webpack_require__(/*! ./_meta */ 231).KEY;
 var $fails = __webpack_require__(/*! ./_fails */ 38);
-var shared = __webpack_require__(/*! ./_shared */ 79);
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 77);
+var shared = __webpack_require__(/*! ./_shared */ 80);
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 78);
 var uid = __webpack_require__(/*! ./_uid */ 58);
 var wks = __webpack_require__(/*! ./_wks */ 25);
-var wksExt = __webpack_require__(/*! ./_wks-ext */ 83);
-var wksDefine = __webpack_require__(/*! ./_wks-define */ 82);
-var enumKeys = __webpack_require__(/*! ./_enum-keys */ 208);
-var isArray = __webpack_require__(/*! ./_is-array */ 210);
+var wksExt = __webpack_require__(/*! ./_wks-ext */ 84);
+var wksDefine = __webpack_require__(/*! ./_wks-define */ 83);
+var enumKeys = __webpack_require__(/*! ./_enum-keys */ 226);
+var isArray = __webpack_require__(/*! ./_is-array */ 228);
 var anObject = __webpack_require__(/*! ./_an-object */ 37);
 var isObject = __webpack_require__(/*! ./_is-object */ 40);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 33);
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 81);
+var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 82);
 var createDesc = __webpack_require__(/*! ./_property-desc */ 56);
-var _create = __webpack_require__(/*! ./_object-create */ 73);
-var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ 216);
-var $GOPD = __webpack_require__(/*! ./_object-gopd */ 74);
+var _create = __webpack_require__(/*! ./_object-create */ 74);
+var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ 234);
+var $GOPD = __webpack_require__(/*! ./_object-gopd */ 75);
 var $DP = __webpack_require__(/*! ./_object-dp */ 32);
 var $keys = __webpack_require__(/*! ./_object-keys */ 47);
 var gOPD = $GOPD.f;
@@ -19642,11 +20784,11 @@ if (!USE_NATIVE) {
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
-  __webpack_require__(/*! ./_object-gopn */ 118).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(/*! ./_object-gopn */ 125).f = gOPNExt.f = $getOwnPropertyNames;
   __webpack_require__(/*! ./_object-pie */ 55).f = $propertyIsEnumerable;
-  __webpack_require__(/*! ./_object-gops */ 75).f = $getOwnPropertySymbols;
+  __webpack_require__(/*! ./_object-gops */ 76).f = $getOwnPropertySymbols;
 
-  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ 72)) {
+  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ 73)) {
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
   }
 
@@ -19730,36 +20872,36 @@ setToStringTag(global.JSON, 'JSON', true);
 
 
 /***/ }),
-/* 234 */
+/* 252 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es7.symbol.async-iterator.js ***!
-  \******************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es7.symbol.async-iterator.js ***!
+  \*********************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./_wks-define */ 82)('asyncIterator');
+__webpack_require__(/*! ./_wks-define */ 83)('asyncIterator');
 
 
 /***/ }),
-/* 235 */
+/* 253 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/core-js/library/modules/es7.symbol.observable.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/core-js/library/modules/es7.symbol.observable.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./_wks-define */ 82)('observable');
+__webpack_require__(/*! ./_wks-define */ 83)('observable');
 
 
 /***/ }),
-/* 236 */
+/* 254 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/create-react-class/factory.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/create-react-class/factory.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19776,7 +20918,7 @@ __webpack_require__(/*! ./_wks-define */ 82)('observable');
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
 var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 59);
-var _invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var _invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 if (process.env.NODE_ENV !== 'production') {
   var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
@@ -20637,12 +21779,12 @@ module.exports = factory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../process/browser.js */ 1)))
 
 /***/ }),
-/* 237 */
+/* 255 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/dom-helpers/util/inDOM.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/dom-helpers/util/inDOM.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20655,12 +21797,12 @@ exports.default = !!(typeof window !== 'undefined' && window.document && window.
 module.exports = exports['default'];
 
 /***/ }),
-/* 238 */
+/* 256 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/camelize.js ***!
-  \**********************************************************************/
+/*!*************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/camelize.js ***!
+  \*************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20695,12 +21837,12 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 239 */
+/* 257 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/camelizeStyleName.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/camelizeStyleName.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20715,7 +21857,7 @@ module.exports = camelize;
 
 
 
-var camelize = __webpack_require__(/*! ./camelize */ 238);
+var camelize = __webpack_require__(/*! ./camelize */ 256);
 
 var msPattern = /^-ms-/;
 
@@ -20743,12 +21885,12 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 240 */
+/* 258 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/containsNode.js ***!
-  \**************************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/containsNode.js ***!
+  \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20763,7 +21905,7 @@ module.exports = camelizeStyleName;
  * 
  */
 
-var isTextNode = __webpack_require__(/*! ./isTextNode */ 248);
+var isTextNode = __webpack_require__(/*! ./isTextNode */ 266);
 
 /*eslint-disable no-bitwise */
 
@@ -20791,12 +21933,12 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 241 */
+/* 259 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/createArrayFromMixed.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/createArrayFromMixed.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20811,7 +21953,7 @@ module.exports = containsNode;
  * @typechecks
  */
 
-var invariant = __webpack_require__(/*! ./invariant */ 2);
+var invariant = __webpack_require__(/*! ./invariant */ 3);
 
 /**
  * Convert array-like objects to arrays.
@@ -20927,12 +22069,12 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 242 */
+/* 260 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/createNodesFromMarkup.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/createNodesFromMarkup.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20951,9 +22093,9 @@ module.exports = createArrayFromMixed;
 
 var ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 11);
 
-var createArrayFromMixed = __webpack_require__(/*! ./createArrayFromMixed */ 241);
-var getMarkupWrap = __webpack_require__(/*! ./getMarkupWrap */ 243);
-var invariant = __webpack_require__(/*! ./invariant */ 2);
+var createArrayFromMixed = __webpack_require__(/*! ./createArrayFromMixed */ 259);
+var getMarkupWrap = __webpack_require__(/*! ./getMarkupWrap */ 261);
+var invariant = __webpack_require__(/*! ./invariant */ 3);
 
 /**
  * Dummy container used to render all markup.
@@ -21020,12 +22162,12 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 243 */
+/* 261 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/getMarkupWrap.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/getMarkupWrap.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21043,7 +22185,7 @@ module.exports = createNodesFromMarkup;
 
 var ExecutionEnvironment = __webpack_require__(/*! ./ExecutionEnvironment */ 11);
 
-var invariant = __webpack_require__(/*! ./invariant */ 2);
+var invariant = __webpack_require__(/*! ./invariant */ 3);
 
 /**
  * Dummy container used to detect which wraps are necessary.
@@ -21124,12 +22266,12 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 244 */
+/* 262 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/getUnboundedScrollPosition.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/getUnboundedScrollPosition.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21171,12 +22313,12 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 245 */
+/* 263 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/hyphenate.js ***!
-  \***********************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/hyphenate.js ***!
+  \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21212,12 +22354,12 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 246 */
+/* 264 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/hyphenateStyleName.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/hyphenateStyleName.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21232,7 +22374,7 @@ module.exports = hyphenate;
 
 
 
-var hyphenate = __webpack_require__(/*! ./hyphenate */ 245);
+var hyphenate = __webpack_require__(/*! ./hyphenate */ 263);
 
 var msPattern = /^ms-/;
 
@@ -21259,12 +22401,12 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 247 */
+/* 265 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/isNode.js ***!
-  \********************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/isNode.js ***!
+  \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21292,12 +22434,12 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 248 */
+/* 266 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/isTextNode.js ***!
-  \************************************************************************/
+/*!***************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/isTextNode.js ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21312,7 +22454,7 @@ module.exports = isNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(/*! ./isNode */ 247);
+var isNode = __webpack_require__(/*! ./isNode */ 265);
 
 /**
  * @param {*} object The object to check.
@@ -21325,12 +22467,12 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 249 */
+/* 267 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/memoizeStringOnly.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/memoizeStringOnly.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21363,12 +22505,12 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 250 */
+/* 268 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/performance.js ***!
-  \*************************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/performance.js ***!
+  \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21394,12 +22536,12 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 251 */
+/* 269 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/fbjs/lib/performanceNow.js ***!
-  \****************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/fbjs/lib/performanceNow.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21414,7 +22556,7 @@ module.exports = performance || {};
  * @typechecks
  */
 
-var performance = __webpack_require__(/*! ./performance */ 250);
+var performance = __webpack_require__(/*! ./performance */ 268);
 
 var performanceNow;
 
@@ -21436,12 +22578,44 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 252 */
+/* 270 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/prop-types/checkPropTypes.js ***!
-  \******************************************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/is-buffer/index.js ***!
+  \***********************************************************/
+/***/ (function(module, exports) {
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+// The _isBuffer check is for Safari 5-7 support, because it's missing
+// Object.prototype.constructor. Remove this eventually
+module.exports = function (obj) {
+  return obj != null && (isBuffer(obj) || isSlowBuffer(obj) || !!obj._isBuffer)
+}
+
+function isBuffer (obj) {
+  return !!obj.constructor && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
+}
+
+// For Node v0.10 support. Remove this eventually.
+function isSlowBuffer (obj) {
+  return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
+}
+
+
+/***/ }),
+/* 271 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/prop-types/checkPropTypes.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21455,9 +22629,9 @@ module.exports = performanceNow;
 
 
 if (process.env.NODE_ENV !== 'production') {
-  var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+  var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
   var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 87);
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 88);
   var loggedTypeFailures = {};
 }
 
@@ -21508,12 +22682,12 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../process/browser.js */ 1)))
 
 /***/ }),
-/* 253 */
+/* 272 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/prop-types/factoryWithThrowingShims.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/prop-types/factoryWithThrowingShims.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21526,9 +22700,9 @@ module.exports = checkPropTypes;
 
 
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 87);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ 88);
 
 module.exports = function() {
   function shim(props, propName, componentName, location, propFullName, secret) {
@@ -21578,12 +22752,12 @@ module.exports = function() {
 
 
 /***/ }),
-/* 254 */
+/* 273 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ARIADOMPropertyConfig.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ARIADOMPropertyConfig.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21660,12 +22834,12 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 255 */
+/* 274 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/AutoFocusUtils.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/AutoFocusUtils.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21681,7 +22855,7 @@ module.exports = ARIADOMPropertyConfig;
 
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 
-var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ 125);
+var focusNode = __webpack_require__(/*! fbjs/lib/focusNode */ 132);
 
 var AutoFocusUtils = {
   focusDOMComponent: function () {
@@ -21692,12 +22866,12 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 256 */
+/* 275 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/BeforeInputEventPlugin.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/BeforeInputEventPlugin.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21713,9 +22887,9 @@ module.exports = AutoFocusUtils;
 
 var EventPropagators = __webpack_require__(/*! ./EventPropagators */ 49);
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
-var FallbackCompositionState = __webpack_require__(/*! ./FallbackCompositionState */ 262);
-var SyntheticCompositionEvent = __webpack_require__(/*! ./SyntheticCompositionEvent */ 305);
-var SyntheticInputEvent = __webpack_require__(/*! ./SyntheticInputEvent */ 308);
+var FallbackCompositionState = __webpack_require__(/*! ./FallbackCompositionState */ 281);
+var SyntheticCompositionEvent = __webpack_require__(/*! ./SyntheticCompositionEvent */ 324);
+var SyntheticInputEvent = __webpack_require__(/*! ./SyntheticInputEvent */ 327);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -22084,12 +23258,12 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 257 */
+/* 276 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/CSSPropertyOperations.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/CSSPropertyOperations.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22103,14 +23277,14 @@ module.exports = BeforeInputEventPlugin;
 
 
 
-var CSSProperty = __webpack_require__(/*! ./CSSProperty */ 129);
+var CSSProperty = __webpack_require__(/*! ./CSSProperty */ 136);
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 
-var camelizeStyleName = __webpack_require__(/*! fbjs/lib/camelizeStyleName */ 239);
-var dangerousStyleValue = __webpack_require__(/*! ./dangerousStyleValue */ 315);
-var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ 246);
-var memoizeStringOnly = __webpack_require__(/*! fbjs/lib/memoizeStringOnly */ 249);
+var camelizeStyleName = __webpack_require__(/*! fbjs/lib/camelizeStyleName */ 257);
+var dangerousStyleValue = __webpack_require__(/*! ./dangerousStyleValue */ 334);
+var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ 264);
+var memoizeStringOnly = __webpack_require__(/*! fbjs/lib/memoizeStringOnly */ 267);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -22308,12 +23482,12 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 258 */
+/* 277 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ChangeEventPlugin.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ChangeEventPlugin.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22334,10 +23508,10 @@ var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 1
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 var SyntheticEvent = __webpack_require__(/*! ./SyntheticEvent */ 26);
 
-var inputValueTracking = __webpack_require__(/*! ./inputValueTracking */ 146);
-var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 99);
-var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 100);
-var isTextInputElement = __webpack_require__(/*! ./isTextInputElement */ 148);
+var inputValueTracking = __webpack_require__(/*! ./inputValueTracking */ 153);
+var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 100);
+var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 101);
+var isTextInputElement = __webpack_require__(/*! ./isTextInputElement */ 155);
 
 var eventTypes = {
   change: {
@@ -22628,12 +23802,12 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 259 */
+/* 278 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/Danger.js ***!
-  \*************************************************************************/
+/*!****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/Danger.js ***!
+  \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22652,9 +23826,9 @@ var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 41);
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
 
-var createNodesFromMarkup = __webpack_require__(/*! fbjs/lib/createNodesFromMarkup */ 242);
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var createNodesFromMarkup = __webpack_require__(/*! fbjs/lib/createNodesFromMarkup */ 260);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 var Danger = {
   /**
@@ -22683,12 +23857,12 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 260 */
+/* 279 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/DefaultEventPluginOrder.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/DefaultEventPluginOrder.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22717,12 +23891,12 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 261 */
+/* 280 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/EnterLeaveEventPlugin.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/EnterLeaveEventPlugin.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22823,12 +23997,12 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 262 */
+/* 281 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/FallbackCompositionState.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/FallbackCompositionState.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22846,7 +24020,7 @@ var _assign = __webpack_require__(/*! object-assign */ 7);
 
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
 
-var getTextContentAccessor = __webpack_require__(/*! ./getTextContentAccessor */ 145);
+var getTextContentAccessor = __webpack_require__(/*! ./getTextContentAccessor */ 152);
 
 /**
  * This helper class stores information about text content of a target node,
@@ -22926,12 +24100,12 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 263 */
+/* 282 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/HTMLDOMPropertyConfig.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/HTMLDOMPropertyConfig.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23171,12 +24345,12 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 264 */
+/* 283 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactChildReconciler.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactChildReconciler.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23192,10 +24366,10 @@ module.exports = HTMLDOMPropertyConfig;
 
 var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 42);
 
-var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 147);
-var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 91);
-var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 101);
-var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 150);
+var instantiateReactComponent = __webpack_require__(/*! ./instantiateReactComponent */ 154);
+var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 92);
+var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 102);
+var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 157);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var ReactComponentTreeHook;
@@ -23333,12 +24507,12 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 265 */
+/* 284 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactComponentBrowserEnvironment.js ***!
-  \***************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactComponentBrowserEnvironment.js ***!
+  \******************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23352,8 +24526,8 @@ module.exports = ReactChildReconciler;
 
 
 
-var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 88);
-var ReactDOMIDOperations = __webpack_require__(/*! ./ReactDOMIDOperations */ 272);
+var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 89);
+var ReactDOMIDOperations = __webpack_require__(/*! ./ReactDOMIDOperations */ 291);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -23369,12 +24543,12 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 266 */
+/* 285 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactCompositeComponent.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactCompositeComponent.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23392,22 +24566,22 @@ var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
 var React = __webpack_require__(/*! react/lib/React */ 44);
-var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 93);
+var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 94);
 var ReactCurrentOwner = __webpack_require__(/*! react/lib/ReactCurrentOwner */ 23);
-var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 94);
+var ReactErrorUtils = __webpack_require__(/*! ./ReactErrorUtils */ 95);
 var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 50);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
-var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 139);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
+var ReactNodeTypes = __webpack_require__(/*! ./ReactNodeTypes */ 146);
 var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 42);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(/*! ./checkReactTypeSpec */ 314);
+  var checkReactTypeSpec = __webpack_require__(/*! ./checkReactTypeSpec */ 333);
 }
 
 var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ 59);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 86);
-var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 101);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 87);
+var shouldUpdateReactComponent = __webpack_require__(/*! ./shouldUpdateReactComponent */ 102);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var CompositeTypes = {
@@ -24278,12 +25452,12 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 267 */
+/* 286 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOM.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOM.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24300,15 +25474,15 @@ module.exports = ReactCompositeComponent;
 
 
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactDefaultInjection = __webpack_require__(/*! ./ReactDefaultInjection */ 284);
-var ReactMount = __webpack_require__(/*! ./ReactMount */ 138);
+var ReactDefaultInjection = __webpack_require__(/*! ./ReactDefaultInjection */ 303);
+var ReactMount = __webpack_require__(/*! ./ReactMount */ 145);
 var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 42);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
-var ReactVersion = __webpack_require__(/*! ./ReactVersion */ 299);
+var ReactVersion = __webpack_require__(/*! ./ReactVersion */ 318);
 
-var findDOMNode = __webpack_require__(/*! ./findDOMNode */ 316);
-var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 144);
-var renderSubtreeIntoContainer = __webpack_require__(/*! ./renderSubtreeIntoContainer */ 323);
+var findDOMNode = __webpack_require__(/*! ./findDOMNode */ 335);
+var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 151);
+var renderSubtreeIntoContainer = __webpack_require__(/*! ./renderSubtreeIntoContainer */ 342);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 ReactDefaultInjection.inject();
@@ -24384,10 +25558,10 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(/*! ./ReactDOMUnknownPropertyHook */ 281);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(/*! ./ReactDOMNullInputValuePropHook */ 275);
-  var ReactDOMInvalidARIAHook = __webpack_require__(/*! ./ReactDOMInvalidARIAHook */ 274);
+  var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(/*! ./ReactDOMUnknownPropertyHook */ 300);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(/*! ./ReactDOMNullInputValuePropHook */ 294);
+  var ReactDOMInvalidARIAHook = __webpack_require__(/*! ./ReactDOMInvalidARIAHook */ 293);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -24398,12 +25572,12 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 268 */
+/* 287 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMComponent.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMComponent.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24422,32 +25596,32 @@ module.exports = ReactDOM;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var AutoFocusUtils = __webpack_require__(/*! ./AutoFocusUtils */ 255);
-var CSSPropertyOperations = __webpack_require__(/*! ./CSSPropertyOperations */ 257);
+var AutoFocusUtils = __webpack_require__(/*! ./AutoFocusUtils */ 274);
+var CSSPropertyOperations = __webpack_require__(/*! ./CSSPropertyOperations */ 276);
 var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 41);
-var DOMNamespaces = __webpack_require__(/*! ./DOMNamespaces */ 89);
+var DOMNamespaces = __webpack_require__(/*! ./DOMNamespaces */ 90);
 var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 28);
-var DOMPropertyOperations = __webpack_require__(/*! ./DOMPropertyOperations */ 131);
+var DOMPropertyOperations = __webpack_require__(/*! ./DOMPropertyOperations */ 138);
 var EventPluginHub = __webpack_require__(/*! ./EventPluginHub */ 48);
 var EventPluginRegistry = __webpack_require__(/*! ./EventPluginRegistry */ 60);
 var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 61);
-var ReactDOMComponentFlags = __webpack_require__(/*! ./ReactDOMComponentFlags */ 132);
+var ReactDOMComponentFlags = __webpack_require__(/*! ./ReactDOMComponentFlags */ 139);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactDOMInput = __webpack_require__(/*! ./ReactDOMInput */ 273);
-var ReactDOMOption = __webpack_require__(/*! ./ReactDOMOption */ 276);
-var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 133);
-var ReactDOMTextarea = __webpack_require__(/*! ./ReactDOMTextarea */ 279);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
-var ReactMultiChild = __webpack_require__(/*! ./ReactMultiChild */ 292);
-var ReactServerRenderingTransaction = __webpack_require__(/*! ./ReactServerRenderingTransaction */ 297);
+var ReactDOMInput = __webpack_require__(/*! ./ReactDOMInput */ 292);
+var ReactDOMOption = __webpack_require__(/*! ./ReactDOMOption */ 295);
+var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 140);
+var ReactDOMTextarea = __webpack_require__(/*! ./ReactDOMTextarea */ 298);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
+var ReactMultiChild = __webpack_require__(/*! ./ReactMultiChild */ 311);
+var ReactServerRenderingTransaction = __webpack_require__(/*! ./ReactServerRenderingTransaction */ 316);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
 var escapeTextContentForBrowser = __webpack_require__(/*! ./escapeTextContentForBrowser */ 64);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 100);
-var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 86);
-var inputValueTracking = __webpack_require__(/*! ./inputValueTracking */ 146);
-var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 102);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var isEventSupported = __webpack_require__(/*! ./isEventSupported */ 101);
+var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 87);
+var inputValueTracking = __webpack_require__(/*! ./inputValueTracking */ 153);
+var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 103);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var Flags = ReactDOMComponentFlags;
@@ -25421,12 +26595,12 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 269 */
+/* 288 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMContainerInfo.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMContainerInfo.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25440,7 +26614,7 @@ module.exports = ReactDOMComponent;
 
 
 
-var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 102);
+var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 103);
 
 var DOC_NODE_TYPE = 9;
 
@@ -25463,12 +26637,12 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 270 */
+/* 289 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMEmptyComponent.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMEmptyComponent.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25531,12 +26705,12 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 271 */
+/* 290 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMFeatureFlags.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMFeatureFlags.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25558,12 +26732,12 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 272 */
+/* 291 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMIDOperations.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMIDOperations.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25577,7 +26751,7 @@ module.exports = ReactDOMFeatureFlags;
 
 
 
-var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 88);
+var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 89);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 
 /**
@@ -25599,12 +26773,12 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 273 */
+/* 292 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMInput.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMInput.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25621,12 +26795,12 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var DOMPropertyOperations = __webpack_require__(/*! ./DOMPropertyOperations */ 131);
-var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 92);
+var DOMPropertyOperations = __webpack_require__(/*! ./DOMPropertyOperations */ 138);
+var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 93);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var didWarnValueLink = false;
@@ -25895,12 +27069,12 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 274 */
+/* 293 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMInvalidARIAHook.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMInvalidARIAHook.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25997,12 +27171,12 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 275 */
+/* 294 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMNullInputValuePropHook.js ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMNullInputValuePropHook.js ***!
+  \****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26049,12 +27223,12 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 276 */
+/* 295 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMOption.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMOption.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26072,7 +27246,7 @@ var _assign = __webpack_require__(/*! object-assign */ 7);
 
 var React = __webpack_require__(/*! react/lib/React */ 44);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 133);
+var ReactDOMSelect = __webpack_require__(/*! ./ReactDOMSelect */ 140);
 
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 var didWarnInvalidOptionChildren = false;
@@ -26180,12 +27354,12 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 277 */
+/* 296 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMSelection.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMSelection.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26201,8 +27375,8 @@ module.exports = ReactDOMOption;
 
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
 
-var getNodeForCharacterOffset = __webpack_require__(/*! ./getNodeForCharacterOffset */ 320);
-var getTextContentAccessor = __webpack_require__(/*! ./getTextContentAccessor */ 145);
+var getNodeForCharacterOffset = __webpack_require__(/*! ./getNodeForCharacterOffset */ 339);
+var getTextContentAccessor = __webpack_require__(/*! ./getTextContentAccessor */ 152);
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -26400,12 +27574,12 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 278 */
+/* 297 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMTextComponent.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMTextComponent.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26422,13 +27596,13 @@ module.exports = ReactDOMSelection;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 88);
+var DOMChildrenOperations = __webpack_require__(/*! ./DOMChildrenOperations */ 89);
 var DOMLazyTree = __webpack_require__(/*! ./DOMLazyTree */ 41);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 
 var escapeTextContentForBrowser = __webpack_require__(/*! ./escapeTextContentForBrowser */ 64);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 102);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var validateDOMNesting = __webpack_require__(/*! ./validateDOMNesting */ 103);
 
 /**
  * Text nodes violate a couple assumptions that React makes about components:
@@ -26571,12 +27745,12 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 279 */
+/* 298 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMTextarea.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMTextarea.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26593,11 +27767,11 @@ module.exports = ReactDOMTextComponent;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5),
     _assign = __webpack_require__(/*! object-assign */ 7);
 
-var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 92);
+var LinkedValueUtils = __webpack_require__(/*! ./LinkedValueUtils */ 93);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var didWarnValueLink = false;
@@ -26740,12 +27914,12 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 280 */
+/* 299 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMTreeTraversal.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMTreeTraversal.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26761,7 +27935,7 @@ module.exports = ReactDOMTextarea;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Return the lowest common ancestor of A and B, or null if they are in
@@ -26885,12 +28059,12 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 281 */
+/* 300 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDOMUnknownPropertyHook.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDOMUnknownPropertyHook.js ***!
+  \*************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27006,12 +28180,12 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 282 */
+/* 301 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDebugTool.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDebugTool.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27026,12 +28200,12 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(/*! ./ReactInvalidSetStateWarningHook */ 290);
-var ReactHostOperationHistoryHook = __webpack_require__(/*! ./ReactHostOperationHistoryHook */ 288);
+var ReactInvalidSetStateWarningHook = __webpack_require__(/*! ./ReactInvalidSetStateWarningHook */ 309);
+var ReactHostOperationHistoryHook = __webpack_require__(/*! ./ReactHostOperationHistoryHook */ 307);
 var ReactComponentTreeHook = __webpack_require__(/*! react/lib/ReactComponentTreeHook */ 18);
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
 
-var performanceNow = __webpack_require__(/*! fbjs/lib/performanceNow */ 251);
+var performanceNow = __webpack_require__(/*! fbjs/lib/performanceNow */ 269);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var hooks = [];
@@ -27376,12 +28550,12 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 283 */
+/* 302 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDefaultBatchingStrategy.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDefaultBatchingStrategy.js ***!
+  \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27400,7 +28574,7 @@ var _assign = __webpack_require__(/*! object-assign */ 7);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 var Transaction = __webpack_require__(/*! ./Transaction */ 63);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
 
 var RESET_BATCHED_UPDATES = {
   initialize: emptyFunction,
@@ -27452,12 +28626,12 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 284 */
+/* 303 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactDefaultInjection.js ***!
-  \****************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactDefaultInjection.js ***!
+  \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27471,25 +28645,25 @@ module.exports = ReactDefaultBatchingStrategy;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(/*! ./ARIADOMPropertyConfig */ 254);
-var BeforeInputEventPlugin = __webpack_require__(/*! ./BeforeInputEventPlugin */ 256);
-var ChangeEventPlugin = __webpack_require__(/*! ./ChangeEventPlugin */ 258);
-var DefaultEventPluginOrder = __webpack_require__(/*! ./DefaultEventPluginOrder */ 260);
-var EnterLeaveEventPlugin = __webpack_require__(/*! ./EnterLeaveEventPlugin */ 261);
-var HTMLDOMPropertyConfig = __webpack_require__(/*! ./HTMLDOMPropertyConfig */ 263);
-var ReactComponentBrowserEnvironment = __webpack_require__(/*! ./ReactComponentBrowserEnvironment */ 265);
-var ReactDOMComponent = __webpack_require__(/*! ./ReactDOMComponent */ 268);
+var ARIADOMPropertyConfig = __webpack_require__(/*! ./ARIADOMPropertyConfig */ 273);
+var BeforeInputEventPlugin = __webpack_require__(/*! ./BeforeInputEventPlugin */ 275);
+var ChangeEventPlugin = __webpack_require__(/*! ./ChangeEventPlugin */ 277);
+var DefaultEventPluginOrder = __webpack_require__(/*! ./DefaultEventPluginOrder */ 279);
+var EnterLeaveEventPlugin = __webpack_require__(/*! ./EnterLeaveEventPlugin */ 280);
+var HTMLDOMPropertyConfig = __webpack_require__(/*! ./HTMLDOMPropertyConfig */ 282);
+var ReactComponentBrowserEnvironment = __webpack_require__(/*! ./ReactComponentBrowserEnvironment */ 284);
+var ReactDOMComponent = __webpack_require__(/*! ./ReactDOMComponent */ 287);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactDOMEmptyComponent = __webpack_require__(/*! ./ReactDOMEmptyComponent */ 270);
-var ReactDOMTreeTraversal = __webpack_require__(/*! ./ReactDOMTreeTraversal */ 280);
-var ReactDOMTextComponent = __webpack_require__(/*! ./ReactDOMTextComponent */ 278);
-var ReactDefaultBatchingStrategy = __webpack_require__(/*! ./ReactDefaultBatchingStrategy */ 283);
-var ReactEventListener = __webpack_require__(/*! ./ReactEventListener */ 287);
-var ReactInjection = __webpack_require__(/*! ./ReactInjection */ 289);
-var ReactReconcileTransaction = __webpack_require__(/*! ./ReactReconcileTransaction */ 295);
-var SVGDOMPropertyConfig = __webpack_require__(/*! ./SVGDOMPropertyConfig */ 300);
-var SelectEventPlugin = __webpack_require__(/*! ./SelectEventPlugin */ 301);
-var SimpleEventPlugin = __webpack_require__(/*! ./SimpleEventPlugin */ 302);
+var ReactDOMEmptyComponent = __webpack_require__(/*! ./ReactDOMEmptyComponent */ 289);
+var ReactDOMTreeTraversal = __webpack_require__(/*! ./ReactDOMTreeTraversal */ 299);
+var ReactDOMTextComponent = __webpack_require__(/*! ./ReactDOMTextComponent */ 297);
+var ReactDefaultBatchingStrategy = __webpack_require__(/*! ./ReactDefaultBatchingStrategy */ 302);
+var ReactEventListener = __webpack_require__(/*! ./ReactEventListener */ 306);
+var ReactInjection = __webpack_require__(/*! ./ReactInjection */ 308);
+var ReactReconcileTransaction = __webpack_require__(/*! ./ReactReconcileTransaction */ 314);
+var SVGDOMPropertyConfig = __webpack_require__(/*! ./SVGDOMPropertyConfig */ 319);
+var SelectEventPlugin = __webpack_require__(/*! ./SelectEventPlugin */ 320);
+var SimpleEventPlugin = __webpack_require__(/*! ./SimpleEventPlugin */ 321);
 
 var alreadyInjected = false;
 
@@ -27546,12 +28720,12 @@ module.exports = {
 };
 
 /***/ }),
-/* 285 */
+/* 304 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactElementSymbol.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactElementSymbol.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27574,12 +28748,12 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 286 */
+/* 305 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactEventEmitterMixin.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactEventEmitterMixin.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27614,12 +28788,12 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 287 */
+/* 306 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactEventListener.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactEventListener.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27635,14 +28809,14 @@ module.exports = ReactEventEmitterMixin;
 
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
-var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 124);
+var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 131);
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
-var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 99);
-var getUnboundedScrollPosition = __webpack_require__(/*! fbjs/lib/getUnboundedScrollPosition */ 244);
+var getEventTarget = __webpack_require__(/*! ./getEventTarget */ 100);
+var getUnboundedScrollPosition = __webpack_require__(/*! fbjs/lib/getUnboundedScrollPosition */ 262);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -27777,12 +28951,12 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 288 */
+/* 307 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactHostOperationHistoryHook.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactHostOperationHistoryHook.js ***!
+  \***************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27819,12 +28993,12 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 289 */
+/* 308 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactInjection.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactInjection.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27840,11 +29014,11 @@ module.exports = ReactHostOperationHistoryHook;
 
 var DOMProperty = __webpack_require__(/*! ./DOMProperty */ 28);
 var EventPluginHub = __webpack_require__(/*! ./EventPluginHub */ 48);
-var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 90);
-var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 93);
-var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 134);
+var EventPluginUtils = __webpack_require__(/*! ./EventPluginUtils */ 91);
+var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 94);
+var ReactEmptyComponent = __webpack_require__(/*! ./ReactEmptyComponent */ 141);
 var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 61);
-var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 136);
+var ReactHostComponent = __webpack_require__(/*! ./ReactHostComponent */ 143);
 var ReactUpdates = __webpack_require__(/*! ./ReactUpdates */ 22);
 
 var ReactInjection = {
@@ -27861,12 +29035,12 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 290 */
+/* 309 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactInvalidSetStateWarningHook.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactInvalidSetStateWarningHook.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27907,12 +29081,12 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 291 */
+/* 310 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactMarkupChecksum.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactMarkupChecksum.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27926,7 +29100,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 
 
 
-var adler32 = __webpack_require__(/*! ./adler32 */ 313);
+var adler32 = __webpack_require__(/*! ./adler32 */ 332);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -27965,12 +29139,12 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 292 */
+/* 311 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactMultiChild.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactMultiChild.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27986,17 +29160,17 @@ module.exports = ReactMarkupChecksum;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 93);
+var ReactComponentEnvironment = __webpack_require__(/*! ./ReactComponentEnvironment */ 94);
 var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 50);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 
 var ReactCurrentOwner = __webpack_require__(/*! react/lib/ReactCurrentOwner */ 23);
 var ReactReconciler = __webpack_require__(/*! ./ReactReconciler */ 42);
-var ReactChildReconciler = __webpack_require__(/*! ./ReactChildReconciler */ 264);
+var ReactChildReconciler = __webpack_require__(/*! ./ReactChildReconciler */ 283);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
-var flattenChildren = __webpack_require__(/*! ./flattenChildren */ 317);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
+var flattenChildren = __webpack_require__(/*! ./flattenChildren */ 336);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Make an update for markup to be rendered and inserted at a supplied index.
@@ -28420,12 +29594,12 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 293 */
+/* 312 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactOwner.js ***!
-  \*****************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactOwner.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28442,7 +29616,7 @@ module.exports = ReactMultiChild;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * @param {?object} object
@@ -28522,12 +29696,12 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 294 */
+/* 313 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactPropTypeLocationNames.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactPropTypeLocationNames.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28556,12 +29730,12 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 295 */
+/* 314 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactReconcileTransaction.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactReconcileTransaction.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28577,13 +29751,13 @@ module.exports = ReactPropTypeLocationNames;
 
 var _assign = __webpack_require__(/*! object-assign */ 7);
 
-var CallbackQueue = __webpack_require__(/*! ./CallbackQueue */ 130);
+var CallbackQueue = __webpack_require__(/*! ./CallbackQueue */ 137);
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
 var ReactBrowserEventEmitter = __webpack_require__(/*! ./ReactBrowserEventEmitter */ 61);
-var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 137);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
+var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 144);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
 var Transaction = __webpack_require__(/*! ./Transaction */ 63);
-var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 95);
+var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 96);
 
 /**
  * Ensures that, when possible, the selection range (currently selected text
@@ -28743,12 +29917,12 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 296 */
+/* 315 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactRef.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactRef.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28763,7 +29937,7 @@ module.exports = ReactReconcileTransaction;
 
 
 
-var ReactOwner = __webpack_require__(/*! ./ReactOwner */ 293);
+var ReactOwner = __webpack_require__(/*! ./ReactOwner */ 312);
 
 var ReactRef = {};
 
@@ -28840,12 +30014,12 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 297 */
+/* 316 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactServerRenderingTransaction.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactServerRenderingTransaction.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28863,8 +30037,8 @@ var _assign = __webpack_require__(/*! object-assign */ 7);
 
 var PooledClass = __webpack_require__(/*! ./PooledClass */ 34);
 var Transaction = __webpack_require__(/*! ./Transaction */ 63);
-var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 20);
-var ReactServerUpdateQueue = __webpack_require__(/*! ./ReactServerUpdateQueue */ 298);
+var ReactInstrumentation = __webpack_require__(/*! ./ReactInstrumentation */ 21);
+var ReactServerUpdateQueue = __webpack_require__(/*! ./ReactServerUpdateQueue */ 317);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -28939,12 +30113,12 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 298 */
+/* 317 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactServerUpdateQueue.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactServerUpdateQueue.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28961,7 +30135,7 @@ module.exports = ReactServerRenderingTransaction;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 95);
+var ReactUpdateQueue = __webpack_require__(/*! ./ReactUpdateQueue */ 96);
 
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
@@ -29087,12 +30261,12 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 299 */
+/* 318 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/ReactVersion.js ***!
-  \*******************************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/ReactVersion.js ***!
+  \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29109,12 +30283,12 @@ module.exports = ReactServerUpdateQueue;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 300 */
+/* 319 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SVGDOMPropertyConfig.js ***!
-  \***************************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SVGDOMPropertyConfig.js ***!
+  \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29419,12 +30593,12 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 301 */
+/* 320 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SelectEventPlugin.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SelectEventPlugin.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29441,12 +30615,12 @@ module.exports = SVGDOMPropertyConfig;
 var EventPropagators = __webpack_require__(/*! ./EventPropagators */ 49);
 var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ 11);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 137);
+var ReactInputSelection = __webpack_require__(/*! ./ReactInputSelection */ 144);
 var SyntheticEvent = __webpack_require__(/*! ./SyntheticEvent */ 26);
 
-var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 126);
-var isTextInputElement = __webpack_require__(/*! ./isTextInputElement */ 148);
-var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 86);
+var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ 133);
+var isTextInputElement = __webpack_require__(/*! ./isTextInputElement */ 155);
+var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ 87);
 
 var skipSelectionChangeEvent = ExecutionEnvironment.canUseDOM && 'documentMode' in document && document.documentMode <= 11;
 
@@ -29615,12 +30789,12 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 302 */
+/* 321 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SimpleEventPlugin.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SimpleEventPlugin.js ***!
+  \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29637,24 +30811,24 @@ module.exports = SelectEventPlugin;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 124);
+var EventListener = __webpack_require__(/*! fbjs/lib/EventListener */ 131);
 var EventPropagators = __webpack_require__(/*! ./EventPropagators */ 49);
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
-var SyntheticAnimationEvent = __webpack_require__(/*! ./SyntheticAnimationEvent */ 303);
-var SyntheticClipboardEvent = __webpack_require__(/*! ./SyntheticClipboardEvent */ 304);
+var SyntheticAnimationEvent = __webpack_require__(/*! ./SyntheticAnimationEvent */ 322);
+var SyntheticClipboardEvent = __webpack_require__(/*! ./SyntheticClipboardEvent */ 323);
 var SyntheticEvent = __webpack_require__(/*! ./SyntheticEvent */ 26);
-var SyntheticFocusEvent = __webpack_require__(/*! ./SyntheticFocusEvent */ 307);
-var SyntheticKeyboardEvent = __webpack_require__(/*! ./SyntheticKeyboardEvent */ 309);
+var SyntheticFocusEvent = __webpack_require__(/*! ./SyntheticFocusEvent */ 326);
+var SyntheticKeyboardEvent = __webpack_require__(/*! ./SyntheticKeyboardEvent */ 328);
 var SyntheticMouseEvent = __webpack_require__(/*! ./SyntheticMouseEvent */ 62);
-var SyntheticDragEvent = __webpack_require__(/*! ./SyntheticDragEvent */ 306);
-var SyntheticTouchEvent = __webpack_require__(/*! ./SyntheticTouchEvent */ 310);
-var SyntheticTransitionEvent = __webpack_require__(/*! ./SyntheticTransitionEvent */ 311);
+var SyntheticDragEvent = __webpack_require__(/*! ./SyntheticDragEvent */ 325);
+var SyntheticTouchEvent = __webpack_require__(/*! ./SyntheticTouchEvent */ 329);
+var SyntheticTransitionEvent = __webpack_require__(/*! ./SyntheticTransitionEvent */ 330);
 var SyntheticUIEvent = __webpack_require__(/*! ./SyntheticUIEvent */ 51);
-var SyntheticWheelEvent = __webpack_require__(/*! ./SyntheticWheelEvent */ 312);
+var SyntheticWheelEvent = __webpack_require__(/*! ./SyntheticWheelEvent */ 331);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
-var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 97);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
+var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 98);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Turns
@@ -29850,12 +31024,12 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 303 */
+/* 322 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticAnimationEvent.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticAnimationEvent.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29897,12 +31071,12 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 304 */
+/* 323 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticClipboardEvent.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticClipboardEvent.js ***!
+  \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29943,12 +31117,12 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 305 */
+/* 324 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticCompositionEvent.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticCompositionEvent.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29987,12 +31161,12 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 306 */
+/* 325 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticDragEvent.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticDragEvent.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30031,12 +31205,12 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 307 */
+/* 326 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticFocusEvent.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticFocusEvent.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30075,12 +31249,12 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 308 */
+/* 327 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticInputEvent.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticInputEvent.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30120,12 +31294,12 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 309 */
+/* 328 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticKeyboardEvent.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticKeyboardEvent.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30141,9 +31315,9 @@ module.exports = SyntheticInputEvent;
 
 var SyntheticUIEvent = __webpack_require__(/*! ./SyntheticUIEvent */ 51);
 
-var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 97);
-var getEventKey = __webpack_require__(/*! ./getEventKey */ 318);
-var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 98);
+var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 98);
+var getEventKey = __webpack_require__(/*! ./getEventKey */ 337);
+var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 99);
 
 /**
  * @interface KeyboardEvent
@@ -30212,12 +31386,12 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 310 */
+/* 329 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticTouchEvent.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticTouchEvent.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30233,7 +31407,7 @@ module.exports = SyntheticKeyboardEvent;
 
 var SyntheticUIEvent = __webpack_require__(/*! ./SyntheticUIEvent */ 51);
 
-var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 98);
+var getEventModifierState = __webpack_require__(/*! ./getEventModifierState */ 99);
 
 /**
  * @interface TouchEvent
@@ -30265,12 +31439,12 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 311 */
+/* 330 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticTransitionEvent.js ***!
-  \*******************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticTransitionEvent.js ***!
+  \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30312,12 +31486,12 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 312 */
+/* 331 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/SyntheticWheelEvent.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/SyntheticWheelEvent.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30371,12 +31545,12 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 313 */
+/* 332 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/adler32.js ***!
-  \**************************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/adler32.js ***!
+  \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30423,12 +31597,12 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 314 */
+/* 333 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/checkReactTypeSpec.js ***!
-  \*************************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/checkReactTypeSpec.js ***!
+  \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30444,10 +31618,10 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 5);
 
-var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 294);
-var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 140);
+var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 313);
+var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 147);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var ReactComponentTreeHook;
@@ -30519,12 +31693,12 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 315 */
+/* 334 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/dangerousStyleValue.js ***!
-  \**************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/dangerousStyleValue.js ***!
+  \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30538,7 +31712,7 @@ module.exports = checkReactTypeSpec;
 
 
 
-var CSSProperty = __webpack_require__(/*! ./CSSProperty */ 129);
+var CSSProperty = __webpack_require__(/*! ./CSSProperty */ 136);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
@@ -30607,12 +31781,12 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 316 */
+/* 335 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/findDOMNode.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/findDOMNode.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30632,8 +31806,8 @@ var ReactCurrentOwner = __webpack_require__(/*! react/lib/ReactCurrentOwner */ 2
 var ReactDOMComponentTree = __webpack_require__(/*! ./ReactDOMComponentTree */ 10);
 var ReactInstanceMap = __webpack_require__(/*! ./ReactInstanceMap */ 50);
 
-var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 144);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var getHostComponentFromComposite = __webpack_require__(/*! ./getHostComponentFromComposite */ 151);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 /**
@@ -30676,12 +31850,12 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 317 */
+/* 336 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/flattenChildren.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/flattenChildren.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30696,8 +31870,8 @@ module.exports = findDOMNode;
 
 
 
-var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 91);
-var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 150);
+var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 92);
+var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 157);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var ReactComponentTreeHook;
@@ -30761,12 +31935,12 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 318 */
+/* 337 */
 /* no static exports found */
 /* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getEventKey.js ***!
-  \******************************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getEventKey.js ***!
+  \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30780,7 +31954,7 @@ module.exports = flattenChildren;
 
 
 
-var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 97);
+var getEventCharCode = __webpack_require__(/*! ./getEventCharCode */ 98);
 
 /**
  * Normalization of deprecated HTML5 `key` values
@@ -30881,12 +32055,12 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 319 */
+/* 338 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getIteratorFn.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getIteratorFn.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30930,12 +32104,12 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 320 */
+/* 339 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getNodeForCharacterOffset.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getNodeForCharacterOffset.js ***!
+  \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31012,12 +32186,12 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 321 */
+/* 340 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/getVendorPrefixedEventName.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/getVendorPrefixedEventName.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31121,12 +32295,12 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 322 */
+/* 341 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/quoteAttributeValueForBrowser.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/quoteAttributeValueForBrowser.js ***!
+  \***************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31155,12 +32329,12 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 323 */
+/* 342 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-dom/lib/renderSubtreeIntoContainer.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-dom/lib/renderSubtreeIntoContainer.js ***!
+  \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31174,21 +32348,21 @@ module.exports = quoteAttributeValueForBrowser;
 
 
 
-var ReactMount = __webpack_require__(/*! ./ReactMount */ 138);
+var ReactMount = __webpack_require__(/*! ./ReactMount */ 145);
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 324 */
+/* 343 */
 /* exports provided: default, ArrowKeyStepper */
 /* exports used: ArrowKeyStepper */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ArrowKeyStepper/index.js ***!
-  \****************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ArrowKeyStepper/index.js ***!
+  \*******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ArrowKeyStepper__ = __webpack_require__(/*! ./ArrowKeyStepper */ 151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ArrowKeyStepper__ = __webpack_require__(/*! ./ArrowKeyStepper */ 158);
 /* unused harmony reexport default */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ArrowKeyStepper__["a"]; });
 
@@ -31198,12 +32372,12 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 
 
 /***/ }),
-/* 325 */
+/* 344 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ArrowKeyStepper/types.js ***!
-  \****************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ArrowKeyStepper/types.js ***!
+  \*******************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 var babelPluginFlowReactPropTypes_proptype_ScrollIndices = {
@@ -31216,46 +32390,46 @@ if (true) Object.defineProperty(exports, "babelPluginFlowReactPropTypes_proptype
 });
 
 /***/ }),
-/* 326 */
+/* 345 */
 /* exports provided: default, AutoSizer */
 /* exports used: AutoSizer */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/AutoSizer/index.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/AutoSizer/index.js ***!
+  \*************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AutoSizer__ = __webpack_require__(/*! ./AutoSizer */ 152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AutoSizer__ = __webpack_require__(/*! ./AutoSizer */ 159);
 /* unused harmony reexport default */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__AutoSizer__["a"]; });
 
 
 
 /***/ }),
-/* 327 */
+/* 346 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/CellMeasurer/CellMeasurer.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/CellMeasurer/CellMeasurer.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom__ = __webpack_require__(/*! react-dom */ 54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__CellMeasurerCache_js__ = __webpack_require__(/*! ./CellMeasurerCache.js */ 153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__CellMeasurerCache_js__ = __webpack_require__(/*! ./CellMeasurerCache.js */ 160);
 
 
 
@@ -31429,36 +32603,36 @@ if (process.env.NODE_ENV !== 'production') {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 328 */
+/* 347 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/Collection.js ***!
-  \****************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/Collection.js ***!
+  \*******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CollectionView__ = __webpack_require__(/*! ./CollectionView */ 329);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_calculateSizeAndPositionData__ = __webpack_require__(/*! ./utils/calculateSizeAndPositionData */ 333);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_getUpdatedOffsetForIndex__ = __webpack_require__(/*! ../utils/getUpdatedOffsetForIndex */ 358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CollectionView__ = __webpack_require__(/*! ./CollectionView */ 348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_calculateSizeAndPositionData__ = __webpack_require__(/*! ./utils/calculateSizeAndPositionData */ 352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_getUpdatedOffsetForIndex__ = __webpack_require__(/*! ../utils/getUpdatedOffsetForIndex */ 377);
 
 
 
@@ -31750,35 +32924,35 @@ function defaultCellGroupRenderer(_ref4) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 329 */
+/* 348 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/CollectionView.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/CollectionView.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_classnames__ = __webpack_require__(/*! classnames */ 36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_createCallbackMemoizer__ = __webpack_require__(/*! ../utils/createCallbackMemoizer */ 106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_helpers_util_scrollbarSize__ = __webpack_require__(/*! dom-helpers/util/scrollbarSize */ 122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_createCallbackMemoizer__ = __webpack_require__(/*! ../utils/createCallbackMemoizer */ 107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_helpers_util_scrollbarSize__ = __webpack_require__(/*! dom-helpers/util/scrollbarSize */ 129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_helpers_util_scrollbarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_dom_helpers_util_scrollbarSize__);
 
 
@@ -32412,12 +33586,12 @@ CollectionView.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 330 */
+/* 349 */
 /* exports provided: default */
 /* exports used: default */
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/Section.js ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/Section.js ***!
+  \****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32494,22 +33668,22 @@ var Section = function () {
 /* harmony default export */ __webpack_exports__["a"] = (Section);
 
 /***/ }),
-/* 331 */
+/* 350 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/SectionManager.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/SectionManager.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys__ = __webpack_require__(/*! babel-runtime/core-js/object/keys */ 110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys__ = __webpack_require__(/*! babel-runtime/core-js/object/keys */ 117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_keys__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Section__ = __webpack_require__(/*! ./Section */ 330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Section__ = __webpack_require__(/*! ./Section */ 349);
 
 
 
@@ -32660,16 +33834,16 @@ var SectionManager = function () {
 /* harmony default export */ __webpack_exports__["a"] = (SectionManager);
 
 /***/ }),
-/* 332 */
+/* 351 */
 /* exports provided: default, Collection */
 /* exports used: Collection */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/index.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/index.js ***!
+  \**************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Collection__ = __webpack_require__(/*! ./Collection */ 328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Collection__ = __webpack_require__(/*! ./Collection */ 347);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__Collection__["a"]; });
 
 
@@ -32677,17 +33851,17 @@ var SectionManager = function () {
 
 
 /***/ }),
-/* 333 */
+/* 352 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Collection/utils/calculateSizeAndPositionData.js ***!
-  \****************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Collection/utils/calculateSizeAndPositionData.js ***!
+  \*******************************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = calculateSizeAndPositionData;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SectionManager__ = __webpack_require__(/*! ../SectionManager */ 331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SectionManager__ = __webpack_require__(/*! ../SectionManager */ 350);
 
 
 function calculateSizeAndPositionData(_ref) {
@@ -32726,28 +33900,28 @@ function calculateSizeAndPositionData(_ref) {
 }
 
 /***/ }),
-/* 334 */
+/* 353 */
 /* exports provided: default */
 /* exports used: default */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ColumnSizer/ColumnSizer.js ***!
-  \******************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ColumnSizer/ColumnSizer.js ***!
+  \*********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 
 
@@ -32866,16 +34040,16 @@ ColumnSizer.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 335 */
+/* 354 */
 /* exports provided: default, ColumnSizer */
 /* exports used: ColumnSizer */
-/*!************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ColumnSizer/index.js ***!
-  \************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ColumnSizer/index.js ***!
+  \***************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ColumnSizer__ = __webpack_require__(/*! ./ColumnSizer */ 334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ColumnSizer__ = __webpack_require__(/*! ./ColumnSizer */ 353);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ColumnSizer__["a"]; });
 
 
@@ -32883,12 +34057,12 @@ ColumnSizer.propTypes = process.env.NODE_ENV !== "production" ? {
 
 
 /***/ }),
-/* 336 */
+/* 355 */
 /* exports provided: SCROLL_DIRECTION_BACKWARD, SCROLL_DIRECTION_FORWARD, SCROLL_DIRECTION_HORIZONTAL, SCROLL_DIRECTION_VERTICAL, default */
 /* exports used: default */
-/*!**********************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/accessibilityOverscanIndicesGetter.js ***!
-  \**********************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/accessibilityOverscanIndicesGetter.js ***!
+  \*************************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32938,12 +34112,12 @@ function defaultOverscanIndicesGetter(_ref) {
 }
 
 /***/ }),
-/* 337 */
+/* 356 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/CellSizeAndPositionManager.js ***!
-  \********************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/CellSizeAndPositionManager.js ***!
+  \***********************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33274,12 +34448,12 @@ var CellSizeAndPositionManager = function () {
 /* harmony default export */ __webpack_exports__["a"] = (CellSizeAndPositionManager);
 
 /***/ }),
-/* 338 */
+/* 357 */
 /* exports provided: default */
 /* exports used: default */
-/*!*******************************************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/calculateSizeAndPositionDataAndUpdateScrollOffset.js ***!
-  \*******************************************************************************************************************************************/
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/calculateSizeAndPositionDataAndUpdateScrollOffset.js ***!
+  \**********************************************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33315,17 +34489,17 @@ function calculateSizeAndPositionDataAndUpdateScrollOffset(_ref) {
  */
 
 /***/ }),
-/* 339 */
+/* 358 */
 /* exports provided: default */
 /* exports used: default */
-/*!*****************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/updateScrollIndexHelper.js ***!
-  \*****************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Grid/utils/updateScrollIndexHelper.js ***!
+  \********************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = updateScrollIndexHelper;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ScalingCellSizeAndPositionManager_js__ = __webpack_require__(/*! ./ScalingCellSizeAndPositionManager.js */ 103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ScalingCellSizeAndPositionManager_js__ = __webpack_require__(/*! ./ScalingCellSizeAndPositionManager.js */ 104);
 var babelPluginFlowReactPropTypes_proptype_CellSize = __webpack_require__(/*! ../types */ 6).babelPluginFlowReactPropTypes_proptype_CellSize || __webpack_require__(/*! prop-types */ 0).any;
 
 var babelPluginFlowReactPropTypes_proptype_Alignment = __webpack_require__(/*! ../types */ 6).babelPluginFlowReactPropTypes_proptype_Alignment || __webpack_require__(/*! prop-types */ 0).any;
@@ -33375,33 +34549,33 @@ function updateScrollIndexHelper(_ref) {
 }
 
 /***/ }),
-/* 340 */
+/* 359 */
 /* exports provided: default, isRangeVisible, scanForUnloadedRanges, forceUpdateReactVirtualizedComponent */
 /* exports used: default */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/InfiniteLoader/InfiniteLoader.js ***!
-  \************************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/InfiniteLoader/InfiniteLoader.js ***!
+  \***************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* unused harmony export isRangeVisible */
 /* unused harmony export scanForUnloadedRanges */
 /* unused harmony export forceUpdateReactVirtualizedComponent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_createCallbackMemoizer__ = __webpack_require__(/*! ../utils/createCallbackMemoizer */ 106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_createCallbackMemoizer__ = __webpack_require__(/*! ../utils/createCallbackMemoizer */ 107);
 
 
 
@@ -33693,16 +34867,16 @@ function forceUpdateReactVirtualizedComponent(component) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 341 */
+/* 360 */
 /* exports provided: default, InfiniteLoader */
 /* exports used: InfiniteLoader */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/InfiniteLoader/index.js ***!
-  \***************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/InfiniteLoader/index.js ***!
+  \******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__InfiniteLoader__ = __webpack_require__(/*! ./InfiniteLoader */ 340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__InfiniteLoader__ = __webpack_require__(/*! ./InfiniteLoader */ 359);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__InfiniteLoader__["a"]; });
 
 
@@ -33710,16 +34884,16 @@ function forceUpdateReactVirtualizedComponent(component) {
 
 
 /***/ }),
-/* 342 */
+/* 361 */
 /* exports provided: default, List */
 /* exports used: List */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/List/index.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/List/index.js ***!
+  \********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__List__ = __webpack_require__(/*! ./List */ 158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__List__ = __webpack_require__(/*! ./List */ 165);
 /* unused harmony reexport default */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__List__["a"]; });
 
@@ -33729,22 +34903,22 @@ function forceUpdateReactVirtualizedComponent(component) {
 
 
 /***/ }),
-/* 343 */
+/* 362 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/PositionCache.js ***!
-  \****************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/PositionCache.js ***!
+  \*******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_slicedToArray__ = __webpack_require__(/*! babel-runtime/helpers/slicedToArray */ 193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_slicedToArray__ = __webpack_require__(/*! babel-runtime/helpers/slicedToArray */ 211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_slicedToArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_slicedToArray__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vendor_intervalTree__ = __webpack_require__(/*! ../vendor/intervalTree */ 360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__vendor_intervalTree__ = __webpack_require__(/*! ../vendor/intervalTree */ 379);
 
 
 
@@ -33848,19 +35022,19 @@ var PositionCache = function () {
 /* harmony default export */ __webpack_exports__["a"] = (PositionCache);
 
 /***/ }),
-/* 344 */
+/* 363 */
 /* exports provided: default */
 /* exports used: default */
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/createCellPositioner.js ***!
-  \***********************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/createCellPositioner.js ***!
+  \**************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createCellPositioner;
-var babelPluginFlowReactPropTypes_proptype_Positioner = __webpack_require__(/*! ./Masonry */ 105).babelPluginFlowReactPropTypes_proptype_Positioner || __webpack_require__(/*! prop-types */ 0).any;
+var babelPluginFlowReactPropTypes_proptype_Positioner = __webpack_require__(/*! ./Masonry */ 106).babelPluginFlowReactPropTypes_proptype_Positioner || __webpack_require__(/*! prop-types */ 0).any;
 
-var babelPluginFlowReactPropTypes_proptype_CellMeasurerCache = __webpack_require__(/*! ./Masonry */ 105).babelPluginFlowReactPropTypes_proptype_CellMeasurerCache || __webpack_require__(/*! prop-types */ 0).any;
+var babelPluginFlowReactPropTypes_proptype_CellMeasurerCache = __webpack_require__(/*! ./Masonry */ 106).babelPluginFlowReactPropTypes_proptype_CellMeasurerCache || __webpack_require__(/*! prop-types */ 0).any;
 
 function createCellPositioner(_ref) {
   var cellMeasurerCache = _ref.cellMeasurerCache,
@@ -33916,17 +35090,17 @@ function createCellPositioner(_ref) {
 }
 
 /***/ }),
-/* 345 */
+/* 364 */
 /* exports provided: default, createCellPositioner, Masonry */
 /* exports used: createCellPositioner, Masonry */
-/*!********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/index.js ***!
-  \********************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Masonry/index.js ***!
+  \***********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createCellPositioner__ = __webpack_require__(/*! ./createCellPositioner */ 344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Masonry__ = __webpack_require__(/*! ./Masonry */ 105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createCellPositioner__ = __webpack_require__(/*! ./createCellPositioner */ 363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Masonry__ = __webpack_require__(/*! ./Masonry */ 106);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__createCellPositioner__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__Masonry__["default"]; });
 
@@ -33936,12 +35110,12 @@ function createCellPositioner(_ref) {
 
 
 /***/ }),
-/* 346 */
+/* 365 */
 /* exports provided: default */
 /* exports used: default */
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/MultiGrid/CellMeasurerCacheDecorator.js ***!
-  \*******************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/MultiGrid/CellMeasurerCacheDecorator.js ***!
+  \**********************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33949,7 +35123,7 @@ function createCellPositioner(_ref) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CellMeasurer__ = __webpack_require__(/*! ../CellMeasurer */ 154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CellMeasurer__ = __webpack_require__(/*! ../CellMeasurer */ 161);
 
 
 
@@ -34057,34 +35231,34 @@ var CellMeasurerCacheDecorator = function () {
 /* harmony default export */ __webpack_exports__["a"] = (CellMeasurerCacheDecorator);
 
 /***/ }),
-/* 347 */
+/* 366 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/MultiGrid/MultiGrid.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/MultiGrid/MultiGrid.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CellMeasurerCacheDecorator__ = __webpack_require__(/*! ./CellMeasurerCacheDecorator */ 346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CellMeasurerCacheDecorator__ = __webpack_require__(/*! ./CellMeasurerCacheDecorator */ 365);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Grid__ = __webpack_require__(/*! ../Grid */ 17);
 
 
@@ -34889,16 +36063,16 @@ MultiGrid.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 348 */
+/* 367 */
 /* exports provided: default, MultiGrid */
 /* exports used: MultiGrid */
-/*!**********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/MultiGrid/index.js ***!
-  \**********************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/MultiGrid/index.js ***!
+  \*************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MultiGrid__ = __webpack_require__(/*! ./MultiGrid */ 347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MultiGrid__ = __webpack_require__(/*! ./MultiGrid */ 366);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__MultiGrid__["a"]; });
 
 
@@ -34906,28 +36080,28 @@ MultiGrid.propTypes = process.env.NODE_ENV !== "production" ? {
 
 
 /***/ }),
-/* 349 */
+/* 368 */
 /* exports provided: default */
 /* exports used: default */
-/*!****************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ScrollSync/ScrollSync.js ***!
-  \****************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ScrollSync/ScrollSync.js ***!
+  \*******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 
 
@@ -35021,16 +36195,16 @@ ScrollSync.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 350 */
+/* 369 */
 /* exports provided: default, ScrollSync */
 /* exports used: ScrollSync */
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/ScrollSync/index.js ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/ScrollSync/index.js ***!
+  \**************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ScrollSync__ = __webpack_require__(/*! ./ScrollSync */ 349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ScrollSync__ = __webpack_require__(/*! ./ScrollSync */ 368);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ScrollSync__["a"]; });
 
 
@@ -35038,39 +36212,39 @@ ScrollSync.propTypes = process.env.NODE_ENV !== "production" ? {
 
 
 /***/ }),
-/* 351 */
+/* 370 */
 /* exports provided: default */
 /* exports used: default */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/Table.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/Table.js ***!
+  \*********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ 13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_get_prototype_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames__ = __webpack_require__(/*! classnames */ 36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Column__ = __webpack_require__(/*! ./Column */ 159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Column__ = __webpack_require__(/*! ./Column */ 166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types__ = __webpack_require__(/*! prop-types */ 0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(/*! react */ 2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(/*! react-dom */ 54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Grid__ = __webpack_require__(/*! ../Grid */ 17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__defaultRowRenderer__ = __webpack_require__(/*! ./defaultRowRenderer */ 165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__defaultHeaderRowRenderer__ = __webpack_require__(/*! ./defaultHeaderRowRenderer */ 164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__defaultRowRenderer__ = __webpack_require__(/*! ./defaultRowRenderer */ 172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__defaultHeaderRowRenderer__ = __webpack_require__(/*! ./defaultHeaderRowRenderer */ 171);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__SortDirection__ = __webpack_require__(/*! ./SortDirection */ 66);
 
 
@@ -35843,24 +37017,24 @@ Table.propTypes = process.env.NODE_ENV !== "production" ? {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(/*! ./../../../../process/browser.js */ 1)))
 
 /***/ }),
-/* 352 */
+/* 371 */
 /* exports provided: default, defaultCellDataGetter, defaultCellRenderer, defaultHeaderRowRenderer, defaultHeaderRenderer, defaultRowRenderer, Column, SortDirection, SortIndicator, Table */
 /* exports used: defaultCellDataGetter, defaultCellRenderer, defaultHeaderRenderer, defaultHeaderRowRenderer, defaultRowRenderer, Table, Column, SortDirection, SortIndicator */
-/*!******************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/Table/index.js ***!
-  \******************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/Table/index.js ***!
+  \*********************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultCellDataGetter__ = __webpack_require__(/*! ./defaultCellDataGetter */ 161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultCellRenderer__ = __webpack_require__(/*! ./defaultCellRenderer */ 162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__defaultHeaderRowRenderer_js__ = __webpack_require__(/*! ./defaultHeaderRowRenderer.js */ 164);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__defaultHeaderRenderer__ = __webpack_require__(/*! ./defaultHeaderRenderer */ 163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__defaultRowRenderer__ = __webpack_require__(/*! ./defaultRowRenderer */ 165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Column__ = __webpack_require__(/*! ./Column */ 159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultCellDataGetter__ = __webpack_require__(/*! ./defaultCellDataGetter */ 168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultCellRenderer__ = __webpack_require__(/*! ./defaultCellRenderer */ 169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__defaultHeaderRowRenderer_js__ = __webpack_require__(/*! ./defaultHeaderRowRenderer.js */ 171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__defaultHeaderRenderer__ = __webpack_require__(/*! ./defaultHeaderRenderer */ 170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__defaultRowRenderer__ = __webpack_require__(/*! ./defaultRowRenderer */ 172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Column__ = __webpack_require__(/*! ./Column */ 166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__SortDirection__ = __webpack_require__(/*! ./SortDirection */ 66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SortIndicator__ = __webpack_require__(/*! ./SortIndicator */ 160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Table__ = __webpack_require__(/*! ./Table */ 351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SortIndicator__ = __webpack_require__(/*! ./SortIndicator */ 167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Table__ = __webpack_require__(/*! ./Table */ 370);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__defaultCellDataGetter__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__defaultCellRenderer__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__defaultHeaderRowRenderer_js__["a"]; });
@@ -35884,16 +37058,16 @@ Table.propTypes = process.env.NODE_ENV !== "production" ? {
 
 
 /***/ }),
-/* 353 */
+/* 372 */
 /* exports provided: default, WindowScroller, IS_SCROLLING_TIMEOUT */
 /* exports used: WindowScroller */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/index.js ***!
-  \***************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/index.js ***!
+  \******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__WindowScroller__ = __webpack_require__(/*! ./WindowScroller */ 166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__WindowScroller__ = __webpack_require__(/*! ./WindowScroller */ 173);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__WindowScroller__["a"]; });
 /* unused harmony reexport IS_SCROLLING_TIMEOUT */
 
@@ -35902,12 +37076,12 @@ Table.propTypes = process.env.NODE_ENV !== "production" ? {
 
 
 /***/ }),
-/* 354 */
+/* 373 */
 /* exports provided: getDimensions, getPositionOffset, getScrollOffset */
 /* exports used: getDimensions, getScrollOffset, getPositionOffset */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/utils/dimensions.js ***!
-  \**************************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/utils/dimensions.js ***!
+  \*****************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35997,19 +37171,19 @@ function getScrollOffset(element) {
 }
 
 /***/ }),
-/* 355 */
+/* 374 */
 /* exports provided: registerScrollListener, unregisterScrollListener */
 /* exports used: registerScrollListener, unregisterScrollListener */
-/*!************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/utils/onScroll.js ***!
-  \************************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/WindowScroller/utils/onScroll.js ***!
+  \***************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = registerScrollListener;
 /* harmony export (immutable) */ __webpack_exports__["b"] = unregisterScrollListener;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_requestAnimationTimeout__ = __webpack_require__(/*! ../../utils/requestAnimationTimeout */ 53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__WindowScroller_js__ = __webpack_require__(/*! ../WindowScroller.js */ 166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__WindowScroller_js__ = __webpack_require__(/*! ../WindowScroller.js */ 173);
 
 
 
@@ -36086,44 +37260,44 @@ function unregisterScrollListener(component, element) {
 }
 
 /***/ }),
-/* 356 */
+/* 375 */
 /* exports provided: ArrowKeyStepper, AutoSizer, CellMeasurer, CellMeasurerCache, Collection, ColumnSizer, accessibilityOverscanIndicesGetter, defaultCellRangeRenderer, defaultOverscanIndicesGetter, Grid, InfiniteLoader, List, createMasonryCellPositioner, Masonry, MultiGrid, ScrollSync, defaultTableCellDataGetter, defaultTableCellRenderer, defaultTableHeaderRenderer, defaultTableHeaderRowRenderer, defaultTableRowRenderer, Table, Column, SortDirection, SortIndicator, WindowScroller */
 /* all exports used */
-/*!************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/index.js ***!
-  \************************************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/index.js ***!
+  \***************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ArrowKeyStepper__ = __webpack_require__(/*! ./ArrowKeyStepper */ 324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ArrowKeyStepper__ = __webpack_require__(/*! ./ArrowKeyStepper */ 343);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ArrowKeyStepper", function() { return __WEBPACK_IMPORTED_MODULE_0__ArrowKeyStepper__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__AutoSizer__ = __webpack_require__(/*! ./AutoSizer */ 326);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__AutoSizer__ = __webpack_require__(/*! ./AutoSizer */ 345);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "AutoSizer", function() { return __WEBPACK_IMPORTED_MODULE_1__AutoSizer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CellMeasurer__ = __webpack_require__(/*! ./CellMeasurer */ 154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CellMeasurer__ = __webpack_require__(/*! ./CellMeasurer */ 161);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CellMeasurer", function() { return __WEBPACK_IMPORTED_MODULE_2__CellMeasurer__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CellMeasurerCache", function() { return __WEBPACK_IMPORTED_MODULE_2__CellMeasurer__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Collection__ = __webpack_require__(/*! ./Collection */ 332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Collection__ = __webpack_require__(/*! ./Collection */ 351);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Collection", function() { return __WEBPACK_IMPORTED_MODULE_3__Collection__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ColumnSizer__ = __webpack_require__(/*! ./ColumnSizer */ 335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ColumnSizer__ = __webpack_require__(/*! ./ColumnSizer */ 354);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ColumnSizer", function() { return __WEBPACK_IMPORTED_MODULE_4__ColumnSizer__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Grid__ = __webpack_require__(/*! ./Grid */ 17);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "accessibilityOverscanIndicesGetter", function() { return __WEBPACK_IMPORTED_MODULE_5__Grid__["accessibilityOverscanIndicesGetter"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultCellRangeRenderer", function() { return __WEBPACK_IMPORTED_MODULE_5__Grid__["defaultCellRangeRenderer"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultOverscanIndicesGetter", function() { return __WEBPACK_IMPORTED_MODULE_5__Grid__["defaultOverscanIndicesGetter"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_5__Grid__["Grid"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__InfiniteLoader__ = __webpack_require__(/*! ./InfiniteLoader */ 341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__InfiniteLoader__ = __webpack_require__(/*! ./InfiniteLoader */ 360);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "InfiniteLoader", function() { return __WEBPACK_IMPORTED_MODULE_6__InfiniteLoader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__List__ = __webpack_require__(/*! ./List */ 342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__List__ = __webpack_require__(/*! ./List */ 361);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "List", function() { return __WEBPACK_IMPORTED_MODULE_7__List__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Masonry__ = __webpack_require__(/*! ./Masonry */ 345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Masonry__ = __webpack_require__(/*! ./Masonry */ 364);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createMasonryCellPositioner", function() { return __WEBPACK_IMPORTED_MODULE_8__Masonry__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Masonry", function() { return __WEBPACK_IMPORTED_MODULE_8__Masonry__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__MultiGrid__ = __webpack_require__(/*! ./MultiGrid */ 348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__MultiGrid__ = __webpack_require__(/*! ./MultiGrid */ 367);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MultiGrid", function() { return __WEBPACK_IMPORTED_MODULE_9__MultiGrid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ScrollSync__ = __webpack_require__(/*! ./ScrollSync */ 350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ScrollSync__ = __webpack_require__(/*! ./ScrollSync */ 369);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ScrollSync", function() { return __WEBPACK_IMPORTED_MODULE_10__ScrollSync__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Table__ = __webpack_require__(/*! ./Table */ 352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Table__ = __webpack_require__(/*! ./Table */ 371);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultTableCellDataGetter", function() { return __WEBPACK_IMPORTED_MODULE_11__Table__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultTableCellRenderer", function() { return __WEBPACK_IMPORTED_MODULE_11__Table__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "defaultTableHeaderRenderer", function() { return __WEBPACK_IMPORTED_MODULE_11__Table__["c"]; });
@@ -36133,7 +37307,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Column", function() { return __WEBPACK_IMPORTED_MODULE_11__Table__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SortDirection", function() { return __WEBPACK_IMPORTED_MODULE_11__Table__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SortIndicator", function() { return __WEBPACK_IMPORTED_MODULE_11__Table__["i"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__WindowScroller__ = __webpack_require__(/*! ./WindowScroller */ 353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__WindowScroller__ = __webpack_require__(/*! ./WindowScroller */ 372);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "WindowScroller", function() { return __WEBPACK_IMPORTED_MODULE_12__WindowScroller__["a"]; });
 
 
@@ -36150,12 +37324,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 357 */
+/* 376 */
 /* exports provided: raf, caf */
 /* exports used: caf, raf */
-/*!***************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/utils/animationFrame.js ***!
-  \***************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/utils/animationFrame.js ***!
+  \******************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36188,12 +37362,12 @@ var raf = request;
 var caf = cancel;
 
 /***/ }),
-/* 358 */
+/* 377 */
 /* exports provided: default */
 /* exports used: default */
-/*!*************************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/utils/getUpdatedOffsetForIndex.js ***!
-  \*************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/utils/getUpdatedOffsetForIndex.js ***!
+  \****************************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36234,12 +37408,12 @@ function getUpdatedOffsetForIndex(_ref) {
 }
 
 /***/ }),
-/* 359 */
+/* 378 */
 /* exports provided: default */
 /* exports used: default */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/vendor/binarySearchBounds.js ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/vendor/binarySearchBounds.js ***!
+  \***********************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36444,17 +37618,17 @@ function dispatchBsearchEQ(a, y, c, l, h) {
 });
 
 /***/ }),
-/* 360 */
+/* 379 */
 /* exports provided: default */
 /* exports used: default */
-/*!**************************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react-virtualized/dist/es/vendor/intervalTree.js ***!
-  \**************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react-virtualized/dist/es/vendor/intervalTree.js ***!
+  \*****************************************************************************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createWrapper;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__binarySearchBounds__ = __webpack_require__(/*! ./binarySearchBounds */ 359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__binarySearchBounds__ = __webpack_require__(/*! ./binarySearchBounds */ 378);
 /**
  * Binary Search Bounds
  * https://github.com/mikolalysenko/interval-tree-1d
@@ -36841,12 +38015,12 @@ function createWrapper(intervals) {
 }
 
 /***/ }),
-/* 361 */
+/* 380 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/KeyEscapeUtils.js ***!
-  \*****************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/KeyEscapeUtils.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36908,12 +38082,12 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 362 */
+/* 381 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/PooledClass.js ***!
-  \**************************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/PooledClass.js ***!
+  \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36930,7 +38104,7 @@ module.exports = KeyEscapeUtils;
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 45);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Static poolers. Several custom versions for each potential number of
@@ -37029,12 +38203,12 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 363 */
+/* 382 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactChildren.js ***!
-  \****************************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactChildren.js ***!
+  \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37048,11 +38222,11 @@ module.exports = PooledClass;
 
 
 
-var PooledClass = __webpack_require__(/*! ./PooledClass */ 362);
+var PooledClass = __webpack_require__(/*! ./PooledClass */ 381);
 var ReactElement = __webpack_require__(/*! ./ReactElement */ 35);
 
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 19);
-var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 373);
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ 20);
+var traverseAllChildren = __webpack_require__(/*! ./traverseAllChildren */ 392);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -37228,12 +38402,12 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 364 */
+/* 383 */
 /* no static exports found */
 /* all exports used */
-/*!********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactDOMFactories.js ***!
-  \********************************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactDOMFactories.js ***!
+  \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37256,7 +38430,7 @@ var ReactElement = __webpack_require__(/*! ./ReactElement */ 35);
  */
 var createDOMFactory = ReactElement.createFactory;
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(/*! ./ReactElementValidator */ 170);
+  var ReactElementValidator = __webpack_require__(/*! ./ReactElementValidator */ 177);
   createDOMFactory = ReactElementValidator.createFactory;
 }
 
@@ -37406,12 +38580,12 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 365 */
+/* 384 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactPropTypeLocationNames.js ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactPropTypeLocationNames.js ***!
+  \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37440,12 +38614,12 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 366 */
+/* 385 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactPropTypes.js ***!
-  \*****************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactPropTypes.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37462,17 +38636,17 @@ module.exports = ReactPropTypeLocationNames;
 var _require = __webpack_require__(/*! ./ReactElement */ 35),
     isValidElement = _require.isValidElement;
 
-var factory = __webpack_require__(/*! prop-types/factory */ 127);
+var factory = __webpack_require__(/*! prop-types/factory */ 134);
 
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 367 */
+/* 386 */
 /* no static exports found */
 /* all exports used */
-/*!***********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactPropTypesSecret.js ***!
-  \***********************************************************************************/
+/*!**************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactPropTypesSecret.js ***!
+  \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37492,12 +38666,12 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 368 */
+/* 387 */
 /* no static exports found */
 /* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/ReactVersion.js ***!
-  \***************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/ReactVersion.js ***!
+  \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37514,12 +38688,12 @@ module.exports = ReactPropTypesSecret;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 369 */
+/* 388 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/checkReactTypeSpec.js ***!
-  \*********************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/checkReactTypeSpec.js ***!
+  \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37535,10 +38709,10 @@ module.exports = '15.6.2';
 
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 45);
 
-var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 365);
-var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 367);
+var ReactPropTypeLocationNames = __webpack_require__(/*! ./ReactPropTypeLocationNames */ 384);
+var ReactPropTypesSecret = __webpack_require__(/*! ./ReactPropTypesSecret */ 386);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var ReactComponentTreeHook;
@@ -37610,12 +38784,12 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 370 */
+/* 389 */
 /* no static exports found */
 /* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/createClass.js ***!
-  \**************************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/createClass.js ***!
+  \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37629,24 +38803,24 @@ module.exports = checkReactTypeSpec;
 
 
 
-var _require = __webpack_require__(/*! ./ReactBaseClasses */ 168),
+var _require = __webpack_require__(/*! ./ReactBaseClasses */ 175),
     Component = _require.Component;
 
 var _require2 = __webpack_require__(/*! ./ReactElement */ 35),
     isValidElement = _require2.isValidElement;
 
-var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 171);
-var factory = __webpack_require__(/*! create-react-class/factory */ 236);
+var ReactNoopUpdateQueue = __webpack_require__(/*! ./ReactNoopUpdateQueue */ 178);
+var factory = __webpack_require__(/*! create-react-class/factory */ 254);
 
 module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 /***/ }),
-/* 371 */
+/* 390 */
 /* no static exports found */
 /* all exports used */
-/*!*****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/getNextDebugID.js ***!
-  \*****************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/getNextDebugID.js ***!
+  \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37670,12 +38844,12 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 372 */
+/* 391 */
 /* no static exports found */
 /* all exports used */
-/*!************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/onlyChild.js ***!
-  \************************************************************************/
+/*!***************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/onlyChild.js ***!
+  \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37692,7 +38866,7 @@ var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 45);
 
 var ReactElement = __webpack_require__(/*! ./ReactElement */ 35);
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
 
 /**
  * Returns the first child in a collection of children and verifies that there
@@ -37717,12 +38891,12 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 373 */
+/* 392 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/SeraHol/~/react/lib/traverseAllChildren.js ***!
-  \**********************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/김태현/Documents/SeraHol/~/react/lib/traverseAllChildren.js ***!
+  \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37739,11 +38913,11 @@ module.exports = onlyChild;
 var _prodInvariant = __webpack_require__(/*! ./reactProdInvariant */ 45);
 
 var ReactCurrentOwner = __webpack_require__(/*! ./ReactCurrentOwner */ 23);
-var REACT_ELEMENT_TYPE = __webpack_require__(/*! ./ReactElementSymbol */ 169);
+var REACT_ELEMENT_TYPE = __webpack_require__(/*! ./ReactElementSymbol */ 176);
 
-var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 172);
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 2);
-var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 361);
+var getIteratorFn = __webpack_require__(/*! ./getIteratorFn */ 179);
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ 3);
+var KeyEscapeUtils = __webpack_require__(/*! ./KeyEscapeUtils */ 380);
 var warning = __webpack_require__(/*! fbjs/lib/warning */ 4);
 
 var SEPARATOR = '.';
@@ -37902,7 +39076,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../process/browser.js */ 1)))
 
 /***/ }),
-/* 374 */
+/* 393 */
 /* no static exports found */
 /* all exports used */
 /*!****************!*\
@@ -37913,7 +39087,7 @@ module.exports = traverseAllChildren;
 "use strict";
 
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -37921,7 +39095,7 @@ var _reactDom = __webpack_require__(/*! react-dom */ 54);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _MainWindow = __webpack_require__(/*! ./components/MainWindow.js */ 180);
+var _MainWindow = __webpack_require__(/*! ./components/MainWindow.js */ 181);
 
 var _MainWindow2 = _interopRequireDefault(_MainWindow);
 
@@ -37934,253 +39108,7 @@ _reactDom2.default.render(_react2.default.createElement(
 ), document.getElementById('root'));
 
 /***/ }),
-/* 375 */
-/* no static exports found */
-/* all exports used */
-/*!*****************************************!*\
-  !*** ./components/APIPage/APISelect.js ***!
-  \*****************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Store = __webpack_require__(/*! ../../flux/Store */ 15);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
-var APISelect = function (_React$Component) {
-    _inherits(APISelect, _React$Component);
-
-    function APISelect(props) {
-        _classCallCheck(this, APISelect);
-
-        var _this = _possibleConstructorReturn(this, (APISelect.__proto__ || Object.getPrototypeOf(APISelect)).call(this, props));
-
-        _this.state = {
-            server: 'cain',
-            length: 10,
-            item: '',
-            shop: '',
-            characterId: ""
-        };
-
-        _this.SubItem = '';
-
-        return _this;
-    }
-
-    _createClass(APISelect, [{
-        key: 'serverChange',
-        value: function serverChange(event) {
-            this.setState({
-                server: event.target.value
-            });
-        }
-    }, {
-        key: 'lengthChange',
-        value: function lengthChange(event) {
-            this.setState({
-                length: event.target.value
-            });
-        }
-    }, {
-        key: 'ItemChange',
-        value: function ItemChange(event) {
-            this.setState({
-                item: event.target.value
-            });
-        }
-    }, {
-        key: 'ShopChange',
-        value: function ShopChange(event) {
-            this.setState({
-                shop: event.target.value
-            });
-        }
-    }, {
-        key: 'characterIdChange',
-        value: function characterIdChange(event) {
-            this.setState({
-                characterId: event.target.value
-            });
-        }
-    }, {
-        key: 'submitButtonClick',
-        value: function submitButtonClick(type) {
-            _Store.fluxStore.setFlux('ApiWindowView', type);
-            var _state = this.state,
-                server = _state.server,
-                length = _state.length,
-                item = _state.item,
-                shop = _state.shop,
-                characterId = _state.characterId;
-
-            switch (type) {
-                case "character":
-                    var params = {
-                        server: server,
-                        length: length,
-                        characterId: characterId
-                    };
-                    console.log("submitButtonClick params", params);
-                    _Store.fluxStore.setFlux('characterParams', params);
-                    console.log("submitButtonClick characterParams", _Store.fluxStore.getFlux().characterParams);
-                    break;
-
-                case 'item':
-                    _Store.fluxStore.setFlux('item', item);
-                    break;
-
-                case "shop":
-                    _Store.fluxStore.setFlux('shop', shop);
-                    break;
-            }
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: 'APISelect' },
-                _react2.default.createElement(
-                    'div',
-                    { className: 'CharacterSearch' },
-                    _react2.default.createElement(
-                        'label',
-                        null,
-                        ' \uCE90\uB9AD\uD130 \uAC80\uC0C9 '
-                    ),
-                    _react2.default.createElement(
-                        'select',
-                        { name: 'server', onChange: this.serverChange.bind(this), value: this.state.server },
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'cain' },
-                            '\uCE74\uC778'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'diregie' },
-                            '\uB514\uB808\uC9C0\uC5D0'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'siroco' },
-                            '\uC2DC\uB85C\uCF54'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'prey' },
-                            '\uD504\uB808\uC774'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'anton' },
-                            '\uC548\uD1A4'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'casillas' },
-                            '\uCE74\uC2DC\uC57C\uC2A4'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'hilder' },
-                            '\uD790\uB354'
-                        ),
-                        '\u3133\uB18D\u3139',
-                        _react2.default.createElement(
-                            'option',
-                            { value: 'bakal' },
-                            '\uBC14\uCE7C'
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'select',
-                        { name: 'length', onChange: this.lengthChange.bind(this), value: this.state.length },
-                        _react2.default.createElement(
-                            'option',
-                            { value: '10' },
-                            '10'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: '30' },
-                            '30'
-                        ),
-                        _react2.default.createElement(
-                            'option',
-                            { value: '50' },
-                            '50'
-                        )
-                    ),
-                    _react2.default.createElement('input', { type: 'text', placeholder: '\uCE90\uB9AD\uD130 \uC774\uB984', onChange: this.characterIdChange.bind(this), value: this.state.characterId }),
-                    _react2.default.createElement(
-                        'button',
-                        { onClick: this.submitButtonClick.bind(this, "character") },
-                        ' \uAC80\uC0C9 '
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'ItemSearch' },
-                    _react2.default.createElement(
-                        'label',
-                        null,
-                        ' \uC7A5\uBE44 \uAC80\uC0C9 '
-                    ),
-                    _react2.default.createElement('input', { type: 'text', placeholder: '\uC7A5\uBE44 \uC774\uB984', onChange: this.ItemChange.bind(this), value: this.state.item }),
-                    _react2.default.createElement(
-                        'button',
-                        { onClick: this.submitButtonClick.bind(this, "item") },
-                        ' \uAC80\uC0C9 '
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'ShopSearch' },
-                    _react2.default.createElement(
-                        'label',
-                        null,
-                        ' \uACBD\uB9E4\uC7A5 \uAC80\uC0C9 '
-                    ),
-                    _react2.default.createElement('input', { type: 'text', placeholder: '\uC544\uC774\uD15C \uC774\uB984', onChange: this.ShopChange.bind(this), value: this.state.shop }),
-                    _react2.default.createElement(
-                        'button',
-                        { onClick: this.submitButtonClick.bind(this, "shop") },
-                        ' \uAC80\uC0C9 '
-                    )
-                )
-            );
-        }
-    }]);
-
-    return APISelect;
-}(_react2.default.Component);
-
-exports.default = APISelect;
-
-/***/ }),
-/* 376 */
+/* 394 */
 /* no static exports found */
 /* all exports used */
 /*!*******************************************************!*\
@@ -38197,7 +39125,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -38261,11 +39189,194 @@ var CharacterCell = function (_React$Component) {
 exports.default = CharacterCell;
 
 /***/ }),
-/* 377 */
+/* 395 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************************************!*\
+  !*** ./components/APIPage/Character/CharacterSearch.js ***!
+  \*********************************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Store = __webpack_require__(/*! ../../../flux/Store */ 12);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+var CharacterSelect = function (_React$Component) {
+    _inherits(CharacterSelect, _React$Component);
+
+    function CharacterSelect(props) {
+        _classCallCheck(this, CharacterSelect);
+
+        var _this = _possibleConstructorReturn(this, (CharacterSelect.__proto__ || Object.getPrototypeOf(CharacterSelect)).call(this, props));
+
+        _this.state = {
+            server: 'cain',
+            length: 10,
+            characterId: ""
+        };
+
+        return _this;
+    }
+
+    _createClass(CharacterSelect, [{
+        key: 'serverChange',
+        value: function serverChange(event) {
+            this.setState({
+                server: event.target.value
+            });
+        }
+    }, {
+        key: 'lengthChange',
+        value: function lengthChange(event) {
+            this.setState({
+                length: event.target.value
+            });
+        }
+    }, {
+        key: 'characterIdChange',
+        value: function characterIdChange(event) {
+            this.setState({
+                characterId: event.target.value
+            });
+        }
+    }, {
+        key: 'submitButtonClick',
+        value: function submitButtonClick(type) {
+            _Store.fluxStore.setFlux('ApiSubWindowView', type);
+            var _state = this.state,
+                server = _state.server,
+                length = _state.length,
+                characterId = _state.characterId;
+
+            var params = {
+                server: server,
+                length: length,
+                characterId: characterId
+            };
+            console.log("submitButtonClick params", params);
+            _Store.fluxStore.setFlux('characterParams', params);
+            console.log("submitButtonClick characterParams", _Store.fluxStore.getFlux().characterParams);
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'CharacterSelect' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'CharacterSearch' },
+                    _react2.default.createElement(
+                        'label',
+                        null,
+                        ' \uCE90\uB9AD\uD130 \uAC80\uC0C9 '
+                    ),
+                    _react2.default.createElement(
+                        'select',
+                        { name: 'server', onChange: this.serverChange.bind(this), value: this.state.server },
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'cain' },
+                            '\uCE74\uC778'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'diregie' },
+                            '\uB514\uB808\uC9C0\uC5D0'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'siroco' },
+                            '\uC2DC\uB85C\uCF54'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'prey' },
+                            '\uD504\uB808\uC774'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'anton' },
+                            '\uC548\uD1A4'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'casillas' },
+                            '\uCE74\uC2DC\uC57C\uC2A4'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'hilder' },
+                            '\uD790\uB354'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: 'bakal' },
+                            '\uBC14\uCE7C'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'select',
+                        { name: 'length', onChange: this.lengthChange.bind(this), value: this.state.length },
+                        _react2.default.createElement(
+                            'option',
+                            { value: '10' },
+                            '10'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: '30' },
+                            '30'
+                        ),
+                        _react2.default.createElement(
+                            'option',
+                            { value: '50' },
+                            '50'
+                        )
+                    ),
+                    _react2.default.createElement('input', { type: 'text', placeholder: '\uCE90\uB9AD\uD130 \uC774\uB984', onChange: this.characterIdChange.bind(this), value: this.state.characterId }),
+                    _react2.default.createElement(
+                        'button',
+                        { onClick: this.submitButtonClick.bind(this, "CharacterGrid") },
+                        ' \uAC80\uC0C9 '
+                    )
+                )
+            );
+        }
+    }]);
+
+    return CharacterSelect;
+}(_react2.default.Component);
+
+exports.default = CharacterSelect;
+
+/***/ }),
+/* 396 */
 /* no static exports found */
 /* all exports used */
 /*!*******************************************************!*\
-  !*** ./components/APIPage/Character/CharacterGrid.js ***!
+  !*** ./components/APIPage/Character/CharacterView.js ***!
   \*******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38278,21 +39389,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
-
-var _axios = __webpack_require__(/*! axios */ 174);
-
-var _axios2 = _interopRequireDefault(_axios);
-
-var _reactVirtualized = __webpack_require__(/*! react-virtualized */ 356);
-
-var _Store = __webpack_require__(/*! ../../../flux/Store */ 15);
-
-var _CharacterCell = __webpack_require__(/*! ./CharacterCell */ 376);
-
-var _CharacterCell2 = _interopRequireDefault(_CharacterCell);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -38304,146 +39403,47 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * Created by TH on 2018-05-21.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */
 
-var config = {
-    method: 'GET',
-    headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS',
-        "Access-Control-Allow-Headers": "Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization",
-        'Content-Type': 'application/json'
-    }
-};
+var CharacterView = function (_React$Component) {
+    _inherits(CharacterView, _React$Component);
 
-var CharacterGrid = function (_React$Component) {
-    _inherits(CharacterGrid, _React$Component);
+    function CharacterView(props) {
+        _classCallCheck(this, CharacterView);
 
-    function CharacterGrid(props) {
-        _classCallCheck(this, CharacterGrid);
+        var _this = _possibleConstructorReturn(this, (CharacterView.__proto__ || Object.getPrototypeOf(CharacterView)).call(this, props));
 
-        var _this = _possibleConstructorReturn(this, (CharacterGrid.__proto__ || Object.getPrototypeOf(CharacterGrid)).call(this, props));
-
-        _this.state = {
-            CharacterList: [],
-            characterParams: _Store.fluxStore.getFlux().characterParams
-        };
-        _this.widthSize = 0;
-        _this.apikey = _Store.fluxStore.getFlux().ApiKey;
-        _this.apiurl = _Store.fluxStore.getFlux().ApiUrl;
-        _this.http = _axios2.default.create({
-            baseURL: _this.apiurl,
-            timeout: 3000
-        });
-        console.log("CharacterGrid", _this.state.characterParams);
-
+        _this.state = {};
         return _this;
     }
 
-    _createClass(CharacterGrid, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            this.getCharacterList();
-        }
+    _createClass(CharacterView, [{
+        key: "componentDidMount",
+        value: function componentDidMount() {}
     }, {
-        key: 'componentWillUnmount',
+        key: "componentWillUnmount",
         value: function componentWillUnmount() {}
     }, {
-        key: 'getCharacterList',
-        value: function getCharacterList() {
-            var _this2 = this;
-
-            var url = "/servers/" + this.state.characterParams.server + "/characters?characterName=" + encodeURI(this.state.characterParams.characterId) + "&wordType=full&limit=" + this.state.characterParams.length + "&apikey=" + this.apikey;
-            var templist = [];
-            this.http.get(url, config).then(function (response) {
-                var ServerResponse = response.data.rows;
-                ServerResponse.forEach(function (CurrentValue) {
-                    templist.push(_react2.default.createElement(_CharacterCell2.default, { data: CurrentValue, server: _this2.state.characterParams.server }));
-                });
-                console.log("getCharacterList templist : ", templist);
-                _this2.setState({
-                    CharacterList: templist
-                });
-                console.log("getCharacterList CharacterList : ", _this2.state.CharacterList);
-            }).catch(function (err) {
-                console.log("getCharacterList err", err);
-            });
-        }
-    }, {
-        key: 'cellRenderer',
-        value: function cellRenderer(_ref) {
-            var columnIndex = _ref.columnIndex,
-                key = _ref.key,
-                rowIndex = _ref.rowIndex,
-                style = _ref.style;
-
-            var index = Math.floor(this.widthSize / 210) * rowIndex + columnIndex;
-            // let index  = (rowIndex + 1)
-            // 현재 인덱스를 구해주려면 한 줄에 몇개가 들어가 있는지 알아야 하기 때문에 현재 윈도우의 사이즈를 가지고 있을 수 밖에 없음
-
-            return _react2.default.createElement(
-                'div',
-                {
-                    key: key,
-                    style: style
-                },
-                this.state.CharacterList[index]
-            );
-        }
-    }, {
-        key: 'BackButtonClick',
-        value: function BackButtonClick() {
-            _Store.fluxStore.setFlux('ApiWindowView', "select");
-        }
-    }, {
-        key: 'render',
+        key: "render",
         value: function render() {
-            var _this3 = this;
-
             return _react2.default.createElement(
-                'div',
-                { className: 'CharacterGrid' },
-                _react2.default.createElement(
-                    _reactVirtualized.AutoSizer,
-                    null,
-                    function (_ref2) {
-                        var width = _ref2.width,
-                            height = _ref2.height;
-
-                        _this3.widthSize = width;
-                        return _react2.default.createElement(_reactVirtualized.Grid, {
-                            cellRenderer: _this3.cellRenderer.bind(_this3),
-
-                            columnCount: Math.floor(width / 210),
-                            rowCount: Math.ceil(_this3.state.CharacterList.length / Math.floor(width / 210)),
-
-                            columnWidth: 210,
-                            rowHeight: 300,
-
-                            height: height,
-                            width: width
-                        });
-                    }
-                ),
-                _react2.default.createElement(
-                    'button',
-                    { className: 'BackButton', onClick: this.BackButtonClick.bind(this) },
-                    '\uC774\uC804\uC73C\uB85C'
-                )
+                "div",
+                { className: "CharacterView" },
+                "\uCE90\uB9AD\uD130 \uC774\uBBF8\uC9C0\uC640 \uC0C1\uC138\uC815\uBCF4\uAC00 \uBCF4\uC5EC\uC9C8 \uCC3D\uC785\uB2C8\uB2E4."
             );
         }
     }]);
 
-    return CharacterGrid;
+    return CharacterView;
 }(_react2.default.Component);
 
-exports.default = CharacterGrid;
+exports.default = CharacterView;
 
 /***/ }),
-/* 378 */
+/* 397 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************!*\
-  !*** ./components/APIWindow.js ***!
-  \*********************************/
+/*!*******************************************!*\
+  !*** ./components/BuffPage/Calculator.js ***!
+  \*******************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38453,219 +39453,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _APISelect = __webpack_require__(/*! ./APIPage/APISelect */ 375);
-
-var _APISelect2 = _interopRequireDefault(_APISelect);
-
-var _CharacterGrid = __webpack_require__(/*! ./APIPage/Character/CharacterGrid */ 377);
-
-var _CharacterGrid2 = _interopRequireDefault(_CharacterGrid);
-
-var _Store = __webpack_require__(/*! ../flux/Store */ 15);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
-var APIWindow = function (_React$Component) {
-    _inherits(APIWindow, _React$Component);
-
-    function APIWindow(props) {
-        _classCallCheck(this, APIWindow);
-
-        var _this = _possibleConstructorReturn(this, (APIWindow.__proto__ || Object.getPrototypeOf(APIWindow)).call(this, props));
-
-        _this.state = {
-            ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
-            characterParams: _Store.fluxStore.getFlux().characterParams,
-            item: _Store.fluxStore.getFlux().item,
-            shop: _Store.fluxStore.getFlux().shop
-        };
-
-        _this.ApiWindowViewChangeFunc = _this.ApiWindowViewChange.bind(_this);
-        return _this;
-    }
-
-    _createClass(APIWindow, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            _Store.fluxStore.addListener('ApiWindowView', this.ApiWindowViewChangeFunc);
-        }
-    }, {
-        key: 'componentWillUnmount',
-        value: function componentWillUnmount() {}
-    }, {
-        key: 'ApiWindowViewChange',
-        value: function ApiWindowViewChange() {
-            this.setState({
-                ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
-                characterParams: _Store.fluxStore.getFlux().characterParams,
-                item: _Store.fluxStore.getFlux().item,
-                shop: _Store.fluxStore.getFlux().shop
-            });
-        }
-    }, {
-        key: 'getSearchView',
-        value: function getSearchView(view) {
-
-            var viewItem = void 0;
-            switch (view) {
-                case "select":
-                    viewItem = _react2.default.createElement(_APISelect2.default, null);break;
-                case "character":
-                    viewItem = _react2.default.createElement(_CharacterGrid2.default, { serverValue: this.state.characterParams.server, key: this.state.characterId,
-                        characterId: this.state.characterParams.characterId, limit: this.state.characterParams.length });break;
-                case "item":
-                    viewItem = _react2.default.createElement(ItemList, { item: this.state.item, key: this.state.item });break;
-                case "shop":
-                    viewItem = _react2.default.createElement(ShopList, { shop: this.state.shop, key: this.state.shop });break;
-            }
-
-            return viewItem;
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: 'APIWindow' },
-                _react2.default.createElement(
-                    'div',
-                    { className: 'ResultDiv' },
-                    this.getSearchView(this.state.ApiWindowView)
-                )
-            );
-        }
-    }]);
-
-    return APIWindow;
-}(_react2.default.Component);
-
-exports.default = APIWindow;
-
-/***/ }),
-/* 379 */
-/* no static exports found */
-/* all exports used */
-/*!**********************************!*\
-  !*** ./components/BuffWindow.js ***!
-  \**********************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Logo = __webpack_require__(/*! ./Logo.js */ 384);
-
-var _Logo2 = _interopRequireDefault(_Logo);
-
-var _Content = __webpack_require__(/*! ./Content.js */ 381);
-
-var _Content2 = _interopRequireDefault(_Content);
-
-var _Copyright = __webpack_require__(/*! ./Copyright.js */ 382);
-
-var _Copyright2 = _interopRequireDefault(_Copyright);
-
-var _Warning = __webpack_require__(/*! ./Warning.js */ 393);
-
-var _Warning2 = _interopRequireDefault(_Warning);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var BuffWindow = function (_React$Component) {
-    _inherits(BuffWindow, _React$Component);
-
-    function BuffWindow() {
-        _classCallCheck(this, BuffWindow);
-
-        return _possibleConstructorReturn(this, (BuffWindow.__proto__ || Object.getPrototypeOf(BuffWindow)).apply(this, arguments));
-    }
-
-    _createClass(BuffWindow, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: 'BuffWindowContainer' },
-                _react2.default.createElement(
-                    'div',
-                    { className: 'AllContentsObjContainer' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'LogoObjContainer' },
-                        _react2.default.createElement(_Logo2.default, null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'ContentObjContainer' },
-                        _react2.default.createElement(_Content2.default, null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'CopyrightObjContainer' },
-                        _react2.default.createElement(_Copyright2.default, null)
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'WarningObjContainer' },
-                    _react2.default.createElement(_Warning2.default, null)
-                )
-            );
-        }
-    }]);
-
-    return BuffWindow;
-}(_react2.default.Component);
-
-exports.default = BuffWindow;
-
-/***/ }),
-/* 380 */
-/* no static exports found */
-/* all exports used */
-/*!**********************************!*\
-  !*** ./components/Calculator.js ***!
-  \**********************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 var Calculator = {
     sk1calcul: function sk1calcul() {
@@ -38957,12 +39745,12 @@ var Calculator = {
 exports.default = Calculator;
 
 /***/ }),
-/* 381 */
+/* 398 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************!*\
-  !*** ./components/Content.js ***!
-  \*******************************/
+/*!****************************************!*\
+  !*** ./components/BuffPage/Content.js ***!
+  \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38974,35 +39762,35 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Stat = __webpack_require__(/*! ./Stat.js */ 392);
+var _Stat = __webpack_require__(/*! ./Stat.js */ 408);
 
 var _Stat2 = _interopRequireDefault(_Stat);
 
-var _SevenSins = __webpack_require__(/*! ./SevenSins.js */ 391);
+var _SevenSins = __webpack_require__(/*! ./SevenSins.js */ 407);
 
 var _SevenSins2 = _interopRequireDefault(_SevenSins);
 
-var _Result = __webpack_require__(/*! ./Result.js */ 386);
+var _Result = __webpack_require__(/*! ./Result.js */ 402);
 
 var _Result2 = _interopRequireDefault(_Result);
 
-var _JobSelect = __webpack_require__(/*! ./JobSelect.js */ 383);
+var _JobSelect = __webpack_require__(/*! ./JobSelect.js */ 400);
 
 var _JobSelect2 = _interopRequireDefault(_JobSelect);
 
-var _SeraStat = __webpack_require__(/*! ./SeraStat.js */ 389);
+var _SeraStat = __webpack_require__(/*! ./SeraStat.js */ 405);
 
 var _SeraStat2 = _interopRequireDefault(_SeraStat);
 
-var _SeraResult = __webpack_require__(/*! ./SeraResult.js */ 388);
+var _SeraResult = __webpack_require__(/*! ./SeraResult.js */ 404);
 
 var _SeraResult2 = _interopRequireDefault(_SeraResult);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39102,12 +39890,12 @@ var Content = function (_React$Component) {
 exports.default = Content;
 
 /***/ }),
-/* 382 */
+/* 399 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************!*\
-  !*** ./components/Copyright.js ***!
-  \*********************************/
+/*!******************************************!*\
+  !*** ./components/BuffPage/Copyright.js ***!
+  \******************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39119,7 +39907,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -39163,12 +39951,12 @@ var Copyright = function (_React$Component) {
 exports.default = Copyright;
 
 /***/ }),
-/* 383 */
+/* 400 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************!*\
-  !*** ./components/JobSelect.js ***!
-  \*********************************/
+/*!******************************************!*\
+  !*** ./components/BuffPage/JobSelect.js ***!
+  \******************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39180,11 +39968,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39239,12 +40027,12 @@ var JobSelect = function (_React$Component) {
 exports.default = JobSelect;
 
 /***/ }),
-/* 384 */
+/* 401 */
 /* no static exports found */
 /* all exports used */
-/*!****************************!*\
-  !*** ./components/Logo.js ***!
-  \****************************/
+/*!*************************************!*\
+  !*** ./components/BuffPage/Logo.js ***!
+  \*************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39254,7 +40042,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -39285,12 +40073,12 @@ var Logo = function Logo() {
 exports.default = Logo;
 
 /***/ }),
-/* 385 */
+/* 402 */
 /* no static exports found */
 /* all exports used */
-/*!****************************************!*\
-  !*** ./components/MainButtonWindow.js ***!
-  \****************************************/
+/*!***************************************!*\
+  !*** ./components/BuffPage/Result.js ***!
+  \***************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39302,80 +40090,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MainButtonWindow = function (_React$Component) {
-    _inherits(MainButtonWindow, _React$Component);
-
-    function MainButtonWindow(props) {
-        _classCallCheck(this, MainButtonWindow);
-
-        return _possibleConstructorReturn(this, (MainButtonWindow.__proto__ || Object.getPrototypeOf(MainButtonWindow)).call(this, props));
-    }
-
-    _createClass(MainButtonWindow, [{
-        key: "ButtonClick",
-        value: function ButtonClick(type) {
-            this.props.ButtonClick(type);
-        }
-    }, {
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                { className: "MainButtonWindowContainer" },
-                _react2.default.createElement(
-                    "button",
-                    { onClick: this.ButtonClick.bind(this, "buff") },
-                    "\uBC84\uD504\uB825 \uACC4\uC0B0\uAE30"
-                ),
-                _react2.default.createElement(
-                    "button",
-                    { onClick: this.ButtonClick.bind(this, "api") },
-                    "API \uD398\uC774\uC9C0"
-                )
-            );
-        }
-    }]);
-
-    return MainButtonWindow;
-}(_react2.default.Component);
-
-exports.default = MainButtonWindow;
-
-/***/ }),
-/* 386 */
-/* no static exports found */
-/* all exports used */
-/*!******************************!*\
-  !*** ./components/Result.js ***!
-  \******************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ 3);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39477,12 +40196,12 @@ var Result = function (_React$Component) {
 exports.default = Result;
 
 /***/ }),
-/* 387 */
+/* 403 */
 /* no static exports found */
 /* all exports used */
-/*!********************************!*\
-  !*** ./components/SeraCalc.js ***!
-  \********************************/
+/*!*****************************************!*\
+  !*** ./components/BuffPage/SeraCalc.js ***!
+  \*****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39492,7 +40211,7 @@ Object.defineProperty(exports, "__esModule", {
         value: true
 });
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 var Calculator = {
         sk2calcul: function sk2calcul() {
@@ -39673,12 +40392,12 @@ var Calculator = {
 exports.default = Calculator;
 
 /***/ }),
-/* 388 */
+/* 404 */
 /* no static exports found */
 /* all exports used */
-/*!**********************************!*\
-  !*** ./components/SeraResult.js ***!
-  \**********************************/
+/*!*******************************************!*\
+  !*** ./components/BuffPage/SeraResult.js ***!
+  \*******************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39690,11 +40409,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39798,12 +40517,12 @@ var MainWindow = function (_React$Component) {
 exports.default = MainWindow;
 
 /***/ }),
-/* 389 */
+/* 405 */
 /* no static exports found */
 /* all exports used */
-/*!********************************!*\
-  !*** ./components/SeraStat.js ***!
-  \********************************/
+/*!*****************************************!*\
+  !*** ./components/BuffPage/SeraStat.js ***!
+  \*****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39815,21 +40534,21 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
-var _SubOption = __webpack_require__(/*! ./SubOption.js */ 173);
+var _SubOption = __webpack_require__(/*! ./SubOption.js */ 180);
 
 var _SubOption2 = _interopRequireDefault(_SubOption);
 
-var _SeraCalc = __webpack_require__(/*! ./SeraCalc.js */ 387);
+var _SeraCalc = __webpack_require__(/*! ./SeraCalc.js */ 403);
 
 var _SeraCalc2 = _interopRequireDefault(_SeraCalc);
 
-var _SeraSubOption = __webpack_require__(/*! ./SeraSubOption.js */ 390);
+var _SeraSubOption = __webpack_require__(/*! ./SeraSubOption.js */ 406);
 
 var _SeraSubOption2 = _interopRequireDefault(_SeraSubOption);
 
@@ -40025,12 +40744,12 @@ var SeraStat = function (_React$Component) {
 exports.default = SeraStat;
 
 /***/ }),
-/* 390 */
+/* 406 */
 /* no static exports found */
 /* all exports used */
-/*!*************************************!*\
-  !*** ./components/SeraSubOption.js ***!
-  \*************************************/
+/*!**********************************************!*\
+  !*** ./components/BuffPage/SeraSubOption.js ***!
+  \**********************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40042,11 +40761,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40104,12 +40823,12 @@ var SeraSubOption = function (_React$Component) {
 exports.default = SeraSubOption;
 
 /***/ }),
-/* 391 */
+/* 407 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************!*\
-  !*** ./components/SevenSins.js ***!
-  \*********************************/
+/*!******************************************!*\
+  !*** ./components/BuffPage/SevenSins.js ***!
+  \******************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40121,11 +40840,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40250,12 +40969,12 @@ var SevenSins = function (_React$Component) {
 exports.default = SevenSins;
 
 /***/ }),
-/* 392 */
+/* 408 */
 /* no static exports found */
 /* all exports used */
-/*!****************************!*\
-  !*** ./components/Stat.js ***!
-  \****************************/
+/*!*************************************!*\
+  !*** ./components/BuffPage/Stat.js ***!
+  \*************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40267,17 +40986,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Store = __webpack_require__(/*! ../flux/Store.js */ 15);
+var _Store = __webpack_require__(/*! ../../flux/Store.js */ 12);
 
-var _SubOption = __webpack_require__(/*! ./SubOption.js */ 173);
+var _SubOption = __webpack_require__(/*! ./SubOption.js */ 180);
 
 var _SubOption2 = _interopRequireDefault(_SubOption);
 
-var _Calculator = __webpack_require__(/*! ./Calculator.js */ 380);
+var _Calculator = __webpack_require__(/*! ./Calculator.js */ 397);
 
 var _Calculator2 = _interopRequireDefault(_Calculator);
 
@@ -40531,12 +41250,12 @@ var MainWindow = function (_React$Component) {
 exports.default = MainWindow;
 
 /***/ }),
-/* 393 */
+/* 409 */
 /* no static exports found */
 /* all exports used */
-/*!*******************************!*\
-  !*** ./components/Warning.js ***!
-  \*******************************/
+/*!****************************************!*\
+  !*** ./components/BuffPage/Warning.js ***!
+  \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40548,7 +41267,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ 3);
+var _react = __webpack_require__(/*! react */ 2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -40671,924 +41390,552 @@ var Warning = function (_React$Component) {
 exports.default = Warning;
 
 /***/ }),
-/* 394 */
-/* no static exports found */
-/* all exports used */
-/*!************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/axios.js ***!
-  \************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./utils */ 21);
-var bind = __webpack_require__(/*! ./helpers/bind */ 179);
-var Axios = __webpack_require__(/*! ./core/Axios */ 396);
-var defaults = __webpack_require__(/*! ./defaults */ 108);
-
-/**
- * Create an instance of Axios
- *
- * @param {Object} defaultConfig The default config for the instance
- * @return {Axios} A new instance of Axios
- */
-function createInstance(defaultConfig) {
-  var context = new Axios(defaultConfig);
-  var instance = bind(Axios.prototype.request, context);
-
-  // Copy axios.prototype to instance
-  utils.extend(instance, Axios.prototype, context);
-
-  // Copy context to instance
-  utils.extend(instance, context);
-
-  return instance;
-}
-
-// Create the default instance to be exported
-var axios = createInstance(defaults);
-
-// Expose Axios class to allow class inheritance
-axios.Axios = Axios;
-
-// Factory for creating new instances
-axios.create = function create(instanceConfig) {
-  return createInstance(utils.merge(defaults, instanceConfig));
-};
-
-// Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ 176);
-axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ 395);
-axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ 177);
-
-// Expose all/spread
-axios.all = function all(promises) {
-  return Promise.all(promises);
-};
-axios.spread = __webpack_require__(/*! ./helpers/spread */ 410);
-
-module.exports = axios;
-
-// Allow use of default import syntax in TypeScript
-module.exports.default = axios;
-
-
-/***/ }),
-/* 395 */
-/* no static exports found */
-/* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/cancel/CancelToken.js ***!
-  \*************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var Cancel = __webpack_require__(/*! ./Cancel */ 176);
-
-/**
- * A `CancelToken` is an object that can be used to request cancellation of an operation.
- *
- * @class
- * @param {Function} executor The executor function.
- */
-function CancelToken(executor) {
-  if (typeof executor !== 'function') {
-    throw new TypeError('executor must be a function.');
-  }
-
-  var resolvePromise;
-  this.promise = new Promise(function promiseExecutor(resolve) {
-    resolvePromise = resolve;
-  });
-
-  var token = this;
-  executor(function cancel(message) {
-    if (token.reason) {
-      // Cancellation has already been requested
-      return;
-    }
-
-    token.reason = new Cancel(message);
-    resolvePromise(token.reason);
-  });
-}
-
-/**
- * Throws a `Cancel` if cancellation has been requested.
- */
-CancelToken.prototype.throwIfRequested = function throwIfRequested() {
-  if (this.reason) {
-    throw this.reason;
-  }
-};
-
-/**
- * Returns an object that contains a new `CancelToken` and a function that, when called,
- * cancels the `CancelToken`.
- */
-CancelToken.source = function source() {
-  var cancel;
-  var token = new CancelToken(function executor(c) {
-    cancel = c;
-  });
-  return {
-    token: token,
-    cancel: cancel
-  };
-};
-
-module.exports = CancelToken;
-
-
-/***/ }),
-/* 396 */
-/* no static exports found */
-/* all exports used */
-/*!*****************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/Axios.js ***!
-  \*****************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var defaults = __webpack_require__(/*! ./../defaults */ 108);
-var utils = __webpack_require__(/*! ./../utils */ 21);
-var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ 397);
-var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ 398);
-var isAbsoluteURL = __webpack_require__(/*! ./../helpers/isAbsoluteURL */ 406);
-var combineURLs = __webpack_require__(/*! ./../helpers/combineURLs */ 404);
-
-/**
- * Create a new instance of Axios
- *
- * @param {Object} instanceConfig The default config for the instance
- */
-function Axios(instanceConfig) {
-  this.defaults = instanceConfig;
-  this.interceptors = {
-    request: new InterceptorManager(),
-    response: new InterceptorManager()
-  };
-}
-
-/**
- * Dispatch a request
- *
- * @param {Object} config The config specific for this request (merged with this.defaults)
- */
-Axios.prototype.request = function request(config) {
-  /*eslint no-param-reassign:0*/
-  // Allow for axios('example/url'[, config]) a la fetch API
-  if (typeof config === 'string') {
-    config = utils.merge({
-      url: arguments[0]
-    }, arguments[1]);
-  }
-
-  config = utils.merge(defaults, this.defaults, { method: 'get' }, config);
-
-  // Support baseURL config
-  if (config.baseURL && !isAbsoluteURL(config.url)) {
-    config.url = combineURLs(config.baseURL, config.url);
-  }
-
-  // Hook up interceptors middleware
-  var chain = [dispatchRequest, undefined];
-  var promise = Promise.resolve(config);
-
-  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
-    chain.unshift(interceptor.fulfilled, interceptor.rejected);
-  });
-
-  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
-    chain.push(interceptor.fulfilled, interceptor.rejected);
-  });
-
-  while (chain.length) {
-    promise = promise.then(chain.shift(), chain.shift());
-  }
-
-  return promise;
-};
-
-// Provide aliases for supported request methods
-utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
-  /*eslint func-names:0*/
-  Axios.prototype[method] = function(url, config) {
-    return this.request(utils.merge(config || {}, {
-      method: method,
-      url: url
-    }));
-  };
-});
-
-utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
-  /*eslint func-names:0*/
-  Axios.prototype[method] = function(url, data, config) {
-    return this.request(utils.merge(config || {}, {
-      method: method,
-      url: url,
-      data: data
-    }));
-  };
-});
-
-module.exports = Axios;
-
-
-/***/ }),
-/* 397 */
-/* no static exports found */
-/* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/InterceptorManager.js ***!
-  \******************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-
-function InterceptorManager() {
-  this.handlers = [];
-}
-
-/**
- * Add a new interceptor to the stack
- *
- * @param {Function} fulfilled The function to handle `then` for a `Promise`
- * @param {Function} rejected The function to handle `reject` for a `Promise`
- *
- * @return {Number} An ID used to remove interceptor later
- */
-InterceptorManager.prototype.use = function use(fulfilled, rejected) {
-  this.handlers.push({
-    fulfilled: fulfilled,
-    rejected: rejected
-  });
-  return this.handlers.length - 1;
-};
-
-/**
- * Remove an interceptor from the stack
- *
- * @param {Number} id The ID that was returned by `use`
- */
-InterceptorManager.prototype.eject = function eject(id) {
-  if (this.handlers[id]) {
-    this.handlers[id] = null;
-  }
-};
-
-/**
- * Iterate over all the registered interceptors
- *
- * This method is particularly useful for skipping over any
- * interceptors that may have become `null` calling `eject`.
- *
- * @param {Function} fn The function to call for each interceptor
- */
-InterceptorManager.prototype.forEach = function forEach(fn) {
-  utils.forEach(this.handlers, function forEachHandler(h) {
-    if (h !== null) {
-      fn(h);
-    }
-  });
-};
-
-module.exports = InterceptorManager;
-
-
-/***/ }),
-/* 398 */
-/* no static exports found */
-/* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/dispatchRequest.js ***!
-  \***************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-var transformData = __webpack_require__(/*! ./transformData */ 401);
-var isCancel = __webpack_require__(/*! ../cancel/isCancel */ 177);
-var defaults = __webpack_require__(/*! ../defaults */ 108);
-
-/**
- * Throws a `Cancel` if cancellation has been requested.
- */
-function throwIfCancellationRequested(config) {
-  if (config.cancelToken) {
-    config.cancelToken.throwIfRequested();
-  }
-}
-
-/**
- * Dispatch a request to the server using the configured adapter.
- *
- * @param {object} config The config that is to be used for the request
- * @returns {Promise} The Promise to be fulfilled
- */
-module.exports = function dispatchRequest(config) {
-  throwIfCancellationRequested(config);
-
-  // Ensure headers exist
-  config.headers = config.headers || {};
-
-  // Transform request data
-  config.data = transformData(
-    config.data,
-    config.headers,
-    config.transformRequest
-  );
-
-  // Flatten headers
-  config.headers = utils.merge(
-    config.headers.common || {},
-    config.headers[config.method] || {},
-    config.headers || {}
-  );
-
-  utils.forEach(
-    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
-    function cleanHeaderConfig(method) {
-      delete config.headers[method];
-    }
-  );
-
-  var adapter = config.adapter || defaults.adapter;
-
-  return adapter(config).then(function onAdapterResolution(response) {
-    throwIfCancellationRequested(config);
-
-    // Transform response data
-    response.data = transformData(
-      response.data,
-      response.headers,
-      config.transformResponse
-    );
-
-    return response;
-  }, function onAdapterRejection(reason) {
-    if (!isCancel(reason)) {
-      throwIfCancellationRequested(config);
-
-      // Transform response data
-      if (reason && reason.response) {
-        reason.response.data = transformData(
-          reason.response.data,
-          reason.response.headers,
-          config.transformResponse
-        );
-      }
-    }
-
-    return Promise.reject(reason);
-  });
-};
-
-
-/***/ }),
-/* 399 */
-/* no static exports found */
-/* all exports used */
-/*!************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/enhanceError.js ***!
-  \************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Update an Error with the specified config, error code, and response.
- *
- * @param {Error} error The error to update.
- * @param {Object} config The config.
- * @param {string} [code] The error code (for example, 'ECONNABORTED').
- @ @param {Object} [response] The response.
- * @returns {Error} The error.
- */
-module.exports = function enhanceError(error, config, code, response) {
-  error.config = config;
-  if (code) {
-    error.code = code;
-  }
-  error.response = response;
-  return error;
-};
-
-
-/***/ }),
-/* 400 */
-/* no static exports found */
-/* all exports used */
-/*!******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/settle.js ***!
-  \******************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var createError = __webpack_require__(/*! ./createError */ 178);
-
-/**
- * Resolve or reject a Promise based on response status.
- *
- * @param {Function} resolve A function that resolves the promise.
- * @param {Function} reject A function that rejects the promise.
- * @param {object} response The response.
- */
-module.exports = function settle(resolve, reject, response) {
-  var validateStatus = response.config.validateStatus;
-  // Note: status is not exposed by XDomainRequest
-  if (!response.status || !validateStatus || validateStatus(response.status)) {
-    resolve(response);
-  } else {
-    reject(createError(
-      'Request failed with status code ' + response.status,
-      response.config,
-      null,
-      response
-    ));
-  }
-};
-
-
-/***/ }),
-/* 401 */
-/* no static exports found */
-/* all exports used */
-/*!*************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/core/transformData.js ***!
-  \*************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-
-/**
- * Transform the data for a request or a response
- *
- * @param {Object|String} data The data to be transformed
- * @param {Array} headers The headers for the request or response
- * @param {Array|Function} fns A single function or Array of functions
- * @returns {*} The resulting transformed data
- */
-module.exports = function transformData(data, headers, fns) {
-  /*eslint no-param-reassign:0*/
-  utils.forEach(fns, function transform(fn) {
-    data = fn(data, headers);
-  });
-
-  return data;
-};
-
-
-/***/ }),
-/* 402 */
-/* no static exports found */
-/* all exports used */
-/*!*******************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/btoa.js ***!
-  \*******************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
-
-var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-
-function E() {
-  this.message = 'String contains an invalid character';
-}
-E.prototype = new Error;
-E.prototype.code = 5;
-E.prototype.name = 'InvalidCharacterError';
-
-function btoa(input) {
-  var str = String(input);
-  var output = '';
-  for (
-    // initialize result and counter
-    var block, charCode, idx = 0, map = chars;
-    // if the next str index does not exist:
-    //   change the mapping table to "="
-    //   check if d has no fractional digits
-    str.charAt(idx | 0) || (map = '=', idx % 1);
-    // "8 - idx % 1 * 8" generates the sequence 2, 4, 6, 8
-    output += map.charAt(63 & block >> 8 - idx % 1 * 8)
-  ) {
-    charCode = str.charCodeAt(idx += 3 / 4);
-    if (charCode > 0xFF) {
-      throw new E();
-    }
-    block = block << 8 | charCode;
-  }
-  return output;
-}
-
-module.exports = btoa;
-
-
-/***/ }),
-/* 403 */
-/* no static exports found */
-/* all exports used */
-/*!***********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/buildURL.js ***!
-  \***********************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-
-function encode(val) {
-  return encodeURIComponent(val).
-    replace(/%40/gi, '@').
-    replace(/%3A/gi, ':').
-    replace(/%24/g, '$').
-    replace(/%2C/gi, ',').
-    replace(/%20/g, '+').
-    replace(/%5B/gi, '[').
-    replace(/%5D/gi, ']');
-}
-
-/**
- * Build a URL by appending params to the end
- *
- * @param {string} url The base of the url (e.g., http://www.google.com)
- * @param {object} [params] The params to be appended
- * @returns {string} The formatted url
- */
-module.exports = function buildURL(url, params, paramsSerializer) {
-  /*eslint no-param-reassign:0*/
-  if (!params) {
-    return url;
-  }
-
-  var serializedParams;
-  if (paramsSerializer) {
-    serializedParams = paramsSerializer(params);
-  } else if (utils.isURLSearchParams(params)) {
-    serializedParams = params.toString();
-  } else {
-    var parts = [];
-
-    utils.forEach(params, function serialize(val, key) {
-      if (val === null || typeof val === 'undefined') {
-        return;
-      }
-
-      if (utils.isArray(val)) {
-        key = key + '[]';
-      }
-
-      if (!utils.isArray(val)) {
-        val = [val];
-      }
-
-      utils.forEach(val, function parseValue(v) {
-        if (utils.isDate(v)) {
-          v = v.toISOString();
-        } else if (utils.isObject(v)) {
-          v = JSON.stringify(v);
-        }
-        parts.push(encode(key) + '=' + encode(v));
-      });
-    });
-
-    serializedParams = parts.join('&');
-  }
-
-  if (serializedParams) {
-    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
-  }
-
-  return url;
-};
-
-
-/***/ }),
-/* 404 */
-/* no static exports found */
-/* all exports used */
-/*!**************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/combineURLs.js ***!
-  \**************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Creates a new URL by combining the specified URLs
- *
- * @param {string} baseURL The base URL
- * @param {string} relativeURL The relative URL
- * @returns {string} The combined URL
- */
-module.exports = function combineURLs(baseURL, relativeURL) {
-  return baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '');
-};
-
-
-/***/ }),
-/* 405 */
-/* no static exports found */
-/* all exports used */
-/*!**********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/cookies.js ***!
-  \**********************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-
-module.exports = (
-  utils.isStandardBrowserEnv() ?
-
-  // Standard browser envs support document.cookie
-  (function standardBrowserEnv() {
-    return {
-      write: function write(name, value, expires, path, domain, secure) {
-        var cookie = [];
-        cookie.push(name + '=' + encodeURIComponent(value));
-
-        if (utils.isNumber(expires)) {
-          cookie.push('expires=' + new Date(expires).toGMTString());
-        }
-
-        if (utils.isString(path)) {
-          cookie.push('path=' + path);
-        }
-
-        if (utils.isString(domain)) {
-          cookie.push('domain=' + domain);
-        }
-
-        if (secure === true) {
-          cookie.push('secure');
-        }
-
-        document.cookie = cookie.join('; ');
-      },
-
-      read: function read(name) {
-        var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
-        return (match ? decodeURIComponent(match[3]) : null);
-      },
-
-      remove: function remove(name) {
-        this.write(name, '', Date.now() - 86400000);
-      }
-    };
-  })() :
-
-  // Non standard browser env (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return {
-      write: function write() {},
-      read: function read() { return null; },
-      remove: function remove() {}
-    };
-  })()
-);
-
-
-/***/ }),
-/* 406 */
-/* no static exports found */
-/* all exports used */
-/*!****************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/isAbsoluteURL.js ***!
-  \****************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Determines whether the specified URL is absolute
- *
- * @param {string} url The URL to test
- * @returns {boolean} True if the specified URL is absolute, otherwise false
- */
-module.exports = function isAbsoluteURL(url) {
-  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
-  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
-  // by any combination of letters, digits, plus, period, or hyphen.
-  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
-};
-
-
-/***/ }),
-/* 407 */
-/* no static exports found */
-/* all exports used */
-/*!******************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/isURLSameOrigin.js ***!
-  \******************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-
-module.exports = (
-  utils.isStandardBrowserEnv() ?
-
-  // Standard browser envs have full support of the APIs needed to test
-  // whether the request URL is of the same origin as current location.
-  (function standardBrowserEnv() {
-    var msie = /(msie|trident)/i.test(navigator.userAgent);
-    var urlParsingNode = document.createElement('a');
-    var originURL;
-
-    /**
-    * Parse a URL to discover it's components
-    *
-    * @param {String} url The URL to be parsed
-    * @returns {Object}
-    */
-    function resolveURL(url) {
-      var href = url;
-
-      if (msie) {
-        // IE needs attribute set twice to normalize properties
-        urlParsingNode.setAttribute('href', href);
-        href = urlParsingNode.href;
-      }
-
-      urlParsingNode.setAttribute('href', href);
-
-      // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
-      return {
-        href: urlParsingNode.href,
-        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
-        host: urlParsingNode.host,
-        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
-        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
-        hostname: urlParsingNode.hostname,
-        port: urlParsingNode.port,
-        pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
-                  urlParsingNode.pathname :
-                  '/' + urlParsingNode.pathname
-      };
-    }
-
-    originURL = resolveURL(window.location.href);
-
-    /**
-    * Determine if a URL shares the same origin as the current location
-    *
-    * @param {String} requestURL The URL to test
-    * @returns {boolean} True if URL shares the same origin, otherwise false
-    */
-    return function isURLSameOrigin(requestURL) {
-      var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
-      return (parsed.protocol === originURL.protocol &&
-            parsed.host === originURL.host);
-    };
-  })() :
-
-  // Non standard browser envs (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return function isURLSameOrigin() {
-      return true;
-    };
-  })()
-);
-
-
-/***/ }),
-/* 408 */
-/* no static exports found */
-/* all exports used */
-/*!**********************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/normalizeHeaderName.js ***!
-  \**********************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ../utils */ 21);
-
-module.exports = function normalizeHeaderName(headers, normalizedName) {
-  utils.forEach(headers, function processHeader(value, name) {
-    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
-      headers[normalizedName] = value;
-      delete headers[name];
-    }
-  });
-};
-
-
-/***/ }),
-/* 409 */
-/* no static exports found */
-/* all exports used */
-/*!***************************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/parseHeaders.js ***!
-  \***************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./../utils */ 21);
-
-/**
- * Parse headers into an object
- *
- * ```
- * Date: Wed, 27 Aug 2014 08:58:49 GMT
- * Content-Type: application/json
- * Connection: keep-alive
- * Transfer-Encoding: chunked
- * ```
- *
- * @param {String} headers Headers needing to be parsed
- * @returns {Object} Headers parsed into an object
- */
-module.exports = function parseHeaders(headers) {
-  var parsed = {};
-  var key;
-  var val;
-  var i;
-
-  if (!headers) { return parsed; }
-
-  utils.forEach(headers.split('\n'), function parser(line) {
-    i = line.indexOf(':');
-    key = utils.trim(line.substr(0, i)).toLowerCase();
-    val = utils.trim(line.substr(i + 1));
-
-    if (key) {
-      parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
-    }
-  });
-
-  return parsed;
-};
-
-
-/***/ }),
 /* 410 */
 /* no static exports found */
 /* all exports used */
-/*!*********************************************************************!*\
-  !*** C:/Users/Twinny33_KTH/Documents/~/axios/lib/helpers/spread.js ***!
-  \*********************************************************************/
+/*!**********************************!*\
+  !*** ./components/BuffWindow.js ***!
+  \**********************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-/**
- * Syntactic sugar for invoking a function and expanding an array for arguments.
- *
- * Common use case would be to use `Function.prototype.apply`.
- *
- *  ```js
- *  function f(x, y, z) {}
- *  var args = [1, 2, 3];
- *  f.apply(null, args);
- *  ```
- *
- * With `spread` this example can be re-written.
- *
- *  ```js
- *  spread(function(x, y, z) {})([1, 2, 3]);
- *  ```
- *
- * @param {Function} callback
- * @returns {Function}
- */
-module.exports = function spread(callback) {
-  return function wrap(arr) {
-    return callback.apply(null, arr);
-  };
-};
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Logo = __webpack_require__(/*! ./BuffPage/Logo.js */ 401);
+
+var _Logo2 = _interopRequireDefault(_Logo);
+
+var _Content = __webpack_require__(/*! ./BuffPage/Content.js */ 398);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+var _Copyright = __webpack_require__(/*! ./BuffPage/Copyright.js */ 399);
+
+var _Copyright2 = _interopRequireDefault(_Copyright);
+
+var _Warning = __webpack_require__(/*! ./BuffPage/Warning.js */ 409);
+
+var _Warning2 = _interopRequireDefault(_Warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var BuffWindow = function (_React$Component) {
+    _inherits(BuffWindow, _React$Component);
+
+    function BuffWindow() {
+        _classCallCheck(this, BuffWindow);
+
+        return _possibleConstructorReturn(this, (BuffWindow.__proto__ || Object.getPrototypeOf(BuffWindow)).apply(this, arguments));
+    }
+
+    _createClass(BuffWindow, [{
+        key: 'ButtonClick',
+        value: function ButtonClick(type) {
+            this.props.ButtonClick(type);
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'BuffWindowContainer' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'AllContentsObjContainer' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'LogoObjContainer' },
+                        _react2.default.createElement(_Logo2.default, null)
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'ContentObjContainer' },
+                        _react2.default.createElement(_Content2.default, null)
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'CopyrightObjContainer' },
+                        _react2.default.createElement(_Copyright2.default, null)
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'WarningObjContainer' },
+                    _react2.default.createElement(_Warning2.default, null),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'WindowBackIcon', onClick: this.ButtonClick.bind(this, "main") },
+                        _react2.default.createElement('img', { src: './images/home.png' })
+                    )
+                )
+            );
+        }
+    }]);
+
+    return BuffWindow;
+}(_react2.default.Component);
+
+exports.default = BuffWindow;
+
+/***/ }),
+/* 411 */
+/* no static exports found */
+/* all exports used */
+/*!***************************************!*\
+  !*** ./components/CharacterWindow.js ***!
+  \***************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CharacterGrid = __webpack_require__(/*! ./APIPage/Character/CharacterGrid */ 109);
+
+var _CharacterGrid2 = _interopRequireDefault(_CharacterGrid);
+
+var _CharacterSearch = __webpack_require__(/*! ./APIPage/Character/CharacterSearch */ 395);
+
+var _CharacterSearch2 = _interopRequireDefault(_CharacterSearch);
+
+var _CharacterView = __webpack_require__(/*! ./APIPage/Character/CharacterView */ 396);
+
+var _CharacterView2 = _interopRequireDefault(_CharacterView);
+
+var _Store = __webpack_require__(/*! ../flux/Store */ 12);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+var APIWindow = function (_React$Component) {
+    _inherits(APIWindow, _React$Component);
+
+    function APIWindow(props) {
+        _classCallCheck(this, APIWindow);
+
+        var _this = _possibleConstructorReturn(this, (APIWindow.__proto__ || Object.getPrototypeOf(APIWindow)).call(this, props));
+
+        _this.state = {
+            ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
+            ApiSubWindowView: _Store.fluxStore.getFlux().ApiSubWindowView,
+            characterParams: _Store.fluxStore.getFlux().characterParams,
+            item: _Store.fluxStore.getFlux().item,
+            shop: _Store.fluxStore.getFlux().shop
+        };
+
+        _this.ApiWindowViewChangeFunc = _this.ApiWindowViewChange.bind(_this);
+        return _this;
+    }
+
+    _createClass(APIWindow, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            _Store.fluxStore.addListener('ApiWindowView', this.ApiWindowViewChangeFunc);
+            _Store.fluxStore.addListener('ApiSubWindowView', this.ApiWindowViewChangeFunc);
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {
+            _Store.fluxStore.removeListener('ApiWindowView', this.ApiWindowViewChangeFunc);
+            _Store.fluxStore.removeListener('ApiSubWindowView', this.ApiWindowViewChangeFunc);
+        }
+    }, {
+        key: 'ApiWindowViewChange',
+        value: function ApiWindowViewChange() {
+            this.setState({
+                ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
+                ApiSubWindowView: _Store.fluxStore.getFlux().ApiSubWindowView,
+                characterParams: _Store.fluxStore.getFlux().characterParams,
+                item: _Store.fluxStore.getFlux().item,
+                shop: _Store.fluxStore.getFlux().shop
+            });
+        }
+    }, {
+        key: 'getSearchView',
+        value: function getSearchView(view) {
+
+            var viewItem = void 0;
+            switch (view) {
+                case "CharacterGrid":
+                    viewItem = _react2.default.createElement(_CharacterGrid2.default, { serverValue: this.state.characterParams.server, key: this.state.characterId,
+                        characterId: this.state.characterParams.characterId, limit: this.state.characterParams.length });break;
+                case "CharacterSearch":
+                    viewItem = _react2.default.createElement(_CharacterSearch2.default, null);break;
+                case "CharacterView":
+                    viewItem = _react2.default.createElement(_CharacterView2.default, null);break;
+            }
+
+            return viewItem;
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'APIWindow' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ResultDiv' },
+                    this.getSearchView(this.state.ApiSubWindowView)
+                )
+            );
+        }
+    }]);
+
+    return APIWindow;
+}(_react2.default.Component);
+
+exports.default = APIWindow;
+
+/***/ }),
+/* 412 */
+/* no static exports found */
+/* all exports used */
+/*!**********************************!*\
+  !*** ./components/ItemWindow.js ***!
+  \**********************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CharacterGrid = __webpack_require__(/*! ./APIPage/Character/CharacterGrid */ 109);
+
+var _CharacterGrid2 = _interopRequireDefault(_CharacterGrid);
+
+var _Store = __webpack_require__(/*! ../flux/Store */ 12);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+var APIWindow = function (_React$Component) {
+    _inherits(APIWindow, _React$Component);
+
+    function APIWindow(props) {
+        _classCallCheck(this, APIWindow);
+
+        var _this = _possibleConstructorReturn(this, (APIWindow.__proto__ || Object.getPrototypeOf(APIWindow)).call(this, props));
+
+        _this.state = {
+            ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
+            characterParams: _Store.fluxStore.getFlux().characterParams,
+            item: _Store.fluxStore.getFlux().item,
+            shop: _Store.fluxStore.getFlux().shop
+        };
+
+        _this.ApiWindowViewChangeFunc = _this.ApiWindowViewChange.bind(_this);
+        return _this;
+    }
+
+    _createClass(APIWindow, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            _Store.fluxStore.addListener('ApiWindowView', this.ApiWindowViewChangeFunc);
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {}
+    }, {
+        key: 'ApiWindowViewChange',
+        value: function ApiWindowViewChange() {
+            this.setState({
+                ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
+                characterParams: _Store.fluxStore.getFlux().characterParams,
+                item: _Store.fluxStore.getFlux().item,
+                shop: _Store.fluxStore.getFlux().shop
+            });
+        }
+    }, {
+        key: 'getSearchView',
+        value: function getSearchView(view) {
+
+            var viewItem = void 0;
+            switch (view) {
+                case "character":
+                    viewItem = _react2.default.createElement(_CharacterGrid2.default, { serverValue: this.state.characterParams.server, key: this.state.characterId,
+                        characterId: this.state.characterParams.characterId, limit: this.state.characterParams.length });break;
+                case "item":
+                    viewItem = _react2.default.createElement(ItemList, { item: this.state.item, key: this.state.item });break;
+                case "shop":
+                    viewItem = _react2.default.createElement(ShopList, { shop: this.state.shop, key: this.state.shop });break;
+            }
+
+            return viewItem;
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'APIWindow' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ResultDiv' },
+                    this.getSearchView(this.state.ApiWindowView)
+                )
+            );
+        }
+    }]);
+
+    return APIWindow;
+}(_react2.default.Component);
+
+exports.default = APIWindow;
+
+/***/ }),
+/* 413 */
+/* no static exports found */
+/* all exports used */
+/*!****************************************!*\
+  !*** ./components/MainButtonWindow.js ***!
+  \****************************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MainButtonWindow = function (_React$Component) {
+    _inherits(MainButtonWindow, _React$Component);
+
+    function MainButtonWindow(props) {
+        _classCallCheck(this, MainButtonWindow);
+
+        return _possibleConstructorReturn(this, (MainButtonWindow.__proto__ || Object.getPrototypeOf(MainButtonWindow)).call(this, props));
+    }
+
+    _createClass(MainButtonWindow, [{
+        key: 'ButtonClick',
+        value: function ButtonClick(type) {
+            var subtype = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+
+            this.props.ButtonClick(type, subtype);
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'MainButtonWindowContainer' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'LogoContainer' },
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'http://developers.neople.co.kr', target: '_blank' },
+                        _react2.default.createElement('img', { className: 'DevelLogo', src: './images/NeopleOpenAPI.png', alt: 'Neople \uC624\uD508 API' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ButtonContainer' },
+                    _react2.default.createElement(
+                        'button',
+                        { className: 'BuffButton', onClick: this.ButtonClick.bind(this, "buff") },
+                        '\uBC84\uD504\uB825 \uACC4\uC0B0\uAE30'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        { className: 'CharacterButton', onClick: this.ButtonClick.bind(this, "character", 'CharacterSearch') },
+                        '\uCE90\uB9AD\uD130 \uAC80\uC0C9'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        { className: 'ShopButton', onClick: this.ButtonClick.bind(this, "shop", 'ShopSearch') },
+                        '\uACBD\uB9E4\uC7A5'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        { className: 'ItemButton', onClick: this.ButtonClick.bind(this, "item", 'ItemSearch') },
+                        '\uC7A5\uBE44\uC0AC\uC804'
+                    )
+                )
+            );
+        }
+    }]);
+
+    return MainButtonWindow;
+}(_react2.default.Component);
+
+exports.default = MainButtonWindow;
+
+/***/ }),
+/* 414 */
+/* no static exports found */
+/* all exports used */
+/*!**********************************!*\
+  !*** ./components/ShopWindow.js ***!
+  \**********************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ 2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CharacterGrid = __webpack_require__(/*! ./APIPage/Character/CharacterGrid */ 109);
+
+var _CharacterGrid2 = _interopRequireDefault(_CharacterGrid);
+
+var _Store = __webpack_require__(/*! ../flux/Store */ 12);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by TH on 2018-05-21.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+var APIWindow = function (_React$Component) {
+    _inherits(APIWindow, _React$Component);
+
+    function APIWindow(props) {
+        _classCallCheck(this, APIWindow);
+
+        var _this = _possibleConstructorReturn(this, (APIWindow.__proto__ || Object.getPrototypeOf(APIWindow)).call(this, props));
+
+        _this.state = {
+            ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
+            characterParams: _Store.fluxStore.getFlux().characterParams,
+            item: _Store.fluxStore.getFlux().item,
+            shop: _Store.fluxStore.getFlux().shop
+        };
+
+        _this.ApiWindowViewChangeFunc = _this.ApiWindowViewChange.bind(_this);
+        return _this;
+    }
+
+    _createClass(APIWindow, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            _Store.fluxStore.addListener('ApiWindowView', this.ApiWindowViewChangeFunc);
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {}
+    }, {
+        key: 'ApiWindowViewChange',
+        value: function ApiWindowViewChange() {
+            this.setState({
+                ApiWindowView: _Store.fluxStore.getFlux().ApiWindowView,
+                characterParams: _Store.fluxStore.getFlux().characterParams,
+                item: _Store.fluxStore.getFlux().item,
+                shop: _Store.fluxStore.getFlux().shop
+            });
+        }
+    }, {
+        key: 'getSearchView',
+        value: function getSearchView(view) {
+
+            var viewItem = void 0;
+            switch (view) {
+                case "character":
+                    viewItem = _react2.default.createElement(_CharacterGrid2.default, { serverValue: this.state.characterParams.server, key: this.state.characterId,
+                        characterId: this.state.characterParams.characterId, limit: this.state.characterParams.length });break;
+                case "item":
+                    viewItem = _react2.default.createElement(ItemList, { item: this.state.item, key: this.state.item });break;
+                case "shop":
+                    viewItem = _react2.default.createElement(ShopList, { shop: this.state.shop, key: this.state.shop });break;
+            }
+
+            return viewItem;
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'APIWindow' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ResultDiv' },
+                    this.getSearchView(this.state.ApiWindowView)
+                )
+            );
+        }
+    }]);
+
+    return APIWindow;
+}(_react2.default.Component);
+
+exports.default = APIWindow;
 
 /***/ })
 /******/ ]);

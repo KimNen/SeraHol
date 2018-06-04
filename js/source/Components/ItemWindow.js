@@ -3,7 +3,6 @@
  */
 
 import React from 'react';
-import APISelect from './APIPage/APISelect';
 import CharacterGrid from './APIPage/Character/CharacterGrid';
 import { fluxStore } from '../flux/Store';
 export default class APIWindow extends React.Component{
@@ -42,7 +41,6 @@ export default class APIWindow extends React.Component{
 
         let viewItem;
         switch(view){
-            case "select" : viewItem =<APISelect/>; break;
             case "character": viewItem = <CharacterGrid serverValue={this.state.characterParams.server} key={this.state.characterId}
                                             characterId={this.state.characterParams.characterId} limit={this.state.characterParams.length}/>; break;
             case "item": viewItem = <ItemList item = {this.state.item} key={this.state.item}/>; break;

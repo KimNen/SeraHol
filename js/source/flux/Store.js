@@ -21,14 +21,12 @@ const fluxStore = {
 
         ///////////////////// APIWindow 관련 시작 //////////////////////
 
-        ApiWindowView : 'select',  
+        ApiWindowView : 'select', 
+        ApiSubWindowView : '',  
         ApiSeleteData : [],
 
-        characterParams : {
-            server : "",
-            length : "", 
-            characterId : "",
-        },
+        characterParams : {},
+        characterViewParams : {},
 
         item : "", 
         shop : "" , 
