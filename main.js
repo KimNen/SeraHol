@@ -1,6 +1,5 @@
 const { app, Menu, MenuItem, Tray, dialog, BrowserWindow, ipcMain,
   webContents, nativeImage } = require('electron')
-const electron_flux = require('electron_flux')
 const path = require('path')
 const url = require('url')
 

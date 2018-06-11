@@ -1,0 +1,22 @@
+.CharacterView{
+    display: -webkit-box;
+}
+.CharacterView .MainViewWindow{
+    width:40%;
+    height:50%;
+}
+
+.CharacterView .currentImg{
+    width:200px;
+    height:300px;
+}
+
+.CharacterView .currentImg img{
+    width:200px;
+    height:300px;
+}
+
+.CharacterView .SubViewWindow{
+    width:40%;
+    height:50%;
+}

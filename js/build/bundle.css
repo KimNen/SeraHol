@@ -65,6 +65,27 @@
     position: absolute;
     top: calc(100% - 40px);
     left: calc(100% - 100px);
+}.CharacterView{
+    display: -webkit-box;
+}
+.CharacterView .MainViewWindow{
+    width:40%;
+    height:50%;
+}
+
+.CharacterView .currentImg{
+    width:200px;
+    height:300px;
+}
+
+.CharacterView .currentImg img{
+    width:200px;
+    height:300px;
+}
+
+.CharacterView .SubViewWindow{
+    width:40%;
+    height:50%;
 }.ContentContainer{    
     width: 100%;    
     height: 100%;

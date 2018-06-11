@@ -13,7 +13,6 @@ export default class CharacterCell extends React.Component{
 
         this.state={
         }
-        console.log("CharacterCell",this.props)
     }
 
     componentDidMount(){
@@ -46,7 +45,6 @@ export default class CharacterCell extends React.Component{
                 <div className="CharacherJob">
                     {this.props.data.jobGrowName}
                 </div>
-
             </div>
         )
     }

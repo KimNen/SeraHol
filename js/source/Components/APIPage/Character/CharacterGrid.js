@@ -7,6 +7,7 @@ import axios from 'axios';
 import { AutoSizer, Grid } from 'react-virtualized';
 import { fluxStore } from '../../../flux/Store';
 import CharacterCell from './CharacterCell';
+import { ENGINE_METHOD_DIGESTS } from 'constants';
 
 var config = {
     method: 'GET',
@@ -25,8 +26,8 @@ export default class CharacterGrid extends React.Component {
 
         this.state = {
             CharacterList: [],
-            characterParams: fluxStore.getFlux().characterParams,
         }
+        this.characterParams =  fluxStore.getFlux().characterParams,
         this.widthSize = 0;
         this.apikey = fluxStore.getFlux().ApiKey
         this.apiurl = fluxStore.getFlux().ApiUrl
@@ -34,8 +35,6 @@ export default class CharacterGrid extends React.Component {
             baseURL: this.apiurl,
             timeout: 3000
         })
-        console.log("CharacterGrid", this.state.characterParams);
-
     }
 
     componentDidMount() {
@@ -47,20 +46,34 @@ export default class CharacterGrid extends React.Component {
     }
 
     getCharacterList() {
-        let url = "/servers/" + this.state.characterParams.server + "/characters?characterName=" + encodeURI(this.state.characterParams.characterId) + "&wordType=full&limit=" + this.state.characterParams.length + "&apikey=" + this.apikey;
-        let templist = [];
-        this.http.get(url, config).then((response) => {
-            let ServerResponse = response.data.rows;
-            ServerResponse.forEach((CurrentValue) => {
-                templist.push(<CharacterCell data={CurrentValue} server={this.state.characterParams.server} />)
+        // let url = "/servers/" + this.characterParams.server + "/characters?characterName=" + encodeURI(this.characterParams.characterId) + "&wordType=full&limit=" + this.characterParams.length + "&apikey=" + this.apikey;
+        // let templist = [];
+        // this.http.get(url, config).then((response) => {
+        //     let ServerResponse = response.data.rows;
+        //     ServerResponse.forEach((CurrentValue) => {
+        //         templist.push(<CharacterCell data={CurrentValue} server={this.characterParams.server} />)
+        //     })
+        //     console.log("getCharacterList templist : ", templist);
+        //     this.setState({
+        //         CharacterList: templist
+        //     })
+        //     console.log("getCharacterList CharacterList : ", this.state.CharacterList);
+        // }).catch((err) => {
+        //     console.log("getCharacterList err", err);
+        // })
+
+        fluxStore.getFlux().CharacterModel._get_character_list_by_searchtext(
+            this.characterParams.server,
+            encodeURI(this.characterParams.characterId),
+            this.characterParams.limit
+        ).then( (response) =>{    
+            let templist = [];;
+            response.rows.forEach((CurrentValue) => {
+                templist.push(<CharacterCell data={CurrentValue} server={this.characterParams.server} />)
             })
-            console.log("getCharacterList templist : ", templist);
             this.setState({
                 CharacterList: templist
             })
-            console.log("getCharacterList CharacterList : ", this.state.CharacterList);
-        }).catch((err) => {
-            console.log("getCharacterList err", err);
         })
 
     }

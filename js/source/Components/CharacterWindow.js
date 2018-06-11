@@ -16,8 +16,6 @@ export default class APIWindow extends React.Component{
             ApiWindowView : fluxStore.getFlux().ApiWindowView,
             ApiSubWindowView : fluxStore.getFlux().ApiSubWindowView,
             characterParams : fluxStore.getFlux().characterParams,
-            item : fluxStore.getFlux().item,
-            shop : fluxStore.getFlux().shop,
         }
 
         this.ApiWindowViewChangeFunc = this.ApiWindowViewChange.bind(this);
@@ -38,8 +36,6 @@ export default class APIWindow extends React.Component{
             ApiWindowView : fluxStore.getFlux().ApiWindowView,
             ApiSubWindowView : fluxStore.getFlux().ApiSubWindowView,
             characterParams : fluxStore.getFlux().characterParams,
-            item : fluxStore.getFlux().item,
-            shop : fluxStore.getFlux().shop,
         })
     }
 
@@ -50,7 +46,8 @@ export default class APIWindow extends React.Component{
             case "CharacterGrid": viewItem = <CharacterGrid serverValue={this.state.characterParams.server} key={this.state.characterId}
                                             characterId={this.state.characterParams.characterId} limit={this.state.characterParams.length}/>; break;
             case "CharacterSearch": viewItem = <CharacterSearch />; break;
-            case "CharacterView": viewItem = <CharacterView />; break;
+            case "CharacterView": viewItem = <CharacterView serverValue={this.state.characterParams.server} 
+                                                key={this.state.ApiWindowView + this.state.ApiSubWindowView}/>; break;
         }
 
         return viewItem;

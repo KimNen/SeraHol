@@ -32,8 +32,18 @@ const fluxStore = {
         itemDetailParams : "",
 
         shopParams : {} , 
+
         ///////////////////// APIWindow 관련 종료 //////////////////////
 
+        ///////////////////// Character 관련 변수 시작 //////////////////////
+
+        CharacterListData : [],
+        CharacterDetailData : {},
+        CharacterEquipData : {},
+        CharacterStatusData : {},
+
+        ///////////////////// Character 관련 변수 종료 //////////////////////
+        
         ///////////////////// Model 관련 시작 //////////////////////
 
         CharacterModel : {},
