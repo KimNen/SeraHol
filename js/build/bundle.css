@@ -193,11 +193,11 @@
 .CharacterStatusView .StatusName{
     display: -webkit-box;
     -webkit-box-pack: center;
-    width: 120px; 
+    width: 100px; 
     border:1px solid black;
 }
 .CharacterStatusView .StatusValue{
-    width:120px;
+    width:100px;
     display: -webkit-box;
     -webkit-box-pack: center;
     border:1px solid black;
