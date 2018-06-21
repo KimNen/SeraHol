@@ -29,6 +29,12 @@ export default class APIExcuter extends EventEmitter {
         return this;
     }
 
+    PaCaReset(){
+        this.path = undefined;
+        this.category = undefined;
+        return this;
+    }
+
     execute(url, params) {
         // console.log("execute", this.path)
         return new Promise((resolve, reject) => {
@@ -39,8 +45,7 @@ export default class APIExcuter extends EventEmitter {
                 }).then((response) => {
                     // console.log("this.http.get response : ", response)
                     resolve(response.data);
-                    this.path = undefined;
-                    this.category = undefined;
+                    this.PaCaReset();
                 }).catch((error) => {  //axios의 응답 실패(서버로부터 200 OK를 받지 못한 상황에서 이 catch가 실행된다.
                     //////////// error 떳을때 error.response 에 응답된 내용이 담겨서 온다
                     //////////// 서버에서 response.data 에 값을 줬을경우 해당값을 reject 아닐경우 axiso error reject 시킴

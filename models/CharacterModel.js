@@ -20,21 +20,19 @@ class CharacterModel{
         })
     }
 
-    getCharacterListByCharacterId(server,CharacterId){
+    getCharacterByCharacterId(server,CharacterId){
         this._get_character_info_by_CharacterId(server,CharacterId).then((response)=>{
             this.fluxStore.setFlux('CharacterDetailData',response);
         })
     }
 
-    getCharacterEquipInfoByCharacterId(server,CharacterId){
-        this._get_character_equip_info_by_CharacterId(server,CharacterId).then((response)=>{
-            this.fluxStore.setFlux('CharacterEquipData',response);
-        })
-    }
-
-    getCharacterStatusInfoByCharacterId(server,CharacterId){
+    getCharacterInfoByCharacterId(server,CharacterId){
         this._get_character_status_info_by_CharacterId(server,CharacterId).then((response)=>{
             this.fluxStore.setFlux('CharacterStatusData',response);
+            this._get_character_equip_info_by_CharacterId(server,CharacterId).then((response)=>{
+                this.fluxStore.setFlux('CharacterEquipData',response);
+                this.fluxStore.setFlux('SubWindowState','status');
+            })
         })
     }
 
@@ -79,6 +77,7 @@ class CharacterModel{
         let params = {
             characterName : characterName,
             limit : limit,
+            wordType : 'full',
             apikey : this.fluxStore.getFlux().ApiKey
         };
 

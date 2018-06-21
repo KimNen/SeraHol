@@ -1,0 +1,61 @@
+.CharacterStatusView{
+
+}
+
+.CharacterStatusView .PictureEquip{
+    display: -webkit-box;
+}
+
+.CharacterStatusView .CharacterDetail{
+    width:100px;
+    height:150px;
+}
+
+.CharacterStatusView .CharacterDetail img{
+    transform:scale(1.5);
+    width:100px;
+    height:125px;
+    margin-top: 30px;
+}
+.CharacterStatusView .equipLeft{
+    display: grid;
+    grid-template-columns: 28px 28px;
+    grid-template-rows: 28px 28px;
+    width:56px;
+    height:112px;
+}
+
+.CharacterStatusView .equipRight{
+    display: grid;
+    grid-template-columns: 28px 28px;
+    grid-template-rows: 28px 28px;
+    width:56px;
+    height:112px;
+}
+
+.CharacterStatusView .itemCell{
+    display: inline-grid;
+    width:28px;
+    height:28px;
+}
+
+.CharacterStatusView .StatusPicture{
+    margin-top : 20px;
+}
+
+.CharacterStatusView .statusBox{
+    display:-webkit-box;
+}
+
+.CharacterStatusView .StatusName{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    width: 120px; 
+    border:1px solid black;
+}
+.CharacterStatusView .StatusValue{
+    width:120px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    border:1px solid black;
+}

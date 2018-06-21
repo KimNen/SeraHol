@@ -1,0 +1,7 @@
+.CharacterSubWindow{
+    width:calc(100% - 200px);
+}
+
+.CharacterSubWindow .StatusAndEquipToggle{
+    width: 250px;
+}

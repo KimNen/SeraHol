@@ -12,12 +12,12 @@
 
 .ContentContainer .CalculPropsContainer{
     width:100%;    
-    height: calc(100% - 400px);
+    height: calc(100% - 320px);
     display: -webkit-box;
 }
 .ContentContainer .CalculPropsContainer .SevenSinsObjContainer{
     border: 1px solid gray;
-    width:220px;
+    width:246px;
     padding-top: 10px;
 }
 

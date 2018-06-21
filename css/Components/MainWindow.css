@@ -27,3 +27,24 @@
     border: 1px solid gray;
     height: 1013px;
 }
+
+.MainWindowContainer .WindowBackIcon{    
+    right: 30px;
+    bottom: 30px;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    background: grey;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    cursor: pointer;
+}
+
+.MainWindowContainer .WindowBackIcon img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

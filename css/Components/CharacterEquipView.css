@@ -1,0 +1,27 @@
+
+
+
+.CharacterEquipView .EquipTable{
+    width:500px;
+    font-size : 13px;
+}
+
+.CharacterEquipView .slotName{
+    width:60px;
+}
+
+.CharacterEquipView .equipImg{
+    width:40px;
+}
+
+.CharacterEquipView .equipName{
+    width:300px;
+}
+
+.CharacterEquipView .amplificationName{
+    width:100px;
+}
+
+.CharacterEquipView .ampli{
+    color:fuchsia;
+}

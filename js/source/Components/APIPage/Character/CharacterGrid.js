@@ -46,26 +46,10 @@ export default class CharacterGrid extends React.Component {
     }
 
     getCharacterList() {
-        // let url = "/servers/" + this.characterParams.server + "/characters?characterName=" + encodeURI(this.characterParams.characterId) + "&wordType=full&limit=" + this.characterParams.length + "&apikey=" + this.apikey;
-        // let templist = [];
-        // this.http.get(url, config).then((response) => {
-        //     let ServerResponse = response.data.rows;
-        //     ServerResponse.forEach((CurrentValue) => {
-        //         templist.push(<CharacterCell data={CurrentValue} server={this.characterParams.server} />)
-        //     })
-        //     console.log("getCharacterList templist : ", templist);
-        //     this.setState({
-        //         CharacterList: templist
-        //     })
-        //     console.log("getCharacterList CharacterList : ", this.state.CharacterList);
-        // }).catch((err) => {
-        //     console.log("getCharacterList err", err);
-        // })
-
         fluxStore.getFlux().CharacterModel._get_character_list_by_searchtext(
             this.characterParams.server,
-            encodeURI(this.characterParams.characterId),
-            this.characterParams.limit
+            this.characterParams.characterId,
+            this.characterParams.length
         ).then( (response) =>{    
             let templist = [];;
             response.rows.forEach((CurrentValue) => {
@@ -121,9 +105,10 @@ export default class CharacterGrid extends React.Component {
                         )
                     }}
                 </AutoSizer>
-                <button className="BackButton" onClick={this.BackButtonClick.bind(this)}>
+                {/* <button className="BackButton" onClick={this.BackButtonClick.bind(this)}>
+                
                     이전으로
-                </button>
+                </button> */}
             </div>
         )
     }

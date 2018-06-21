@@ -1,0 +1,25 @@
+.CharacterMainWindow{
+    width:200px;
+    height:350px;
+}
+
+.CharacterMainWindow .currentImg{
+    background-image: URL('http://cdn.df.nexon.com/img/web/char/bg_char.jpg');
+}
+
+.CharacterMainWindow .LevelAndJob{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.CharacterMainWindow .Server{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.CharacterMainWindow .Name{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    font-size : 20px;
+    font-weight: 700;
+}

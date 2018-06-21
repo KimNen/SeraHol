@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'react-bootstrap'
 
 export default class MainButtonWindow extends React.Component{
 
@@ -20,18 +21,18 @@ export default class MainButtonWindow extends React.Component{
                     </a>
                 </div>
                 <div className="ButtonContainer">
-                    <button className="BuffButton" onClick={this.ButtonClick.bind(this,"buff")}>
+                    <Button bsSize="large" block bsStyle="primary" onClick={this.ButtonClick.bind(this,"buff")}>
                         버프력 계산기
-                    </button>
-                    <button className="CharacterButton" onClick={this.ButtonClick.bind(this,"character",'CharacterSearch')} >
+                    </Button>
+                    <Button bsSize="large" block bsStyle="primary" onClick={this.ButtonClick.bind(this,"character",'CharacterSearch')} >
                         캐릭터 검색
-                    </button>
-                    <button className="ShopButton" onClick={this.ButtonClick.bind(this,"shop",'ShopSearch')} >
+                    </Button>
+                    {/* <button className="ShopButton" onClick={this.ButtonClick.bind(this,"shop",'ShopSearch')} >
                         경매장
                     </button>
                     <button className="ItemButton" onClick={this.ButtonClick.bind(this,"item",'ItemSearch')} >
                         장비사전
-                    </button>
+                    </button> */}
                 </div>
             </div>
         )

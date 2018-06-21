@@ -64,9 +64,6 @@
 }
 
 .MainButtonWindowContainer .ButtonContainer{ 
-    display: inline-grid;
-    grid-template-columns: 200px 200px;
-    margin-left: calc(100% - 600px);
-    width: calc(100% - 180px);
-    height: calc(100% - 200px);
+    max-width: 500px; 
+    margin: 0 auto 10px;
 }

@@ -56,6 +56,7 @@ export default class APIWindow extends React.Component{
                 <div className="ResultDiv">
                     {this.getSearchView(this.state.ApiWindowView)}
                 </div>
+                
             </div>
         )
     }

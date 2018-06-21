@@ -49,12 +49,24 @@ export default class MainWindow extends React.Component{
     getWindowView(windowState){
         let windowView
         switch(windowState){
-            case 'buff' : windowView = <BuffWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
-            case 'character' : windowView = <CharacterWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
-            case 'item' : windowView = <ItemWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
-            case 'shop' : windowView = <ShopWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>; break;
+            case 'buff' : windowView = <BuffWindow />; break;
+            case 'character' : windowView = <CharacterWindow />; break;
+            case 'item' : windowView = <ItemWindow/>; break;
+            case 'shop' : windowView = <ShopWindow/>; break;
         }
         return windowView;
+    }
+
+    HomeButtonClick(){
+        this.setState({
+            windowState : 'main'
+        })
+
+        fluxStore.setFlux('ApiWindowView',"select");
+        fluxStore.setFlux('ApiSubWindowView','');
+        fluxStore.setFlux('ApiSeleteData',[]);
+        fluxStore.setFlux('characterParams',{});
+
     }
 
     render(){
@@ -65,7 +77,11 @@ export default class MainWindow extends React.Component{
                 ?<MainButtonWindow ButtonClick={this.windowStateChangeByButton.bind(this)}/>
                 :this.getWindowView(this.state.windowState)
             }
-            
+                 {this.state.windowState !== 'main'?
+                    <div className="WindowBackIcon" onClick={this.HomeButtonClick.bind(this)}>
+                        <img src="./images/home.png"/>
+                    </div>
+                :null}
             </div>
         )
     }

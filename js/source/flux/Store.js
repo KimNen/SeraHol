@@ -36,6 +36,8 @@ const fluxStore = {
         ///////////////////// APIWindow 관련 종료 //////////////////////
 
         ///////////////////// Character 관련 변수 시작 //////////////////////
+        
+        SubWindowState : '',
 
         CharacterListData : [],
         CharacterDetailData : {},

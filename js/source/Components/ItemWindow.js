@@ -3,7 +3,6 @@
  */
 
 import React from 'react';
-import CharacterGrid from './APIPage/Character/CharacterGrid';
 import { fluxStore } from '../flux/Store';
 export default class APIWindow extends React.Component{
 

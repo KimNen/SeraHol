@@ -1,20 +1,25 @@
 .CharacterCell{
     width:200px;
     height:290px;
+    cursor: pointer; 
 }
 
 .CharacterCell .CharacterImg{
     width:200px;
     height:230px;
+    background-image: URL('http://cdn.df.nexon.com/img/web/char/bg_char.jpg');
 }
 .CharacterCell .CharacterImg img{
     width:200px;
     height:230px;
 }
 .CharacterCell .CharacherNick{
-
+    font-size : 20px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
 }
 
 .CharacterCell .CharacherJob{
-    
+    display: -webkit-box;
+    -webkit-box-pack: center;
 }
